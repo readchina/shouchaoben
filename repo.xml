@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>shouchaoben</description>
+    <author/>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <target>SNNJ</target>
+    <permissions user="tei" group="tei" mode="rw-rw-r--"/>
+<deployed>2019-10-28T18:38:35.287Z</deployed>
+</meta>
