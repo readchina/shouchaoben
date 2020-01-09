@@ -14,44 +14,29 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <text>
-      <body>
-         <p>（封面）</p>
-         <p>
-            <hi rend="bold">中国反特案本</hi>
-         </p>
-         <p>
-            <hi rend="bold">手稿件</hi>
-         </p>
-         <p>
-            <hi rend="bold">三進南京城</hi>
-         </p>
-         <p>
-            <hi rend="bold">记录中央公安部三号<choice>
+   <text xml:lang="zh">
+      <front>
+         <titlePage>
+            <docImprint> 中国反特案本 <lb/>手稿件 </docImprint>
+            <docTitle>
+               <titlePart type="main">三進南京城</titlePart>
+            </docTitle>
+            <byline> 记录中央公安部三号<choice>
                   <orig>偵</orig>
                   <reg>侦</reg>
-               </choice>
-            </hi>
-            <hi rend="bold">察</hi>
-            <choice>
-               <orig>員</orig>
-               <reg>员</reg>
-            </choice>
-            <hi rend="bold">余飞破案经程</hi>
-         </p>
-         <p>
-            <hi rend="bold">1974年南京集编</hi>
-         </p>
-         <p>
-            <hi rend="bold"><choice>
-                  <unclear reason="nonstandard_handwriting">Hu</unclear>
-                  <unclear reason="nonstandard_handwriting">Li</unclear>
-               </choice>ang Shiyou</hi>
-         </p>
-         <p>
-            <anchor xml:id="_GoBack"/>
-         </p>
-         <p><pb n="1"/></p>
+               </choice>察<choice>
+                  <orig>員</orig>
+                  <reg>员</reg>
+               </choice>余飞破案经程 <lb/><date when="1974">1974年</date>南京集编 <docAuthor>
+                  <choice>
+                     <unclear reason="nonstandard_handwriting">Hu</unclear>
+                     <unclear reason="nonstandard_handwriting">Li</unclear>
+                  </choice>ang Shiyou</docAuthor>
+            </byline>
+         </titlePage>
+      </front>
+      <body>
+         <pb n="1"/>
          <p> 一九七〇年初春，阿尔巴尼亚代表团来我国<choice>
                <orig>訪</orig>
                <reg>访</reg>
@@ -348,7 +333,8 @@
                <orig>碼</orig>
                <reg>码</reg>
             </choice>301号机。</p>
-         <p><pb n="7"/>第八天下午，公安局报告了余飞说：“交通民警中队三区来电话，嘎斯69—246号<choice>
+         <pb n="7"/>
+         <p>第八天下午，公安局报告了余飞说：“交通民警中队三区来电话，嘎斯69—246号<choice>
                <orig>車</orig>
                <reg>车</reg>
             </choice>已回南京，正在三区大街上行驶。”余飞听罢，立即调出公安局的小罗当他的助手，开着公安局的吉普車跟踪追击嘎斯69—246号車，不上十分钟就遇上了，两車一前一后，始终保持着之间半里路的距离，嘎斯車开上小路，吉普車也跟上小路，嘎斯車进入中山陵的树林内后，一转弯不<choice>
@@ -418,7 +404,8 @@
                <corr>装</corr>
             </choice>了一下送回了北京。公安部听了余飞下南京的汇报，速找有关部门了解五七一信箱的真相，回答的结果是：“此信箱不明，隐为秘密，尚无告知之由。”为了彻底破出这个案，公安部决定，并命令余飞三下南京，秘密逮捕现已打开的缺口人，以利整个案件从速破结。</p>
          <p>余飞同志休息了两天后，就立即迅速地第三次改换下南京途中的旅車——火車，第三次决定改乘北京直达南京的中国民航班机，当天午夜，余飞便在南京安全入城了。</p>
-         <p><pb n="9"/>在余飞到达南京后的第二天，刚好省<choice>
+         <pb n="9"/>
+         <p>在余飞到达南京后的第二天，刚好省<choice>
                <orig>軍</orig>
                <reg>军</reg>
             </choice>区为欢迎中央首长<choice>
