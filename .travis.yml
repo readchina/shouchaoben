@@ -1,0 +1,10 @@
+
+dist: xenial
+
+addons:
+  apt:
+    packages:
+      - libxml2-utils
+
+script:
+  - xmllint --noout --relaxng tei_all.rng src/**/**/xml/*.xml
