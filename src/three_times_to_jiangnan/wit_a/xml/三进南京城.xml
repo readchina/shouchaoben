@@ -4,13 +4,55 @@
       <fileDesc>
          <titleStmt>
             <title>三进南京城</title>
-            <author>dxy</author>
+
+            <editor>
+               <persName>Lena Henningsen</persName> and <persName>Duncan Paterson</persName>
+            </editor>
+            <principal ref="https://orcid.org/0000-0001-7583-0920">Lena Henningsen</principal>
          </titleStmt>
          <publicationStmt>
-            <p>Information about publication or distribution</p>
+            <publisher>READCHINA</publisher>
+            <pubPlace>Freiburg</pubPlace>
+            <date when="2020">2020</date>
+            <availability>
+               <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                  International license.</p>
+            </availability>
+            <!--            add final link-->
+            <ptr target="https://github.com/readchina/shouchaoben"/>
          </publicationStmt>
          <sourceDesc>
-            <p>Machine Generated from docx</p>
+            <!--            <p>Machine Generated from docx</p>-->
+            <msDesc>
+               <msIdentifier>
+
+                  <repository>Lena Henningsen private collection</repository>
+
+               </msIdentifier>
+               <msContents>
+                  <summary>Manuscript fiction from the Chinese Cultural Revolution. The text
+                     indicates that it is the fifth copy of a text originally colated in
+                        <date when="1974">1974</date> in <placeName>Nanjing</placeName>.</summary>
+                  <msItem>
+                     <bibl><author>Anonymous</author>
+                     <title>三進南京城</title>
+                        <placeName>鲤城</placeName>
+                        <date when="1977">1977</date>
+                     </bibl>
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <!--                    measure page size -->
+                     <p>13 pages of thin note paper, rebound on the left hand side into a single
+                        quire, measuring x times x cm.</p>
+                     <p>The pages are margined and ruled throughout with page numbers starting after
+                        the title page.</p>
+                     <p>Single hand throughout.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -160,10 +202,10 @@
          <p>他坐的软卧車在行驶途中，他由于职业上的习惯，余飞又回忆起他破谭案的经过。谭甫仁同志，40多岁，早期参加了革命，经历二万五千里长征，是革命的老红<choice>
                <orig>軍</orig>
                <reg>军</reg>
-         </choice>，老干部，工作积极，埋头为革命工作而踏实，为人谦虚谨慎，他生活简谱，他的<choice>
-            <sic>处住</sic>
-            <corr>住处</corr>
-         </choice>是一<choice>
+            </choice>，老干部，工作积极，埋头为革命工作而踏实，为人谦虚谨慎，他生活简谱，他的<choice>
+               <sic>处住</sic>
+               <corr>住处</corr>
+            </choice>是一<choice>
                <orig>進</orig>
                <reg>进</reg>
             </choice>门内三间的套房，一间办公室，第二间是会议室，第三件才是他的卧室，他的爱人就是他的秘书，夫妇俩就在这环境里工作，休息。那天晚上，谭夫妇正在卧室的沙发上谈话，他妻子突然发现窗户外有一个人一闪，刚要问谁，但还来不及她开口，她的胸部已被什么东西猛戳了一下，眼前不觉感到一黑，就啥也不知道了。谭<choice>
@@ -200,7 +242,8 @@
             </choice>身进来，微微笑了一下，奌头说道：“您是余飞吗？”说完手伸向余飞，余飞也把手伸出去说道：“谈吧，随便谈谈。”送上烟又燃火，可心里正思索着他问话中为什么带着肯定的口气，又<choice>
                <sic>象</sic>
                <corr>像</corr>
-            </choice>个老相识，行动这么随便。所以他借奌完火转身的工夫，瞟了一眼门外，发现外面也还站着一个軍人大汉，知道自己这時是难以脱身，百分之百一定遇上特务。这時，他让軍人坐后，自己也跟着坐在靠窗户軍人的对面。这時中年軍人吸了口烟后问<pb n="4"/>道：“谭案破的怎么样啊？”“这个我不清楚”，余飞答道。“那么你这个专案组长是干什么的，睡大觉吗？”。“不，因为我走的太忙，没有待搞完结归案，所以情况不明”，余飞继续答道。“那可以，就你知道的情况谈谈也行。”余飞边思索，边慢腾腾地讲了些无关紧要的话，突然站起来，侧身伸向行李架，中年軍人一見，慌忙抓住他的手，余飞急中生计地说：“不要紧，拿两个苹果解解渴，没关<choice>
+            </choice>个老相识，行动这么随便。所以他借奌完火转身的工夫，瞟了一眼门外，发现外面也还站着一个軍人大汉，知道自己这時是难以脱身，百分之百一定遇上特务。这時，他让軍人坐后，自己也跟着坐在靠窗户軍人的对面。这時中年軍人吸了口烟后问<pb
+               n="4"/>道：“谭案破的怎么样啊？”“这个我不清楚”，余飞答道。“那么你这个专案组长是干什么的，睡大觉吗？”。“不，因为我走的太忙，没有待搞完结归案，所以情况不明”，余飞继续答道。“那可以，就你知道的情况谈谈也行。”余飞边思索，边慢腾腾地讲了些无关紧要的话，突然站起来，侧身伸向行李架，中年軍人一見，慌忙抓住他的手，余飞急中生计地说：“不要紧，拿两个苹果解解渴，没关<choice>
                <sic>係</sic>
                <corr>系</corr>
             </choice>。”“不客气”，<choice>
@@ -268,16 +311,16 @@
          <p>过后，女招待員打来了洗脸水，待余飞洗脚后，女招待員问道：“首长，需要吃<choice>
                <orig>奌</orig>
                <reg>点</reg>
-         </choice>什么东西？”余飞确实也饿了，就说：“随便什么都行，只要快些。”女招待員端来一盘薄饼，一杯咖啡。余飞端起咖啡正要喝，看颜色不对，马上装着找烟吃，但只剩一枝，就决定拿出贰块钱说：“麻烦你，请你买盒中华牌香烟吧。”女招待走后，余飞端起咖啡嗅了嗅放下，很快地从皮包里取出一包一化剂，用二个指头挤出一奌化验剂，放在杯中，立即，咖啡变成了黑色，化验证明：咖啡中有一种可以麻醉人达四小時之久的药品。余飞顺手把咖啡倒在痰盂里，将薄饼一奌奌地拧成碎末，撇在桌子上，大部分顺手投到窗外，女招待进来時，余飞刚好擦了擦<choice>
-            <sic>咀</sic>
-            <corr>嘴</corr>
-         </choice>，好像刚吃完的样子，他接过烟说：“谢谢，我太疲惫了，想休息一下。”说完打了一个哈吁，伸了个懒腰。女招待員走后，余飞迅速从皮<choice>
+            </choice>什么东西？”余飞确实也饿了，就说：“随便什么都行，只要快些。”女招待員端来一盘薄饼，一杯咖啡。余飞端起咖啡正要喝，看颜色不对，马上装着找烟吃，但只剩一枝，就决定拿出贰块钱说：“麻烦你，请你买盒中华牌香烟吧。”女招待走后，余飞端起咖啡嗅了嗅放下，很快地从皮包里取出一包一化剂，用二个指头挤出一奌化验剂，放在杯中，立即，咖啡变成了黑色，化验证明：咖啡中有一种可以麻醉人达四小時之久的药品。余飞顺手把咖啡倒在痰盂里，将薄饼一奌奌地拧成碎末，撇在桌子上，大部分顺手投到窗外，女招待进来時，余飞刚好擦了擦<choice>
+               <sic>咀</sic>
+               <corr>嘴</corr>
+            </choice>，好像刚吃完的样子，他接过烟说：“谢谢，我太疲惫了，想休息一下。”说完打了一个哈吁，伸了个懒腰。女招待員走后，余飞迅速从皮<choice>
                <sic>抱</sic>
                <corr>包</corr>
-         </choice>里掏出主要文件藏在贴身的衣服口袋里，再将微型录音机调整好，藏在皮包里的底布里布置好，将皮包<choice>
-            <sic>从</sic>
-            <corr>重</corr>
-         </choice>新放在桌子上，脱衣服，蒙头睡觉，一会儿，女招待員轻轻地把门推开，轻手轻脚地来到床前，喊了两声“首长，首长”，余飞没有应声，她又推了推他，又喊了声“首长”，余飞象真的麻醉了一样，还有一声不吭地没有反应。这時，女招待員马上提上他的黑皮包，拉开门飞快地走了，乘上招待所的一辆等候<choice>
+            </choice>里掏出主要文件藏在贴身的衣服口袋里，再将微型录音机调整好，藏在皮包里的底布里布置好，将皮包<choice>
+               <sic>从</sic>
+               <corr>重</corr>
+            </choice>新放在桌子上，脱衣服，蒙头睡觉，一会儿，女招待員轻轻地把门推开，轻手轻脚地来到床前，喊了两声“首长，首长”，余飞没有应声，她又推了推他，又喊了声“首长”，余飞象真的麻醉了一样，还有一声不吭地没有反应。这時，女招待員马上提上他的黑皮包，拉开门飞快地走了，乘上招待所的一辆等候<choice>
                <orig>車</orig>
                <reg>车</reg>
             </choice>来到了金<choice>
