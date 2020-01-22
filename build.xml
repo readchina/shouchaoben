@@ -6,6 +6,7 @@
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
+        <!-- TODO copy stuff from src to correct location -->
         <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/*, src/*"/>
     </target>
 </project>
