@@ -49,9 +49,9 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <!-- TODO @LENA when where how …   the purpose for which a digital resource was created        -->
+          
             <projectDesc>
-                <p>The materials for this project were collected …</p>
+                <p>The materials for this project were purchased through Chinese the second hand book platform kongfz.com</p>
             </projectDesc>
             <editorialDecl>
                 <correction>
@@ -83,9 +83,8 @@
         </encodingDesc>
         <!-- Most of the profileDesc is TODO -->
         <profileDesc>
-            <!-- TODO @LENA a few things about the story and why it circulated in manuscript form -->
             <abstract>
-                <p>This story circulated despite it being restricted …</p>
+                <p>During the Chinese Cultural Revolution (conventionally dated 1966-1976) the publishing industry had come to a standstill. Resources were allocated only for the publication of officially sanctioned material. Entertainment fiction did not count among this. Throughout the country, however, clandestine intellectual and literary activities took place, including literary salons, underground poetry and unofficial hand-written entertainment fiction. The latter circulated, in particular, among the educated urban youth who were sent to the countryside from late 1968 onwards. Written mostly on thin notepaper, these “flying books” traveled the country in multiple copies and were re-written into multiple often differing versions. Three Times to Nanjing is one of these titles.</p>
             </abstract>
             <handNotes>
                 <handNote medium="ballpoint" script="cursive" xml:id="H1"/>
