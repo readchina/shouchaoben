@@ -3,6 +3,8 @@ declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare variable $sanjin-A := doc('三进南京城.xml');
 
+(: NOTE do NER first then add choices:)
+
 declare function local:choice_reg($input as text()) {
     let $kurz := analyze-string($input, '(\w)（kurzzeichen(\w)）')
     for $fanti in $kurz/*
@@ -44,7 +46,7 @@ declare function local:add_pb($input as text()) {
 };
 
 (:~ A skeleton function for recursively transforming the xml data :)
-declare function local:transform($nodes as node()*) {
+declare function local:docx_transform($nodes as node()*) {
     for $node in $nodes
     return
         typeswitch ($node)
@@ -57,16 +59,72 @@ declare function local:transform($nodes as node()*) {
                 return
                     element
                     {node-name($node)}
-                    {$node/@*, local:transform($node/node())}
+                    {$node/@*, local:docx_transform($node/node())}
             case text()
                 return
                     local:choice_reg($node)
             default
                 return
-                    local:transform($node/node())
+                    local:docx_transform($node/node())
 };
 
 
-local:transform($sanjin-A)
+
+(:~ A skeleton function for recursively transforming the ner output to tei :)
+declare function local:ner_transform($nodes as node()*) as item()* {
+    for $node in $nodes
+    return
+        typeswitch ($node)
+            case text()
+                return
+                    $node
+            case comment()
+                return
+                    $node
+                    (: date and time :)
+                    (: too bad we can't cask chinese numbbers as integers :)
+            case element(DATE)
+                return
+                    element date {local:ner_transform($node/node())}
+            case element(TIME)
+                return
+                    element time {local:ner_transform($node/node())}
+                    (: people :)
+            case element(PERSON)
+                return
+                    element persName {local:ner_transform($node/node())}
+            case element(ORGANIZATION)
+                return
+                    element orgName {local:ner_transform($node/node())}
+                    (: places :)
+            case element(COUNTRY)
+                return
+                    element placeName {attribute type {'country'}, local:ner_transform($node/node())}
+            case element(FACILITY)
+                return
+                    element placeName {attribute type {'facility'}, local:ner_transform($node/node())}
+            case element(STATE_OR_PROVINCE)
+                return
+                    element placeName {attribute type {'province'}, local:ner_transform($node/node())}
+            case element(CITY)
+                return
+                    element placeName {attribute type {'city'}, local:ner_transform($node/node())}
+            case element(LOCATION)
+                return
+                    element placeName {attribute type {'location'}, local:ner_transform($node/node())}
+                    (: keep :)
+            case element(wrap)
+                return
+                    element body {local:ner_transform($node/node())}
+            case element(ner)
+                return
+                    element p {local:ner_transform($node/node())}
+            default
+                return
+                    local:ner_transform($node/node())
+};
+(:local:ner_transform(.):)
+
+local:docx_transform($sanjin-A)
 
 
