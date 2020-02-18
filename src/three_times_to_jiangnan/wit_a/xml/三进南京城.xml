@@ -56,7 +56,7 @@
             <editorialDecl>
                 <correction>
                     <p>Cases of misspelled characters have been corrected when the error is clear
-                        cut, such as in personal names or some such. All correction are marked as
+                        cut, such as in personal names or some such. All corrections are marked as
                         <gi>corr</gi> inside <gi>choice</gi>.</p>
                 </correction>
                 <normalization source="http://www.gov.cn/gzdt/att/att/site1/20130819/tygfhzb.pdf">
