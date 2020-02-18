@@ -51,7 +51,7 @@
         <encodingDesc>
           
             <projectDesc>
-                <p>The materials for this project were purchased through Chinese the second hand book platform kongfz.com</p>
+                <p>The materials for this project were purchased through the Chinese second hand book platform kongfz.com  <ptr target="https://www.kongfz.com"/></p>
             </projectDesc>
             <editorialDecl>
                 <correction>
@@ -62,7 +62,7 @@
                 <normalization source="http://www.gov.cn/gzdt/att/att/site1/20130819/tygfhzb.pdf">
                     <p>Characters have been simplified in accordance with the official list of
                         simplified Chinese characters promulgated in <date when="2013-06">June
-                        2013</date> for use in the Peoples Republic of China. Whenever simlified
+                        2013</date> for use in the People's Republic of China. Whenever simlified
                         characters replace full form variants in the original, the substitution uses
                         <gi>reg</gi>.</p>
                 </normalization>
@@ -91,7 +91,7 @@
             </handNotes>
             <langUsage>
                 <language ident="en">English us spelling.</language>
-                <language ident="zh">Simplified Chinese</language>
+                <language ident="zh">Simplified Chinese.</language>
             </langUsage>
             <textDesc>
                 <channel mode="w"/>
