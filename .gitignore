@@ -23,6 +23,7 @@ $RECYCLE.BIN/
 # Application Files
 # =========================
 ~$*.xlsx
+~$*.docx
 .~lock*
 .notes
 *.xpr
