@@ -122,7 +122,7 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff xml:lang="zh" xmlns="http://www.tei-c.org/ns/1.0">
+    <standOff xml:lang="zh">
         <listPlace>
             <place>
                 <placeName>鲤城</placeName>
@@ -910,14 +910,13 @@
                 </choice>大白，<persName>余飞</persName>把三下南京城的情报及時地向公安部作了汇报，最后把<persName>王贞</persName>安全地押送到公安部，对其以绝对秘密保护而采取了措施，等待最后的处理。</p>
             <p><date when="1972"
                 >一九七二年</date>，在<persName>林彪</persName>反革命政变失败后，<orgName>中央</orgName>在一个文件上一针见血地指示出，<orgName>林彪反党集团</orgName>是一个蓄谋已久的反革命武装政变集团，他所搞的反革命政变活动，<orgName>中央</orgName>早有察觉。<orgName>林彪反党</orgName>，反人民，反革命的政变是不会得逞的，他最终是被革命所消灭，而葬埋于沙漠之中，遗臭万年。</p>
-            <p> <date when="1974">一九七四年</date> <choice>
-                <orig>於</orig>
-                <reg>于</reg>
-                </choice>南京城收集编</p>
         </body>
         <back>
             <div type="colophon">
-                <p> <lb/><date when="1974">一九七四年</date>冬於<placeName type="city"
+                <p> <lb/><date when="1974">一九七四年</date> <choice>
+                    <orig>於</orig>
+                    <reg>于</reg>
+                  </choice><placeName type="city">南京城</placeName>收集编<lb/><date when="1974">一九七四年</date>冬於<placeName type="city"
                     >南京城</placeName>转集编<lb/><date when="1976">一九七六年</date>转抄於<placeName
                     type="location">浙江西湖</placeName><lb/><date when="1976"
                     >一九七六年</date>东转抄於<placeName type="district">榕城</placeName><lb/><date when="1977"
