@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns:i18n="http://exist-db.org/xquery/i18n">
     <head>
         <meta charset="utf-8"/>
@@ -14,9 +13,9 @@
         <meta name="pb-template" content="offset-alignment.html"/>
 
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
-        <script src="components/bower_components/webcomponentsjs/webcomponents-loader.js"/>
-        <link rel="import" href="components/dependencies-dev.html"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <script type="module" src="resources/scripts/pb-components-bundle.js"/>
 
         <style>
             [unresolved] {
@@ -72,7 +71,7 @@
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
-                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" data-template="browse:fix-links">
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                     </app-header>

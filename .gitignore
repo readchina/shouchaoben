@@ -32,3 +32,5 @@ $RECYCLE.BIN/
 # exist-db
 # =========================
 build/
+*.code-workspace
+node_modules/

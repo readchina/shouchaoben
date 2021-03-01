@@ -21,7 +21,6 @@ module namespace app="http://www.tei-c.org/tei-simple/templates";
 
 import module namespace templates="http://exist-db.org/xquery/templates";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
-import module namespace pages="http://www.tei-c.org/tei-simple/pages" at "pages.xql";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "../pm-config.xql";
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../navigation.xql";
@@ -30,26 +29,6 @@ import module namespace query="http://www.tei-c.org/tei-simple/query" at "../que
 declare namespace expath="http://expath.org/ns/pkg";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
-declare
-    %templates:wrap
-function app:show-for-document($node as node(), $model as map(*), $doc as xs:string?, $query as xs:string?, $start as xs:string?) {
-    if ($doc and empty($query) and empty($start)) then
-        templates:process($node/*, $model)
-    else
-        ()
-};
-
-
-declare
-    %templates:wrap
-function app:check-login($node as node(), $model as map(*)) {
-    let $user := request:get-attribute($config:login-domain || ".user")
-    return
-        if ($user) then
-            templates:process($node/*[2], $model)
-        else
-            templates:process($node/*[1], $model)
-};
 
 declare
     %templates:wrap
@@ -66,6 +45,21 @@ function app:sort($items as element()*, $sortBy as xs:string?) {
             $items
 };
 
+declare function app:is-writeable($node as node(), $model as map(*)) {
+    let $path := $config:data-root || "/" || $model?root
+    let $writable := sm:has-access(xs:anyURI($path), "rw-")
+    return
+        element { node-name($node) } {
+            $node/@* except $node/@class,
+            attribute class {
+                string-join(($node/@class, if ($writable) then "writable" else ()), " ")
+            },
+            attribute data-root {
+                $model?root
+            },
+            templates:process($node/node(), $model)
+        }
+};
 
 (:~
  : List documents in data collection
@@ -73,12 +67,8 @@ function app:sort($items as element()*, $sortBy as xs:string?) {
 declare
     %templates:wrap
     %templates:default("sort", "title")
-function app:list-works($node as node(), $model as map(*), $filter as xs:string?, $root as xs:string,
-    $browse as xs:string?, $odd as xs:string?, $sort as xs:string) {
-    let $params := app:params2map()
-    let $odd := ($odd, session:get-attribute($config:session-prefix || ".odd"))[1]
-    let $oddAvailable := $odd and doc-available($config:odd-root || "/" || $odd)
-    let $odd := if ($oddAvailable) then $odd else $config:default-odd
+function app:list-works($node as node(), $model as map(*), $filter as xs:string?, $browse as xs:string?, $odd as xs:string?, $sort as xs:string) {
+    let $params := app:params2map($model?root)
     let $cached := session:get-attribute($config:session-prefix || ".works")
     let $filtered :=
         if (app:use-cache($params, $cached)) then
@@ -86,16 +76,15 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
         else if (exists($filter)) then
             query:query-metadata($browse, $filter, $sort)
         else
-            let $options := app:options($sort)
+            let $options := query:options($sort)
             return
-                nav:get-root($root, $options)
+                nav:get-root($model?root, $options)
     let $sorted := app:sort($filtered, $sort)
     return (
         session:set-attribute($config:session-prefix || ".timestamp", current-dateTime()),
         session:set-attribute($config:session-prefix || '.hits', $filtered),
         session:set-attribute($config:session-prefix || '.params', $params),
         session:set-attribute($config:session-prefix || ".works", $sorted),
-        session:set-attribute($config:session-prefix || ".odd", $odd),
         map {
             "all" : $sorted,
             "mode": "browse"
@@ -103,12 +92,20 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
     )
 };
 
-declare %private function app:params2map() {
-    map:merge(
+declare %private function app:params2map($root as xs:string?) {
+    map:merge((
         for $param in request:get-parameter-names()[not(. = ("start", "per-page"))]
         return
-            map:entry($param, request:get-parameter($param, ()))
-    )
+            map:entry($param, request:get-parameter($param, ())),
+        map { "root": $root }
+    ))
+};
+
+declare 
+    %templates:wrap
+function app:clear-facets($node as node(), $model as map(*)) {
+    session:set-attribute($config:session-prefix || ".hits", ()),
+    map {}
 };
 
 declare function app:use-cache($params as map(*), $cached) {
@@ -121,22 +118,17 @@ declare function app:use-cache($params as map(*), $cached) {
             false()
 };
 
-
-declare function app:options($sortBy as xs:string) {
-    map {
-        "facets":
-            map:merge((
-                for $param in request:get-parameter-names()[starts-with(., 'facet-')]
-                let $dimension := substring-after($param, 'facet-')
-                return
-                    map {
-                        $dimension: request:get-parameter($param, ())
-                    }
-            )),
-        "fields": $sortBy,
-        "leading-wildcard": "yes",
-        "filter-rewrite": "yes"
-    }
+declare function app:parent-collection($node as node(), $model as map(*)) {
+    if (not($model?root) or $model?root = "") then
+        ()
+    else
+        let $parts := tokenize($model?root, "/")
+        return
+            element { node-name($node) } {
+                $node/@*,
+                attribute data-collection { string-join(subsequence($parts, 1, count($parts) - 1)) },
+                templates:process($node/node(), $model)
+            }
 };
 
 declare
@@ -169,162 +161,37 @@ function app:browse($node as node(), $model as map(*), $start as xs:int, $per-pa
     )
 };
 
-declare function app:add-identifier($node as node(), $model as map(*)) {
-    element { node-name($node) } {
-        $node/@*,
-        attribute data-doc {
-            config:get-identifier($model?work)
-        },
-        templates:process($node/node(), $model)
-    }
-};
-
-
 declare
     %templates:wrap
 function app:short-header($node as node(), $model as map(*)) {
-    let $work := root($model("work"))/*
-    let $relPath := config:get-identifier($work)
-    let $config := tpu:parse-pi(root($work), (), ())
-    let $header :=
-        $pm-config:web-transform(nav:get-header($model?config, $work), map {
-            "header": "short",
-            "doc": $relPath
-        }, $config?odd)
-    return
-        if ($header) then
-            $header
-        else
-            <a href="{$relPath}">{util:document-name($work)}</a>
-};
-
-(:~
- : Create a bootstrap pagination element to navigate through the hits.
- :)
-declare
-    %templates:default('key', 'hits')
-    %templates:default('start', 1)
-    %templates:default("per-page", 10)
-    %templates:default("min-hits", 0)
-    %templates:default("max-pages", 10)
-function app:paginate($node as node(), $model as map(*), $key as xs:string, $start as xs:int, $per-page as xs:int, $min-hits as xs:int,
-    $max-pages as xs:int) {
-    if ($min-hits < 0 or count($model($key)) >= $min-hits) then
-        element { node-name($node) } {
-            $node/@*,
-            let $count := xs:integer(ceiling(count($model($key))) div $per-page) + 1
-            let $middle := ($max-pages + 1) idiv 2
-            return (
-                if ($start = 1) then (
-                    <li class="disabled">
-                        <a><i class="glyphicon glyphicon-fast-backward"/></a>
-                    </li>,
-                    <li class="disabled">
-                        <a><i class="glyphicon glyphicon-backward"/></a>
-                    </li>
-                ) else (
-                    <li>
-                        <a href="?start=1"><i class="glyphicon glyphicon-fast-backward"/></a>
-                    </li>,
-                    <li>
-                        <a href="?start={max( ($start - $per-page, 1 ) ) }"><i class="glyphicon glyphicon-backward"/></a>
-                    </li>
-                ),
-                let $startPage := xs:integer(ceiling($start div $per-page))
-                let $lowerBound := max(($startPage - ($max-pages idiv 2), 1))
-                let $upperBound := min(($lowerBound + $max-pages - 1, $count))
-                let $lowerBound := max(($upperBound - $max-pages + 1, 1))
-                for $i in $lowerBound to $upperBound
+        let $work := root($model("work"))/*
+        let $relPath := config:get-identifier($work)
+        return
+            try {
+                let $config := tpu:parse-pi(root($work), (), ())
+                let $header :=
+                    $pm-config:web-transform(nav:get-header($model?config, $work), map {
+                        "header": "short",
+                        "doc": $relPath
+                    }, $config?odd)
                 return
-                    if ($i = ceiling($start div $per-page)) then
-                        <li class="active"><a href="?start={max( (($i - 1) * $per-page + 1, 1) )}">{$i}</a></li>
+                    if ($header) then
+                        $header
                     else
-                        <li><a href="?start={max( (($i - 1) * $per-page + 1, 1)) }">{$i}</a></li>,
-                if ($start + $per-page < count($model($key))) then (
-                    <li>
-                        <a href="?start={$start + $per-page}"><i class="glyphicon glyphicon-forward"/></a>
-                    </li>,
-                    <li>
-                        <a href="?start={max( (($count - 1) * $per-page + 1, 1))}"><i class="glyphicon glyphicon-fast-forward"/></a>
-                    </li>
-                ) else (
-                    <li class="disabled">
-                        <a><i class="glyphicon glyphicon-forward"/></a>
-                    </li>,
-                    <li>
-                        <a><i class="glyphicon glyphicon-fast-forward"/></a>
-                    </li>
-                )
-            )
-        }
-    else
-        ()
+                        <a href="{$relPath}">{util:document-name($work)}</a>
+            } catch * {
+                <a href="{$relPath}">{util:document-name($work)}</a>,
+                <p class="error">Failed to output document metadata: {$err:description}</p>
+            }
 };
 
-(:~
-    Create a span with the number of items in the current search result.
-:)
-declare
-    %templates:wrap
-    %templates:default("key", "hitCount")
-function app:hit-count($node as node()*, $model as map(*), $key as xs:string) {
-    let $value := $model?($key)
-    return
-        if ($value instance of xs:integer) then
-            $value
-        else
-            count($value)
-};
-
-(:~
- :
- :)
-declare function app:work-title($node as node(), $model as map(*), $type as xs:string?) {
-    let $suffix := if ($type) then "." || $type else ()
-    let $work := $model("work")/ancestor-or-self::tei:TEI
-    let $id := util:document-name($work)
-    return
-        <a href="{$node/@href}{$id}{$suffix}">{ app:work-title($work) }</a>
-};
-
-declare function app:work-title($work as element(tei:TEI)?) {
-    let $main-title := $work/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type = 'main']/string()
-    let $main-title := if ($main-title) then $main-title else $work/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[1]/string()
-    return
-        $main-title
-};
-
-declare function app:download-link($node as node(), $model as map(*),
-    $doc as xs:string?, $mode as xs:string?) {
-    let $file :=
-        if ($model?work) then
-            config:get-identifier($model?work)
-        else
-            $doc
-    let $file :=
-        if ($doc) then
-            replace($file, "^.*?([^/]*)$", "$1")
-        else
-            $file
+declare function app:download-link($node as node(), $model as map(*), $mode as xs:string?) {
+    let $file := config:get-identifier($model?work)
     return
         element { node-name($node) } {
             $node/@*,
-            attribute url { $file },
-            attribute odd { ($model?config?odd, $config:odd)[1] },
-            $node/node()
-        }
-};
-
-declare function app:recompile-link($node as node(), $model as map(*)) {
-    let $odd :=
-        if ($model?work) then
-            ($model?config?odd, $config:odd)[1]
-        else
-            $config:odd
-    return
-        element { node-name($node) } {
-            $node/@*,
-            attribute href { "?source=" || $odd },
+            attribute url { $model?app || "api/document/" || escape-uri($file, true()) },
+            attribute odd { ($model?config?odd, $config:default-odd)[1] },
             $node/node()
         }
 };
@@ -400,18 +267,22 @@ declare function app:dispatch-action($node as node(), $model as map(*), $action 
     switch ($action)
         case "delete" return
             let $docs := request:get-parameter("docs[]", ())
+            let $result :=
+                for $path in $docs
+                let $doc := config:get-document(xmldb:decode($path))
+                return
+                    if ($doc) then
+                        try {
+                            xmldb:remove(util:collection-name($doc), util:document-name($doc))
+                        } catch * {
+                            <p class="error">Failed to remove document {$path} (insufficient permissions?)</p>
+                        }
+                    else
+                        <p>Document not found: {$path}</p>
             return
                 <div id="action-alert" class="alert alert-success">
-                    <p>Removed {count($docs)} documents.</p>
-                    {
-                        for $path in $docs
-                        let $doc := pages:get-document(xmldb:decode($path))
-                        return
-                            if ($doc) then
-                                xmldb:remove(util:collection-name($doc), util:document-name($doc))
-                            else
-                                <p>Failed to remove document {$path}</p>
-                    }
+                    <p>Removed {count($docs) - count($result)} documents.</p>
+                    { $result }
                 </div>
         case "delete-odd" return
             let $docs := request:get-parameter("docs[]", ())

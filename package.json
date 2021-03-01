@@ -1,0 +1,11 @@
+{
+  "name": "SJNJ",
+  "version": "1.0.0",
+  "description": "Sanjin Nanjing",
+  "dependencies": {
+    "@teipublisher/pb-components": "1.14.0"
+  },
+  "devDependencies": {
+    "cypress": "^6.6.0"
+  }
+}

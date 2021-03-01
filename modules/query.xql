@@ -18,8 +18,14 @@ xquery version "3.1";
 
 module namespace query="http://www.tei-c.org/tei-simple/query";
 
-import module namespace tei-query="http://www.tei-c.org/tei-simple/query/tei" at "tei-query.xql";
-import module namespace docbook-query="http://www.tei-c.org/tei-simple/query/docbook" at "db-query.xql";
+import module namespace tei-query="http://www.tei-c.org/tei-simple/query/tei" at "query-tei.xql";
+import module namespace docbook-query="http://www.tei-c.org/tei-simple/query/docbook" at "query-db.xql";
+import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
+
+declare variable $query:QUERY_OPTIONS := map {
+    "leading-wildcard": "yes",
+    "filter-rewrite": "yes"
+};
 
 declare %private function query:dispatch($config as map(*), $function as xs:string, $args as array(*)) {
     let $fn := function-lookup(xs:QName($config?type || "-query:" || $function), array:size($args))
@@ -39,9 +45,30 @@ declare %private function query:dispatch($config as map(*), $function as xs:stri
  : @param $target-texts a sequence of identifiers for texts to query. May be empty.
  :)
 declare function query:query-default($fields as xs:string+, $query as xs:string,
-    $target-texts as xs:string*) {
-    tei-query:query-default($fields, $query, $target-texts),
-    docbook-query:query-default($fields, $query, $target-texts)
+    $target-texts as xs:string*, $sortBy as xs:string*) {
+    tei-query:query-default($fields, $query, $target-texts, $sortBy),
+    docbook-query:query-default($fields, $query, $target-texts, $sortBy)
+};
+
+declare function query:options($sortBy as xs:string*) {
+    map:merge((
+        $query:QUERY_OPTIONS,
+        map {
+            "facets":
+                map:merge((
+                    for $param in request:get-parameter-names()[starts-with(., 'facet-')]
+                    let $dimension := substring-after($param, 'facet-')
+                    return
+                        map {
+                            $dimension: request:get-parameter($param, ())
+                        }
+                ))
+        },
+        if ($sortBy) then
+            map { "fields": ($sortBy, $config:default-fields) }
+        else
+            map { "fields": $config:default-fields }
+    ))
 };
 
 declare function query:query-metadata($field as xs:string, $query as xs:string, $sort as xs:string) {
@@ -53,15 +80,15 @@ declare function query:get-parent-section($config as map(*), $node as node()) {
     query:dispatch($config, "get-parent-section", [$node])
 };
 
-declare function query:get-breadcrumbs($config as map(*), $hit as element(), $parent-id as xs:string) {
+declare function query:get-breadcrumbs($config as map(*), $hit as node(), $parent-id as xs:string) {
     query:dispatch($config, "get-breadcrumbs", [$config, $hit, $parent-id])
 };
 
-declare function query:expand($config as map(*), $data as element()) {
+declare function query:expand($config as map(*), $data as node()) {
     query:dispatch($config, "expand", [$data])
 };
 
-declare function query:get-current($config as map(*), $div as element()?) {
+declare function query:get-current($config as map(*), $div as node()?) {
     query:dispatch($config, "get-current", [$config, $div])
 };
 
