@@ -1,1 +1,13 @@
-<meta xmlns="http://exist-db.org/xquery/repo"><description>Sanjin Nanjing</description><author/><status>beta</status><license>GNU-LGPL</license><copyright>true</copyright><type>application</type><prepare>pre-install.xql</prepare><finish>post-install.xql</finish><target>SJNJ</target><permissions user="readchina" group="tei" mode="rw-r--r--"/><deployed>2021-03-01T15:39:07.832Z</deployed></meta>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Sanjin Nanjing</description>
+    <author/>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <target>SJNJ</target>
+    <permissions user="readchina" group="tei" mode="rw-r--r--"/>
+    <deployed>2021-03-01T15:39:07.832Z</deployed>
+</meta>
