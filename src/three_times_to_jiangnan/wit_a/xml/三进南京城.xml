@@ -11,16 +11,16 @@
             <publicationStmt>
                 <publisher>READCHINA</publisher>
                 <pubPlace>Freiburg</pubPlace>
-                <date when="2020">2020</date>
+                <date when="2021">2021</date>
                 <availability>
                     <p>This is an open access work licensed under a Creative Commons Attribution 4.0
                         International license.</p>
                 </availability>
-                <!--            add final link-->
+                <!-- TODO(DP): add final link -->
                 <ptr target="https://github.com/readchina/shouchaoben"/>
             </publicationStmt>
             <sourceDesc>
-                <!--            <p>Machine Generated from docx</p>-->
+                <!-- <p>Machine Generated from docx</p> -->
                 <msDesc>
                     <msIdentifier>
                         <repository>Lena Henningsen private collection</repository>
