@@ -4,7 +4,6 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 import module namespace ner = "http://exist-db.org/xquery/stanford-nlp/ner";
 
 declare variable $sanjin-A := doc('三进南京城.xml');
-declare variable $sanjin-B := doc('三下江南.xml');
 
 let $txt_test := '克林顿说，华盛顿将逐步落实对韩国的经济援助。金大中对克林顿的讲话报以掌声：克林顿总统在会谈中重申，他坚定地支持韩国摆脱经济危机。'
 
@@ -23,24 +22,24 @@ let $tei_test := <p> 一九七〇年初春，阿尔巴尼亚代表团来我国<c
         <reg>并</reg>
     </choice>通知南京市着手组织做好接待和保卫工作。</p>
 
-let $text := $sanjin-B//tei:body/tei:p
+let $text := $sanjin-A//tei:body/tei:p
 
 let $teitxt := util:binary-to-string(util:binary-doc('三进南京城.txt'))
 return
     
-    (: $inline_test/string() :)
+    $inline_test/string()
     
     (:    ner:classify-node($node_test, "zh" ):)
     
     (:     xmldb:store('/db/', 'sanjin_ner2.xml',:)
     
     
-    <wrap> {
-    for $p in $text
-    let $t := normalize-space($p)
-      
-    return
-    
-    ner:query-text($t, "zh")
-       }
-       </wrap>
+    (:<wrap> {:)
+    (:for $p in $text:)
+    (:let $t := normalize-space($p):)
+    (:    :)
+    (:return:)
+    (::)
+    (: ner:query-text($t, "zh"):)
+    (:    }:)
+    (:    </wrap>):)
