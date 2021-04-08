@@ -1,5 +1,5 @@
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>余飞三下南京</title>
@@ -48,7 +48,7 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <tei:text>
+    <text>
         <body>
             <p>（封面）</p>
             <p>余</p>
@@ -319,5 +319,5 @@
                 <NUMBER>一                                                      一</NUMBER>
             </p>
         </body>
-    </tei:text>
-</tei:TEI>
+    </text>
+</TEI>
