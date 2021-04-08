@@ -1,5 +1,5 @@
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
                 <title>三进南京城</title>
@@ -122,7 +122,7 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <tei:text>
+    <text>
         <body>
             <pb n="1"/>
             <p>
@@ -1524,5 +1524,5 @@
                     <PERSON>林彪</PERSON>反党</orgName>
             </p>
         </body>
-    </tei:text>
-</tei:TEI>
+    </text>
+</TEI>

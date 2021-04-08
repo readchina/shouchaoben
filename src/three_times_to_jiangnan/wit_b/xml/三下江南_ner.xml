@@ -1,5 +1,5 @@
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>三下江南</title>
@@ -48,7 +48,7 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <tei:text>
+    <text>
         <body>
             <p>（<ORDINAL>第</ORDINAL>
                 <NUMBER>1</NUMBER>页）</p>
@@ -236,5 +236,5 @@
                 <TITLE>处长</TITLE>给女服务员戴了手铐，在许司令的办公室里，<PERSON>张</PERSON>连长用枪逼着<NUMBER>一</NUMBER>个穿空军服上衣的女<TITLE>秘书</TITLE>。</p>
             <p>——完——</p>
         </body>
-    </tei:text>
-</tei:TEI>
+    </text>
+</TEI>
