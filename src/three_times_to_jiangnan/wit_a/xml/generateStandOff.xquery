@@ -3,10 +3,37 @@ declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $SCB := doc("三进南京城.xml");
-declare variable $listPlace := doc("listPlace.xml")/listPlace;
-declare variable $listPerson := doc("listPerson.xml");
-declare variable $listOrg := doc("listOrg.xml")/listOrg;
-
+declare variable $listPlace := doc(../ReadActData/"listPlace.xml")/listPlace;
+declare variable $listPerson := doc("./ReadActData/listPerson.xml");
+declare variable $listOrg := doc("./ReadActData/listOrg.xml")/listOrg;
+<TEI version="4.0.0" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <author></author>
+                <respStmt>
+                    <resp></resp>
+                    <persName></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>READCHINA</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"
+                        >CC-BY-4.0</licence>
+                </availability>
+                <idno type="DOI"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="initial-draft">
+        <change>
+        </change>
+        </revisionDesc>
+    </teiHeader>
 <standOff
     xml:lang="zh">
     
@@ -69,3 +96,4 @@ declare variable $listOrg := doc("listOrg.xml")/listOrg;
                     $o
         }</listOrg>
 </standOff>
+</TEI>
