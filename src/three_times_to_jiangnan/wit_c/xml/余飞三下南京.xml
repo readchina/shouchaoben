@@ -28,21 +28,24 @@
                     <msContents>
                         <!-- TODO(DP): @LenaHenningsen  -->
                         <summary>Manuscript fiction from the Chinese Cultural Revolution. The text
-                            indicates that it is … 
+                            indicates that it is the first volume in a collection of anti-espionage fiction stories. The titles of the other stories in the series are provided on the back cover: The tall grey building (灰色的大楼), The skin of the twelfth beauty (第十二张美人皮), The green corpse (绿色的尸体) and The plum blossom map (一副梅花图).
                             </summary>
                         <!-- TODO(DP): @LenaHenningsen  -->    
                         <msItem>
                             <bibl><author>Anonymous</author> <title>余飞三下南京</title>
-                                <placeName>??</placeName> <date when="1977">??</date> </bibl>
+                                <placeName>no place</placeName> <date when="1977">no date</date> </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <!-- TODO(DP): @LenaHenningsen  -->
                         <objectDesc>
-                            <p>XX pages of XY paper, binding YY, measuring YZ times ZZ cm.</p>
-                            <p>The pages are XX with page numbers
-                                starting / apearing XY.</p>
-                            <p>Single / multiple hand throughout</p>
+                            <p>15 pages of thin note paper, rebound on the left hand side into a single squire, measuring 19,5 times 26,5 cm.</p>
+                            <p>Pages 1-14 are margined and ruled throughout with page numbers
+                                starting after  the title page until page 14. Page 15 is blank paper.</p>
+                            <p>Front and  back cover pages are of slightly thicker paper quality and blank.</p>
+                            <p>Single hand throughout.</p>
+                            <p>Text written only on front sides of the pages throughout, except back cover page: text on front and reverse side.</p>
+                            <p>Pages 1-14 written in black ink, page 15, front and back cover in blue ink.</p>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
