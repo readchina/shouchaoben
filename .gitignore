@@ -27,3 +27,8 @@ $RECYCLE.BIN/
 .~lock*
 .notes
 *.xpr
+
+# =========================
+# java
+# =========================
+.java-version

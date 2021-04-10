@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.0.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.2.2">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -11,16 +11,16 @@
             <publicationStmt>
                 <publisher>READCHINA</publisher>
                 <pubPlace>Freiburg</pubPlace>
-                <date when="2020">2020</date>
+                <date when="2021">2021</date>
                 <availability>
                     <p>This is an open access work licensed under a Creative Commons Attribution 4.0
                         International license.</p>
                 </availability>
-                <!--            add final link-->
+                <!-- TODO(DP): add final link -->
                 <ptr target="https://github.com/readchina/shouchaoben"/>
             </publicationStmt>
             <sourceDesc>
-                <!--            <p>Machine Generated from docx</p>-->
+                <!-- <p>Machine Generated from docx</p> -->
                 <msDesc>
                     <msIdentifier>
                         <repository>Lena Henningsen private collection</repository>
@@ -122,7 +122,8 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff xml:lang="zh">
+    <xi:include href="../../standOff.xml" parse="xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <!--<standOff xml:lang="zh">
         <listPlace>
             <place>
                 <placeName>鲤城</placeName>
@@ -307,11 +308,11 @@
                 <orgName>林彪反党</orgName>
             </org>
         </listOrg>
-        <!-- TODO bibliography -->
-        <!--<listBibl>
+        <!-\- TODO bibliography -\->
+        <!-\-<listBibl>
             <bibl></bibl>
-        </listBibl>-->
-    </standOff>
+        </listBibl>-\->
+    </standOff>-->
     <text xml:lang="zh">
         <front>
             <titlePage>
