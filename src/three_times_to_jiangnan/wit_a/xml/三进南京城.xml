@@ -122,7 +122,8 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff xml:lang="zh">
+    <xi:include href="../../standOff.xml" parse="xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <!--<standOff xml:lang="zh">
         <listPlace>
             <place>
                 <placeName>鲤城</placeName>
@@ -307,11 +308,11 @@
                 <orgName>林彪反党</orgName>
             </org>
         </listOrg>
-        <!-- TODO bibliography -->
-        <!--<listBibl>
+        <!-\- TODO bibliography -\->
+        <!-\-<listBibl>
             <bibl></bibl>
-        </listBibl>-->
-    </standOff>
+        </listBibl>-\->
+    </standOff>-->
     <text xml:lang="zh">
         <front>
             <titlePage>
