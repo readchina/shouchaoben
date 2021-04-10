@@ -7,4 +7,4 @@ addons:
       - libxml2-utils
 
 script:
-  - xmllint --noout --relaxng tei_all.rng src/**/**/xml/*.xml
+  - xmllint --noout --relaxng tei_all.rng src/**/**/xml/!(standOff).xml
