@@ -2,6 +2,7 @@ xquery version "3.1";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 import module namespace ner = "http://exist-db.org/xquery/stanford-nlp/ner";
+import module namespace so = "http://readchina.eu/scb/so/ns" at "standoff.xqm";
 
 declare variable $sanjin-A := doc('三进南京城.xml');
 

@@ -1,7 +1,8 @@
 xquery version "3.1";
+
+import module namespace so = "http://readchina.eu/scb/so/ns" at "standoff.xqm";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
-declare variable $sanjin-A := doc('三进南京城.xml');
 
 (: NOTE do NER first then add choices:)
 
@@ -82,7 +83,7 @@ declare function local:ner_transform($nodes as node()*) as item()* {
                 return
                     $node
                     (: date and time :)
-                    (: too bad we can't cask chinese numbbers as integers :)
+                    (: too bad we can't cast chinese numbbers as integers :)
             case element(DATE)
                 return
                     element date {local:ner_transform($node/node())}
@@ -125,6 +126,6 @@ declare function local:ner_transform($nodes as node()*) as item()* {
 };
 (:local:ner_transform(.):)
 
-local:docx_transform($sanjin-A)
+local:docx_transform($so:sanjin-A)
 
 
