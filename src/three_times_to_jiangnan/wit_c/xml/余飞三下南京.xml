@@ -5,8 +5,11 @@
             <titleStmt>
                 <title>余飞三下南京</title>
                 <!-- TODO(DP) add Dang Xiayin, May 2018 contribution -->
-                <editor> <persName>Lena Henningsen</persName> and <persName
-                    ref="https://orcid.org/0000-0001-8958-6463">Duncan Paterson</persName> </editor>
+                <editor>
+                    <persName>Lena Henningsen</persName>
+                    and
+                    <persName ref="https://orcid.org/0000-0001-8958-6463">Duncan Paterson</persName>
+                </editor>
                 <principal ref="https://orcid.org/0000-0001-7583-0920">Lena Henningsen</principal>
             </titleStmt>
             <publicationStmt>
@@ -18,7 +21,7 @@
                         International license.</p>
                 </availability>
                 <!-- TODO(DP): add final link -->
-                <ptr target="https://github.com/readchina/shouchaoben"/>
+                <ptr target="https://github.com/readchina/shouchaoben" />
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -30,10 +33,14 @@
                         <summary>Manuscript fiction from the Chinese Cultural Revolution. The text
                             indicates that it is the first volume in a collection of anti-espionage fiction stories. The titles of the other stories in the series are provided on the back cover: The tall grey building (灰色的大楼), The skin of the twelfth beauty (第十二张美人皮), The green corpse (绿色的尸体) and The plum blossom map (一副梅花图).
                             </summary>
-                        <!-- TODO(DP): @LenaHenningsen  -->    
+                        <!-- TODO(DP): @LenaHenningsen  -->
                         <msItem>
-                            <bibl><author>Anonymous</author> <title>余飞三下南京</title>
-                                <placeName>no place</placeName> <date when="1977">no date</date> </bibl>
+                            <bibl>
+                                <author>Anonymous</author>
+                                <title>余飞三下南京</title>
+                                <placeName>no place</placeName>
+                                <date when="1977">no date</date>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -90,12 +97,12 @@
             <p>谭甫仁同志，工作积极踏实，对人谦虚谨慎。他住的一共三间，头一间会客室，第二间办公室，第三间寝室。他爱人是他的秘书。夫妇俩经常在休息的时候谈工作。这天晚上，谭夫妇俩坐在卧室窗下沙发上谈工作，她突然发现窗户外有一人影一闪，刚要叫有刺客，没等开口，胸部好像被什么東西猛戳了一下，眼前一黑，啥也不知道了。谭见她倒在沙发上，忙回头看，又觉得头上被什么東（Kurzzeichen东）西打了两下，立即失去了知觉。住在隔壁的女儿，听到有人倒地的声音，跑来一看，哭喊起来，（第4页）一会警卫员、省委负责同志赶来了。抢救半夜，谭才慢慢醒来，断断续续地说了两个字：“内......部......”就闭上了眼睛。</p>
             <p>破案范围在内部。伤是两颗无声手枪子弹造成的。检查这种无声手枪，省委、军区的部长、科长才有。于是马上召开部长、科长会议，说是检查战备物资，看大家枪、子弹保管情况。按照规定，无声手槍（Kurzzeichen枪）作为防身武器，是随身携带的。说后，大家都把自己的手枪拿出来检查（包括子弹），只见一位副科长说：“我不知道，没带来。”领导批评他几句，叫他回去拿。科长走了，领导不放心，又叫两个侦察员去。保卫科长走到门口，小声对侦察员说：“对不起，那件事是我干的。”</p>
             <p>侦察员吃了一惊，马上故作镇静的（Korrektur地）安慰说：“好嘛，党的政策你是知道的，坦白从宽，抗拒从严。”</p>
-            <p>说话间，乘（Korrektur趁）侦察员不备，保卫科长忙伸手进衣袋内，一枪打倒侦察员。走在十几步远的另一个侦察员一看，就向保卫科长开枪。“呯，呯，呯”枪声把余飞同志从回忆中惊醒。“呯，呯”枪声连响了，他认为是错觉，拧一拧耳朵一听，“呯，呯”又响两枪，接着有人敲门。他的心里思考着，又摸了腰间的枪，顺手开了门。 此枪声何来？无以解。</p>
+            <p>说话间，乘（Korrektur趁）侦察员不备，保卫科长忙伸手进衣袋内，一枪打倒侦察员。走在十几步远的另一个侦察员一看，就向保卫科长开枪。“呯，呯，呯”枪声把余飞同志从回忆中惊醒。“呯，呯”枪声连响了，他认为是错觉，拧一拧耳朵一听，“呯，呯”又响两枪，接着有人敲门。他的心里思考着，又摸了腰间的枪，顺手开了门。此枪声何来？无以解。</p>
             <p>“你是余飞吗？”门开了，一个胖头结实的中年軍（Kurzzeichen军）人侧身挤了进来，微笑着点着头，说完后，把右手伸向叶（Korrektur余）飞。问话中带着肯定的语气，象（Korrektur像）个老相识，递过烟，打燃火。借軍人吸烟的机会，余飞斜眼瞭了门外，还站着两个軍人大汉，知道难以脱身，余飞认为遇上了特务。</p>
             <p>两人坐定后，中年軍人吸了两口烟，便问：“谭案破得怎样？”</p>
             <p>“这个我不太清楚。”</p>
             <p>（第5页）“那么你这个专案组长是睡大觉了。”</p>
-            <p>“因为我走时太慌忙，没有交换情况。” 突然，余飞站起来，侧身伸向行李架。中年軍（Kurzzeichen军）人慌忙一把抓住说：“你要干什么？”</p>
+            <p>“因为我走时太慌忙，没有交换情况。”突然，余飞站起来，侧身伸向行李架。中年軍（Kurzzeichen军）人慌忙一把抓住说：“你要干什么？”</p>
             <p>余飞回头看见那个軍人有一颗黑痣，笑着说：“拿两个苹果，解解渴。”</p>
             <p>“不客气。”軍人的手松了。</p>
             <p>说话间，余飞削好苹果，递给軍人一个。然后把茶布上的苹果皮，向上提起玻璃窗，捧着果皮往外倒。这时火車减慢車速，乘（Korrektur趁）倒果皮之机，余飞猛喝一声，飞出窗外。等大胖子艰难地跳出窗外时，余飞已摆脱特务的跟踪，改乘另外列車（Kurzzeichen车），顺利地回到北京。</p>
@@ -152,25 +159,25 @@
             <p>谭甫仁死前不久，他接到林彪（据说尚有江青）一封绝密电报，大意曰：某日某时有一架不明国籍飞机飞过昆明，越境叛逃外国，令其击毁该机。于是谭令其部队作好准备。果然该日该时有一架飞机自此飞来昆明，但情况有出入，因该机标有“中国民航”字样，且编号一清二楚，谭不敢下令击毁，于是令机群起飞迫降。等到该机在机场降落后，从飞机里走出一人，谭一见，嚇（Korrektur吓）得面如土色，冷汗湿衫。原来从飞机里走出的並（Korrektur并）非别人，正是我们敬爱的周总理。谭含泪把绝密电报交给了周总理。真像（Korrektur相）大白，林、江一伙妄图趁总理出国访问途经昆明时陷害总理。事后不久，谭全家被刺。</p>
             <p>据说，这封电报直到总理病危逝世前，才嘱咐邓颖超交给一位可靠的人——许世友司令员。</p>
             <p>谭生前靠近林贼，在党的九届二中全会上和林彪、陈伯达大吹天才论。但尚未迈到反总理的地步。谭早已被刺身死，那时林彪尚未完全暴露。应该用历史唯物主义来评价他。当时报纸评价似有异议。</p>
-            <p>（第16页，原文未标页码）反 特 故 事 册 目 录</p>
-            <p>余 飛 三 下 南 京</p>
-            <p>灰 色 的 大 楼</p>
-            <p>第 十 二 张 美 人 皮</p>
-            <p>绿 色 的 尸 体</p>
-            <p>一 副 梅 花 图</p>
-            <p>（封底） 余 余</p>
-            <p>飛 飛</p>
-            <p>三 三</p>
-            <p>下 下</p>
-            <p>南 南</p>
-            <p>京 京</p>
-            <p>反 反</p>
-            <p>特 智 特 智</p>
-            <p>故 山 故 山</p>
-            <p>事 藏 事 藏</p>
-            <p>册 册</p>
-            <p>之 之</p>
-            <p>一 一</p>
+            <p>（第16页，原文未标页码）反特故事册目录</p>
+            <p>余飛三下南京</p>
+            <p>灰色的大楼</p>
+            <p>第十二张美人皮</p>
+            <p>绿色的尸体</p>
+            <p>一副梅花图</p>
+            <p>（封底）余余</p>
+            <p>飛飛</p>
+            <p>三三</p>
+            <p>下下</p>
+            <p>南南</p>
+            <p>京京</p>
+            <p>反反</p>
+            <p>特智特智</p>
+            <p>故山故山</p>
+            <p>事藏事藏</p>
+            <p>册册</p>
+            <p>之之</p>
+            <p>一一</p>
         </body>
     </text>
 </TEI>
