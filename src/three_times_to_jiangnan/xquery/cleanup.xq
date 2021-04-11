@@ -4,9 +4,18 @@ import module namespace so = "http://readchina.eu/scb/so/ns" at "standoff.xqm";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
-(: NOTE do NER first then add choices:)
+declare variable $wit_a := doc('../wit_a/xml/processed/三进南京城_ner.xml');
+declare variable $wit_b := doc('../wit_b/xml/processed/三下江南_ner.xml');
+declare variable $wit_c := doc('../wit_b/xml/processed/余飞三下南京_ner.xml');
 
-declare function local:choice_reg($input as text()) {
+(:~ A set of three helper functions to process project annotations into TEI conventions
+ : @param $input the inline annotation as string
+ : @see local:docx_transform
+ : @return a tei element
+ ~:)
+
+(:~ Normalize character choices to fantizi ~:)
+declare function local:choice_reg($input as text()) as element(choice) {
     let $kurz := analyze-string($input, '(\w)（kurzzeichen(\w)）')
     for $fanti in $kurz/*
     return
@@ -21,7 +30,8 @@ declare function local:choice_reg($input as text()) {
 
 };
 
-declare function local:choice_corr($input as text()) {
+(:~ Mark editorial corrections ~:)
+declare function local:choice_corr($input as text()) as element(choice) {
     let $Korr := analyze-string($input, '(\w)（Korrektur(\w)）')
     for $result in $Korr/*
     return
@@ -35,7 +45,8 @@ declare function local:choice_corr($input as text()) {
             local:add_pb($result/text())
 };
 
-declare function local:add_pb($input as text()) {
+(:~ Insert pagebreaks ~:)
+declare function local:add_pb($input as text()) as element(pb) {
     let $analysis := analyze-string($input, "（第(\d+)页）")
     for $result in $analysis/*
     return
@@ -46,7 +57,10 @@ declare function local:add_pb($input as text()) {
 
 };
 
-(:~ A skeleton function for recursively transforming the xml data :)
+(:~ A skeleton function for recursively transforming inline project annotatons from the converted docx files. 
+: @para $nodes the initial tei conversion from docx
+: @return a transformed copy of the tei document
+:)
 declare function local:docx_transform($nodes as node()*) {
     for $node in $nodes
     return
@@ -71,7 +85,10 @@ declare function local:docx_transform($nodes as node()*) {
 
 
 
-(:~ A skeleton function for recursively transforming the ner output to tei :)
+(:~ A skeleton function for recursively transforming the ner output to tei 
+ : @param $node the annotated ner ouput, usually processed/*_ner.xml
+ : @return a hopefully valid transformed TEI version of the NER annotations
+:)
 declare function local:ner_transform($nodes as node()*) as item()* {
     for $node in $nodes
     return
@@ -120,12 +137,18 @@ declare function local:ner_transform($nodes as node()*) as item()* {
             case element(ner)
                 return
                     element p {local:ner_transform($node/node())}
+            case element(body)
+                return
+                    element body {local:ner_transform($node/node())}   
+            case element(p)
+                return
+                    element p {local:ner_transform($node/node())}        
             default
                 return
                     local:ner_transform($node/node())
 };
-(:local:ner_transform(.):)
+local:ner_transform($wit_b)
 
-local:docx_transform($so:sanjin-A)
+(:local:docx_transform($so:sanjin-B):)
 
 

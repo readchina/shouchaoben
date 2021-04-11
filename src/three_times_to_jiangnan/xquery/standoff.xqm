@@ -8,7 +8,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (:~ Local Transcripts ~:)
 declare variable $so:sanjin-A := doc('../wit_a/xml/三进南京城.xml');
-declare variable $so:sanjin-Asanjin-B := doc('../wit_b/xml/三下江南.xml');
+declare variable $so:sanjin-B := doc('../wit_b/xml/三下江南.xml');
 declare variable $so:sanjin-C := doc('../wit_c/xml/余飞三下南京.xml');
 
 (:~ ReadAct authority files ~:)
