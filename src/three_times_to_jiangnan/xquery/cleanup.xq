@@ -6,7 +6,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $wit_a := doc('../wit_a/xml/processed/三进南京城_ner.xml');
 declare variable $wit_b := doc('../wit_b/xml/processed/三下江南_ner.xml');
-declare variable $wit_c := doc('../wit_b/xml/processed/余飞三下南京_ner.xml');
+declare variable $wit_c := doc('../wit_c/xml/processed/余飞三下南京_ner.xml');
 
 (:~ A set of three helper functions to process project annotations into TEI conventions
  : @param $input the inline annotation as string
@@ -15,8 +15,8 @@ declare variable $wit_c := doc('../wit_b/xml/processed/余飞三下南京_ner.xm
  ~:)
 
 (:~ Normalize character choices to fantizi ~:)
-declare function local:choice_reg($input as text()) as element(choice) {
-    let $kurz := analyze-string($input, '(\w)（kurzzeichen(\w)）')
+declare function local:choice_reg($input as text()) as item()* {
+    let $kurz := analyze-string($input, '(\w)（[Kk]urzzeichen(\w)）')
     for $fanti in $kurz/*
     return
         if ($fanti instance of element(fn:match)) then
@@ -31,8 +31,8 @@ declare function local:choice_reg($input as text()) as element(choice) {
 };
 
 (:~ Mark editorial corrections ~:)
-declare function local:choice_corr($input as text()) as element(choice) {
-    let $Korr := analyze-string($input, '(\w)（Korrektur(\w)）')
+declare function local:choice_corr($input as text()) as item()* {
+    let $Korr := analyze-string($input, '(\w)（[Kk]orrektur(\w)）')
     for $result in $Korr/*
     return
         if ($result instance of element(fn:match)) then
@@ -46,7 +46,7 @@ declare function local:choice_corr($input as text()) as element(choice) {
 };
 
 (:~ Insert pagebreaks ~:)
-declare function local:add_pb($input as text()) as element(pb) {
+declare function local:add_pb($input as text()) as item()* {
     let $analysis := analyze-string($input, "（第(\d+)页）")
     for $result in $analysis/*
     return
@@ -55,6 +55,21 @@ declare function local:add_pb($input as text()) as element(pb) {
         else
             $result/string()
 
+};
+
+(:~ Cleanup and collapse whitespace character from transcription body 
+: @para $wit the initial tei conversion from docx
+: @return a transformed copy of the body/p of the orignal document
+:)
+declare function local:trim-space($wit as node()*) as element(body) {
+<body>{
+for $n in $wit//body/p
+let $normalized := normalize-space($n)
+return 
+<p>
+{replace($normalized, '\s', '')}
+</p>
+}</body>
 };
 
 (:~ A skeleton function for recursively transforming inline project annotatons from the converted docx files. 
@@ -147,8 +162,16 @@ declare function local:ner_transform($nodes as node()*) as item()* {
                 return
                     local:ner_transform($node/node())
 };
-local:ner_transform($wit_b)
-
-(:local:docx_transform($so:sanjin-B):)
 
 
+declare function local:one-pass($items as item()*) as item()* {
+$items 
+=> local:ner_transform()
+=> local:docx_transform()
+};
+
+(:for $wit in ($wit_a, $wit_b, $wit_c)
+return:)
+local:one-pass($wit_c//body) 
+
+(:local:trim-space($so:sanjin-B):)
