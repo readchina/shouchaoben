@@ -92,7 +92,9 @@ declare function local:docx_transform($nodes as node()*) {
                     {$node/@*, local:docx_transform($node/node())}
             case text()
                 return
-                    local:choice_reg($node)
+                    $node 
+                      => local:choice_reg()
+
             default
                 return
                     local:docx_transform($node/node())
@@ -170,8 +172,15 @@ $items
 => local:docx_transform()
 };
 
+let $test := <body><p>（第1页）</p>
+            <p>余飞三下<CITY>南京</CITY></p>
+            <p>一九七0（Korrektur零）人看手錶（Kurzzeichen表）：“咦！停了，</p>
+            </body>
+return
 (:for $wit in ($wit_a, $wit_b, $wit_c)
-return:)
-local:one-pass($wit_c//body) 
+return
+local:one-pass($wit_c//body) :)
+
+local:one-pass($test)
 
 (:local:trim-space($so:sanjin-B):)
