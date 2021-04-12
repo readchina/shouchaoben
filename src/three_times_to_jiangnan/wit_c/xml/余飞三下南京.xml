@@ -1,9 +1,9 @@
-<?teipublisher odd="docx-output.odd"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.2.2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>余飞三下南京</title> <!-- TODO(DP) add Dang Xiayin, May 2018 contribution -->
+                <title>余飞三下南京</title>
                 <editor>
                     <persName>Lena Henningsen</persName>
                     and
@@ -17,7 +17,7 @@
                 <date when="2021">2021</date>
                 <availability>
                     <p>This is an open access work licensed under a Creative Commons Attribution 4.0                        International license.</p>
-                </availability> <!-- TODO(DP): add final link -->
+                </availability>
                 <ptr target="https://github.com/readchina/shouchaoben" />
             </publicationStmt>
             <sourceDesc>
@@ -26,7 +26,7 @@
                         <repository>Lena Henningsen private collection</repository>
                     </msIdentifier>
                     <msContents>
-                        <summary>Manuscript fiction from the Chinese Cultural Revolution. The text                            indicates that it is the first volume in a collection of anti-espionage fiction stories. The titles of the other stories in the series are provided on the back cover: The tall grey building (灰色的大楼), The skin of the twelfth beauty (第十二张美人皮), The green corpse (绿色的尸体) and The plum blossom map (一副梅花图).                            </summary>
+                        <summary>Manuscript fiction from the Chinese Cultural Revolution. The text indicates that it is the first volume in a collection of anti-espionage fiction stories. The titles of the other stories in the series are provided on the back cover: The tall grey building (灰色的大楼), The skin of the twelfth beauty (第十二张美人皮), The green corpse (绿色的尸体) and The plum blossom map (一副梅花图).</summary>
                         <msItem>
                             <bibl>
                                 <author>Anonymous</author>
@@ -53,16 +53,28 @@
     <text>
         <body>
             <p>（封面）</p>
-            <p style="writing-mode: vertical-rl;">余飛（Kurzzeichen飞）三下南京反符特氏故藏事書册館之一</p>
-            <p>（第1页）</p>
+            <p style="writing-mode: vertical-rl;">
+                余
+                <choice>
+                    <orig>飛</orig>
+                    <reg>飞</reg>
+                </choice>
+                三下南京反符特氏故藏事書册館之一
+            </p>
+            <p>
+                <pb n="1" />
+            </p>
             <p>
                 <persName>余飞</persName>
                 三下
                 <placeName type="city">南京</placeName>
             </p>
             <p>
-                <date>一九七0</date>
-                （Korrektur零）年年初，
+                <date when="1970">一九七<choice>
+                    <sic>0</sic>
+                    <corr>零</corr>
+                </choice>年年初</date>
+                年年初，
                 <placeName type="country">阿尔巴尼亚</placeName>
                 代表团来我国访问，访经来时向我中央要求参观
                 <placeName type="facility">南京长江大桥</placeName>
@@ -161,7 +173,8 @@
             <p>
                 妇女一听，马上从口袋里拿出特许证给执勤人员看。执勤人员看后，还拿不定主意，便去桥头值班室打电话请示公安局。公安局考虑，
                 <date>今</date>
-                （第2页）晚桥头戒严是和警备局同时行动，便打电话和警备局商量，征求意见。警备局考虑到自己的工作和任务，事关重大，要绝对戒严，以防万一。最后经研究决定，同意妇女带孩子步行过桥，
+                <pb n="2" />
+                晚桥头戒严是和警备局同时行动，便打电话和警备局商量，征求意见。警备局考虑到自己的工作和任务，事关重大，要绝对戒严，以防万一。最后经研究决定，同意妇女带孩子步行过桥，
                 <choice>
                     <sic>並</sic>
                     <corr>并</corr>
@@ -198,7 +211,9 @@
                 <persName>陈占祥</persName>
                 同志，但又想到
                 <persName>陈占祥</persName>
-                同志响应国家号召，三十多岁才结婚，回家（第3页）没几天，
+                同志响应国家号召，三十多岁才结婚，回家
+                <pb n="3" />
+                没几天，
                 <date>现在</date>
                 派他任务不大合适。但任务要紧，一时没有合适的人，
                 <persName>陈占祥</persName>
@@ -316,7 +331,10 @@
             </p>
             <p>两人坐定后，中年軍人吸了两口烟，便问：“谭案破得怎样？”</p>
             <p>“这个我不太清楚。”</p>
-            <p>（第5页）“那么你这个专案组长是睡大觉了。”</p>
+            <p>
+                <pb n="5" />
+                “那么你这个专案组长是睡大觉了。”
+            </p>
             <p>
                 “因为我
                 <time>走时</time>
@@ -443,7 +461,9 @@
                     <sic>并</sic>
                     <corr>饼</corr>
                 </choice>
-                一点（第7页）一点拧成粉放在卓在上，大部分顺手仍在窗外。
+                一点
+                <pb n="7" />
+                一点拧成粉放在卓在上，大部分顺手仍在窗外。
             </p>
             <p>
                 服务员这时走了进来，
@@ -489,7 +509,9 @@
             </p>
             <p>
                 <persName>余飞</persName>
-                写下简单的报告，发回公安部。然后到警备局亮出中央办（第8页）公厅介绍信，要警备局立即逮捕金副局长。警备局负责同志感到为难，说：“
+                写下简单的报告，发回公安部。然后到警备局亮出中央办
+                <pb n="8" />
+                公厅介绍信，要警备局立即逮捕金副局长。警备局负责同志感到为难，说：“
                 <persName>金</persName>
                 副局长是中央管的干部，警备局无权处理。”商量下，警备局只好同意拘留审查，
                 <date>今后</date>
@@ -546,7 +568,9 @@
                 </choice>
                 ，就可以使人晕倒在地。女服务员是在被监视后，用手帕擦眼、泪水、鼻子，中毒而死的。招待所每天都有许多人来来往往，很不好查。
                 <persName>余飞</persName>
-                组织全所同志（第9页）座谈。回忆了几天，有个人才想起来，
+                组织全所同志
+                <pb n="9" />
+                座谈。回忆了几天，有个人才想起来，
                 <date>当时</date>
                 有个开卡
                 <choice>
@@ -602,7 +626,9 @@
                     <orig>筆</orig>
                     <reg>笔</reg>
                 </choice>
-                在上面点着划着。突然门外（第10页）有人喊“报告”，她头也不抬随口答应：“进来。”
+                在上面点着划着。突然门外
+                <pb n="10" />
+                有人喊“报告”，她头也不抬随口答应：“进来。”
             </p>
             <p>
                 “报告首长，他死也不招。”开门进来两个軍（
@@ -667,7 +693,8 @@
                 。
             </p>
             <p>
-                （第11页）两个人来不及说话，把昏倒的人背起来就走，找到
+                <pb n="11" />
+                两个人来不及说话，把昏倒的人背起来就走，找到
                 <persName>吉普車</persName>
                 （Kurzzeichen车），回公安局去了。被打伤的人是
                 <placeName type="province">北京</placeName>
@@ -751,7 +778,10 @@
                 <persName>林</persName>
                 副部长。”
             </p>
-            <p>（第12页）“那位女首长是谁？”</p>
+            <p>
+                <pb n="12" />
+                “那位女首长是谁？”
+            </p>
             <p>
                 “据说是
                 <persName>林</persName>
@@ -869,7 +899,9 @@
                 <persName>王真</persName>
                 同志，后操场有辆車，装的是爆炸物，我命令你马上送到江对面供应站，
                 <time>九点钟</time>
-                准时回来，路上（第14页）不许乱想。’我一听不是杀我父母的命令，我高兴极了，我立即回答‘是’，敬了礼，连忙去了。”
+                准时回来，路上
+                <pb n="14" />
+                不许乱想。’我一听不是杀我父母的命令，我高兴极了，我立即回答‘是’，敬了礼，连忙去了。”
             </p>
             <p>
                 <persName>余飞</persName>
