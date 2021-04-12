@@ -39,8 +39,8 @@
                     <physDesc>
                         <objectDesc>
                             <p>51 pages of thin note paper, rebound on the top into a single squire, measuring 19,5 times 26,5 cm.</p>
-                            <p>All pages carry the header 材料纸 (in traditional Chinese characters, marking it as note paper from a work unit) are margined and ruled throughout with page numbers at the bottom right corner of the pages added into the preprinted space.                                </p>
-                            <p>Single / multiple hand throughout</p>
+                            <p>All pages carry the header 材料纸 (in traditional Chinese characters, marking it as note paper from a work unit) are margined and ruled with 14 lines per page. Page numbers at the bottom right corner of the pages added into the preprinted space.                                </p>
+                            <p>Single hand throughout</p>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
@@ -49,67 +49,84 @@
     </teiHeader>
     <text>
         <body>
-            <p>
-                <pb n="1" />
-            </p>
-            <p>《三下江南》</p>
-            <p>诗曰：三国传音记人情，万家骷髅当世雄。</p>
-            <p>
-                江水无情东流去，
-                <placeName type="city">南京</placeName>
-                依旧繁华城。
-            </p>
-            <p>闹文那好安全生坐，完全材言戏笔峰。</p>
-            <p>连逝图难追回，坏事醒来此腾中。</p>
-            <p>《引子》</p>
+            <pb n="1" />
+            <p>《三下江南》<lb/>
+                诗曰：三国传音记人情，万家骷髅当世雄。<lb/>
+                江水无情东流去，<placeName type="city">南京</placeName> 依旧繁华城。<lb/>
+            闹文那好安全生坐，完全材言戏笔峰。<lb/>
+            连逝图难追回，坏事醒来此腾中。<lb/></p>
+            <p>《引子》<lb/></p>
             <p>
                 巍巍
                 <persName>钟山</persName>
-                迎朝阳，虎踞龙盘今胜昔，伟大领袖
+                迎朝阳，虎踞龙盘今胜昔，伟大领袖<lb/>
                 <persName>毛主席</persName>
-                绘新图，工人阶级把奇迹创，自力更生样样有，奋发图强举世稀，红心托起顶天柱，金桥飞架九浪沙。这首诗赞颂了雄伟的
+                绘新图，工人阶级把奇迹创，自力更生样样有，奋发图<lb/>
+                强举世稀，红心托起顶天柱，金桥飞架九浪沙。这首诗<lb/>
+                赞颂了雄伟的
                 <placeName type="facility">长江大桥</placeName>
                 。
-                <persName>古代谒</persName>
-                （Korrektur诸）
-                <persName>葛亮</persName>
+                古代<persName>
+                    <choice>
+                        <sic>谒</sic>
+                        <corr>诸</corr>
+                    </choice>
+                葛亮</persName>
                 和孙权两人来
-                <placeName type="location">江南</placeName>
+                <placeName type="location">江南</placeName><lb/>
                 看地形时，“钟桑龙盘，古城虎踞”来形容。而今
                 <placeName type="country">中国</placeName>
-                的第二座
+                的<lb/>
+                第二座
                 <placeName type="facility">长江大桥</placeName>
                 又耸立在
                 <placeName type="city">南京</placeName>
                 城下，奔流的
                 <placeName type="location">大江</placeName>
-                之上，使虎距的南京城更加雄伟壮丽。在架桥史上的禁区，建成了世界上第一流的大桥，使那些瞎了眼的洋人，挨了当头
+                之上，使<lb/>
+                虎距的南京城更加雄伟壮丽。在架桥史上的禁区，建成<lb/>
+                了世界上第一流的大桥，使那些瞎了眼的洋人，挨了当头
                 <pb n="2" />
-                一棒。而全世界人民无比拍手叫好，为中国工人阶级的壮举喝彩。因此，无论是哪个国家的友人来到
+                一棒。而全世界人民无比拍手叫好，为中国工人阶级的壮举喝<lb/>
+                彩。因此，无论是哪个国家的友人来到
                 <placeName type="country">中国</placeName>
-                访问，没有一个不在自己的旅程中添上一                        天——
+                访问，没有一个<lb/>
+                不在自己的旅程中添上一天——
                 <placeName type="facility">南京长江大桥</placeName>
-                去开开眼界。
+                去开开眼界。<lb/>
             </p>
             <p>
-                春风吹绿祖国大地，紫金城下，江水滚滚流去。那一天，来我国访问的
+                春风吹绿祖国大地，紫金城下，江水滚滚流去。那一天，<lb/>
+                来我国访问的
                 <placeName type="country">阿尔巴尼亚</placeName>
                 ——科学代表团即将步步登上
-                <placeName type="facility">长江大桥</placeName>
-                ，他站在桥上，举目远望，漫谈革命的大好形势，代表团里有一个桥樑（
+                <placeName type="facility">长<lb/>
+                    江大桥</placeName>
+                ，他站在桥上，举目远望，漫谈革命的大好形势，<lb/>
+                代表团里有一个桥樑（
                 <persName>Korrektur梁</persName>
-                ）专家，他兴致勃勃地在桥上行走，用步子来量大桥的宽长，突然一辆轿车飞驰而来，在他距离两步远的停了下来，他吃了一惊，连忙闪到一边闪路，并看到
+                ）专家，他兴致勃勃地在桥上行走，<lb/>
+                用步子来量大桥的宽长，突然一辆轿车飞驰而来，在他距<lb/>
+                离两步远的停了下来，他吃了一惊，连忙闪到一边闪路，<lb/>
+                并看到
                 <choice>
                     <orig>車</orig>
                     <reg>车</reg>
                 </choice>
-                里只有司机一人，司机面带歉意的对他笑了一下。就又把车子开走了，他看了一下表正是
+                里只有司机一人，司机面带歉意的对他笑了一下。<lb/>
+                就又把车子开走了，他看了一下表正是
                 <placeName type="province">北京</placeName>
                 时间
-                <time>上午</time>
-                八奌（
-                <time>kurzzeichen点</time>
-                ）整，可是却没有听到那熟悉的的滴达声。再仔细一看表停了，“这是怎么回事，我的表是新的呀！怎么会停呢？”他满腹疑虎（满腹狐疑），这时代表团向他走来，于是就问团长几奌了，团长回答：“八奌
+                <time>上午八<choice>
+                    <orig>奌</orig>
+                    <reg>点</reg>
+                </choice></time>
+                整，<lb/>
+                可是却没有听到那熟悉的的滴达声。再仔细一看表停了，“这是<lb/>
+                怎么回事，我的表是新的呀！怎么会停呢？”他
+                <choice>
+                    <orig>满腹疑虎</orig><reg>满腹狐疑</reg></choice>，<lb/>
+                    这时代表团向他走来，于是就问团长几奌了，团长回答：“八奌
                 <pb n="3" />
                 过五分，工程师，你的表停了吗？”“是的”，他就把刚才发生的事讲一遍。那个团长是一位
                 <choice>
