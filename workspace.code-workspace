@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/SJNJ"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
