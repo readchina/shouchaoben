@@ -29,11 +29,9 @@
                         <repository>Lena Henningsen private collection</repository>
                     </msIdentifier>
                     <msContents>
-                        <!-- TODO(DP): @LenaHenningsen  -->
                         <summary>Manuscript fiction from the Chinese Cultural Revolution. The text
                             indicates that it is the first volume in a collection of anti-espionage fiction stories. The titles of the other stories in the series are provided on the back cover: The tall grey building (灰色的大楼), The skin of the twelfth beauty (第十二张美人皮), The green corpse (绿色的尸体) and The plum blossom map (一副梅花图).
                             </summary>
-                        <!-- TODO(DP): @LenaHenningsen  -->
                         <msItem>
                             <bibl>
                                 <author>Anonymous</author>
@@ -44,7 +42,6 @@
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <!-- TODO(DP): @LenaHenningsen  -->
                         <objectDesc>
                             <p>15 pages of thin note paper, rebound on the left hand side into a single squire, measuring 19,5 times 26,5 cm.</p>
                             <p>Pages 1-14 are margined and ruled throughout with page numbers
