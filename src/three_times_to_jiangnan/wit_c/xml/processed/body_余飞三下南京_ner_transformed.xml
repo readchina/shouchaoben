@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body xmlns="http://www.tei-c.org/ns/1.0">
     <p>（封面）</p>
-    <p>余</p>
-    <p>
-        <choice>
-            <orig>飛</orig>
-            <reg>飞</reg>
-        </choice>
-    </p>
-    <p>
-                三
-            </p>
-    <p>下</p>
-    <p>南</p>
-    <p>京</p>
-    <p>反符</p>
-    <p>特氏</p>
-    <p>故藏</p>
-    <p>事書</p>
-    <p>册館</p>
-    <p>之</p>
-    <p>
-                一
-            </p>
-    <p>（第
-                1页）</p>
+            <p style="writing-mode: vertical-rl;">余飛（Kurzzeichen飞三下南京反符特氏故藏事書册館之一</p>
+            <p>（第1页）</p>
     <p>
         <persName>余飞</persName>
                 三下<placeName type="city">南京</placeName>
@@ -373,31 +351,13 @@
                 二
                 中全会上和<persName>林彪</persName>、<persName>陈伯达</persName>大吹天才论。但尚未迈到反总理的地步。<persName>谭早</persName>已被刺身死，<date>那时</date>
         <persName>林彪</persName>尚未完全暴露。应该用历史唯物主义来评价他。<date>当时</date>报纸评价似有异议。</p>
-    <p>（第
-                16页，原文未标页码）反 特 故 事 册 目 录</p>
-    <p>余 飛 三 下 南 京</p>
-    <p>灰 色 的 大 楼</p>
-    <p>
-                第 十 二 张 美 人 皮</p>
-    <p>绿 色 的 尸 体</p>
-    <p>
-                一 副 梅 花 图 </p>
-    <p>（封底）      余                    余</p>
-    <p>            飛                    飛</p>
-    <p>            三                    三
-            </p>
-    <p>            下                    下</p>
-    <p>            南                    南</p>
-    <p>
-        <placeName type="province">京                    京</placeName>
-    </p>
-    <p>反                                                      反</p>
-    <p>特             智                                       特              智</p>
-    <p>故             山                                       故              山</p>
-    <p>事             藏                                       事              藏</p>
-    <p>册                                                      册</p>
-    <p>之                                                      之</p>
-    <p>
-                一                                                      一
-            </p>
+        <p>（第16页，原文未标页码）反特故事册目录</p>
+        <p>余飛三下南京</p>
+        <p>灰色的大楼</p>
+        <p>第十二张美人皮</p>
+        <p>绿色的尸体</p>
+        <p>一副梅花图</p>
+        <p>（封底）</p>
+        <p style="writing-mode: vertical-rl;">余飛三下南京反特智故山事藏册之一</p>
+        <p style="writing-mode: vertical-rl;">余飛三下南京反特智故山事藏册之一</p>
 </body>
