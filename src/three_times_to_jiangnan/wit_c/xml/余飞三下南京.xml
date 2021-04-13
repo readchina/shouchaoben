@@ -982,12 +982,12 @@
                 ）一封绝密电报，大意曰：某日某时有一架不明国籍飞机飞过
                 <placeName type="city">昆明</placeName>
                 ，越境叛逃外国，令其击毁该机。于是
-                <persName>谭令其</persName>
-                部队作好准备。果然该日该时有一架飞机自此飞来
+                <persName>谭</persName>
+                令其部队作好准备。果然该日该时有一架飞机自此飞来
                 <placeName type="city">昆明</placeName>
                 ，但情况有出入，因该机标有“
                 <orgName>中国民航</orgName>
-                ”字样，且编号一清二楚，谭不敢下令击毁，于是令机群起飞迫降。等到该机在机场降落后，从飞机里走出一人，谭一见，
+                ”字样，且编号一清二楚，<persName>谭</persName>不敢下令击毁，于是令机群起飞迫降。等到该机在机场降落后，从飞机里走出一人，谭一见，
                 <choice>
                     <sic>嚇</sic>
                     <corr>吓</corr>
@@ -995,18 +995,18 @@
                 得面如土色，冷汗湿衫。原来从飞机里走出的並（
                 Korrektur
                 并）非别人，正是我们敬爱的<persName>周总理</persName>。
-                <persName>谭含泪</persName>
-                把绝密电报交给了
+                <persName>谭</persName>
+                含泪把绝密电报交给了
                 <persName>周总理</persName>。真
                 <choice>
                     <sic>像</sic>
                     <corr>相</corr>
                 </choice>
-                大白，林、江一伙妄图趁总理出国访问途经
+                大白，<persName>林</persName>、<persName>江</persName>一伙妄图趁总理出国访问途经
                 <placeName type="city">昆明</placeName>
                 时陷害总理。事后
                 <time>不久</time>
-                ，谭全家被刺。
+                ，<persName>谭</persName>全家被刺。
             </p>
             <p>
                 据说，这封电报直到总理病危逝世前，才嘱咐
@@ -1014,13 +1014,13 @@
                 交给一位可靠的人——许世友司令员。
             </p>
             <p>
-                谭生前靠近林贼，在党的九届二中全会上和
+                <persName>谭</persName>生前靠近林贼，在党的九届二中全会上和
                 <persName>林彪</persName>
                 、
                 <persName>陈伯达</persName>
                 大吹天才论。但尚未迈到反总理的地步。
-                <persName>谭早</persName>
-                已被刺身死，
+                <persName>谭</persName>
+                早已被刺身死，
                 <date>那时</date>
                 <persName>林彪</persName>
                 尚未完全暴露。应该用历史唯物主义来评价他。
@@ -1034,8 +1034,8 @@
             <p>绿色的尸体</p>
             <p>一副梅花图</p>
             <p>（封底）</p>
-            <p style="writing-mode: vertical-rl;">余飛三下南京反特智故山事藏册之一</p>
-            <p style="writing-mode: vertical-rl;">余飛三下南京反特智故山事藏册之一</p>
+            <p style="writing-mode: vertical-rl;"><persName>余飛</persName>三下南京反特智故山事藏册之一</p>
+            <p style="writing-mode: vertical-rl;"><persName>余飛</persName>三下南京反特智故山事藏册之一</p>
         </body>
     </text>
 </TEI>
