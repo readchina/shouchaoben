@@ -16,7 +16,7 @@
                 <pubPlace>Freiburg</pubPlace>
                 <date when="2021">2021</date>
                 <availability>
-                    <p>This is an open access work licensed under a Creative Commons Attribution 4.0                        International license.</p>
+                    <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license.</p>
                 </availability>
                 <ptr target="https://github.com/readchina/shouchaoben" />
             </publicationStmt>
@@ -26,21 +26,24 @@
                         <repository>Lena Henningsen private collection</repository>
                     </msIdentifier>
                     <msContents>
-                        <summary>Manuscript fiction from the Chinese Cultural Revolution. The text provides no paratexts allowing for clues about its relation to other witnesses. There are, however, five rather similar witnesses of this text in our collection.                                                       </summary>
+                        <summary>Manuscript fiction from the Chinese Cultural Revolution. 
+                            The text provides no paratexts allowing for clues about its relation to other witnesses. 
+                            There are, however, five rather similar witnesses of this text in our collection.</summary>
                         <msItem>
                             <bibl>
                                 <author>Anonymous</author>
                                 <title>三下江南</title>
                                 <placeName>no place</placeName>
-                                <date when="1977">no date</date>
+                                <date from="1965" to="1979">no date</date>
                             </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
-                            <p>51 pages of thin note paper, rebound on the top into a single squire, measuring 19,5 times 26,5 cm.</p>
-                            <p>All pages carry the header 材料纸 (in traditional Chinese characters, marking it as note paper from a work unit) are margined and ruled with 14 lines per page. Page numbers at the bottom right corner of the pages added into the preprinted space.                                </p>
-                            <p>Single hand throughout</p>
+                            <p>51 pages of thin note paper, rebound on the top into a single squire, measuring 19,5 times 26,5 cm. 
+                                All pages carry the header <foreign xml:lang="zh-Hant">材料紙</foreign> printed in red, marking it as note paper from a work unit.
+                                Pages are margined and ruled with 14 lines per page. Page numbers at the bottom right corner of the pages added into the preprinted space.
+                                Single hand throughout</p>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
