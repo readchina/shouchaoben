@@ -123,196 +123,6 @@
         </revisionDesc>
     </teiHeader>
     <xi:include href="../../standOff.xml" parse="xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <!--<standOff xml:lang="zh">
-        <listPlace>
-            <place>
-                <placeName>鲤城</placeName>
-            </place>
-            <place>
-                <placeName>阿尔巴尼亚</placeName>
-            </place>
-            <place>
-                <placeName>南京长江大桥</placeName>
-            </place>
-            <place>
-                <placeName>南京市</placeName>
-                <placeName xml:lang="en">Nanjing</placeName>
-            </place>
-            <place>
-                <placeName>长江大桥</placeName>
-            </place>
-            <place>
-                <placeName>中国</placeName>
-            </place>
-            <place>
-                <placeName>柬埔寨</placeName>
-            </place>
-            <place>
-                <placeName>大桥</placeName>
-            </place>
-            <place>
-                <placeName>大江</placeName>
-            </place>
-            <place>
-                <placeName>北京</placeName>
-            </place>
-            <place>
-                <placeName>云南</placeName>
-            </place>
-            <place>
-                <placeName>呼和浩特</placeName>
-            </place>
-            <place>
-                <placeName>上海</placeName>
-            </place>
-            <place>
-                <placeName>南京</placeName>
-            </place>
-            <place>
-                <placeName>内蒙古</placeName>
-            </place>
-            <place>
-                <placeName>省軍区大礼堂</placeName>
-            </place>
-            <place>
-                <placeName>南京城</placeName>
-            </place>
-            <place>
-                <placeName>浙江西湖</placeName>
-            </place>
-            <place>
-                <placeName>榕城</placeName>
-            </place>
-        </listPlace>
-        <listPerson>
-            <person>
-                <persName>Lena Henningsen</persName>
-            </person>
-            <person>
-                <persName>Duncan Paterson</persName>
-            </person>
-            <person>
-                <persName>西哈努克</persName>
-            </person>
-            <person>
-                <persName>陈占祥</persName>
-            </person>
-            <person>
-                <persName>老陈</persName>
-            </person>
-            <person>
-                <persName>陈</persName>
-            </person>
-            <person>
-                <persName>谢</persName>
-            </person>
-            <person>
-                <persName>黄忠</persName>
-            </person>
-            <person>
-                <persName>余飞</persName>
-            </person>
-            <person>
-                <persName>谭甫仁</persName>
-            </person>
-            <person>
-                <persName>谭</persName>
-            </person>
-            <person>
-                <persName>金付</persName>
-            </person>
-            <person>
-                <persName>金 付 副 </persName>
-            </person>
-            <person>
-                <persName>王 貞 贞 </persName>
-            </person>
-            <person>
-                吉普車
-            </person>
-            <person>
-                <persName>林</persName>
-            </person>
-            <person>
-                <persName>王貞</persName>
-            </person>
-            <person>
-                <persName>王貞自</persName>
-            </person>
-            <person>
-                <persName>王贞不语</persName>
-            </person>
-            <person>
-                <persName>王贞</persName>
-            </person>
-            <person>
-                <persName>毛主席</persName>
-            </person>
-            <person>
-                <persName>王贞再</persName>
-            </person>
-            <person>
-                <persName>王贞带</persName>
-            </person>
-            <person>
-                <persName>林彪</persName>
-            </person>
-        </listPerson>
-        <listOrg>
-            <org>
-                <orgName>中央</orgName>
-            </org>
-            <org>
-                <orgName>南京公安局</orgName>
-            </org>
-            <org>
-                <orgName>公安部</orgName>
-            </org>
-            <org>
-                <orgName>公安局</orgName>
-            </org>
-            <org>
-                <orgName>中央保密局</orgName>
-            </org>
-            <org>
-                <orgName>云南</orgName>
-            </org>
-            <org>
-                <orgName>省委</orgName>
-            </org>
-            <org>
-                <orgName>中央办公厅</orgName>
-            </org>
-            <org>
-                <orgName>党委局</orgName>
-            </org>
-            <org>
-                <orgName>中央专线电报上报中央</orgName>
-            </org>
-            <org>
-                <orgName>中央公安部</orgName>
-            </org>
-            <org>
-                <orgName>交通民警中队</orgName>
-            </org>
-            <org>
-                <orgName>中国民航</orgName>
-            </org>
-            <org>
-                <orgName>联想</orgName>
-            </org>
-            <org>
-                <orgName>林彪反党集团</orgName>
-            </org>
-            <org>
-                <orgName>林彪反党</orgName>
-            </org>
-        </listOrg>
-        <!-\- TODO bibliography -\->
-        <!-\-<listBibl>
-            <bibl></bibl>
-        </listBibl>-\->
-    </standOff>-->
     <text xml:lang="zh">
         <front>
             <titlePage>
@@ -615,7 +425,7 @@
                 </choice>他。”“是”，女招待員应声后辞别了金副局长，匆匆忙忙地赶回招待所，进了<persName>余飞</persName>的门后，放上皮包于桌上，又继而喊了三声“首长，首长，首长”，見<persName>余飞</persName>没有反应后，轻轻地拉上门走了。这<choice>
                 <orig>時</orig>
                 <reg>时</reg>
-                </choice><persName>余飞</persName>翻身起来，取出微型录音机，放在被窝里，放了一遍，原来，<persName>金付</persName>局长是潜伏在国家专政机关内部的反革命特务份子，<persName>余飞</persName>简单地写了份报告发回公安部，然后到市警备区，亮出<orgName>中央办公厅</orgName>的介绍信，要警备区立刻逮捕金付局长，警备区领导感到为难，说：“金付局长是中央管的<choice>
+                </choice><persName>余飞</persName>翻身起来，取出微型录音机，放在被窝里，放了一遍，原来，<persName>金</persName>付局长是潜伏在国家专政机关内部的反革命特务份子，<persName>余飞</persName>简单地写了份报告发回公安部，然后到市警备区，亮出<orgName>中央办公厅</orgName>的介绍信，要警备区立刻逮捕金付局长，警备区领导感到为难，说：“金付局长是中央管的<choice>
                 <orig>髙</orig>
                 <reg>高</reg>
                 </choice>级干部，警备区无权处理。”商量了一阵，最后，决定暂時越级对金付局长拘留审查，问题最后责任由 <pb n="6"/> 组织上<choice>
@@ -636,10 +446,10 @@
                 </choice>大发脾气说：“我是中央管的干部，你们无权审查我。”警备区负责人听到他的动态和语言后不好出面，便请余飞去<choice>
                 <orig>見</orig>
                 <reg>见</reg>
-                </choice>他，他一見到<persName>余飞</persName>，好像找到了说话的地方，急忙说：“警备区不讲政策，无理取闹，请部里的干部做个保。”<persName>余飞</persName>听后，笑着说道：“这个好说，我们让事实来证明吧！警卫員，去叫警备区同志来。”不一会儿，警备区负责人来了，<persName>余飞</persName>才拿出录音机，放在桌上，打开开关，<persName>金付</persName>局长的声音立即响了起来，“哎！可惜，可惜”，听到这里，金付局长吓得面如土色，他低下头咬了下自己的衣领，便一<choice>
+                </choice>他，他一見到<persName>余飞</persName>，好像找到了说话的地方，急忙说：“警备区不讲政策，无理取闹，请部里的干部做个保。”<persName>余飞</persName>听后，笑着说道：“这个好说，我们让事实来证明吧！警卫員，去叫警备区同志来。”不一会儿，警备区负责人来了，<persName>余飞</persName>才拿出录音机，放在桌上，打开开关，<persName>金</persName>付局长的声音立即响了起来，“哎！可惜，可惜”，听到这里，金付局长吓得面如土色，他低下头咬了下自己的衣领，便一<choice>
                 <sic>昂</sic>
                 <corr>仰</corr>
-                </choice>向后倒在沙发上了，<persName>余飞</persName>放完录音，很满意地收起机子说：“怎么样，明白了吧！”抬头一看，金付局长倒在沙发上，口吐白泡死了，刚刚理出的头绪在短短的大意之中中断了，<persName>余飞</persName>后悔粗心大意，他要警备区处理<persName>金付</persName>局长的后事，<choice>
+                </choice>向后倒在沙发上了，<persName>余飞</persName>放完录音，很满意地收起机子说：“怎么样，明白了吧！”抬头一看，金付局长倒在沙发上，口吐白泡死了，刚刚理出的头绪在短短的大意之中中断了，<persName>余飞</persName>后悔粗心大意，他要警备区处理<persName>金</persName>付局长的后事，<choice>
                 <orig>並</orig>
                 <reg>并</reg>
                 </choice>监<choice>
@@ -806,7 +616,7 @@
                 >北京</placeName>公安部，公安部又转保密局存档。第三天，<orgName>公安局</orgName>根据<persName>余飞</persName>的指示，秘密逮捕了五七一信箱驾驶員王<choice>
                 <orig>貞</orig>
                 <reg>贞</reg>
-                </choice>。<persName>余飞</persName>对<persName>王貞</persName>进行了亲自审问，被审问者<persName>王貞自</persName>供：我叫<persName>王貞</persName>，男，<date>今年</date>三十岁，家住<placeName
+                </choice>。<persName>余飞</persName>对<persName>王貞</persName>进行了亲自审问，被审问者<persName>王貞</persName>自供：我叫<persName>王貞</persName>，男，<date>今年</date>三十岁，家住<placeName
                 type="province"
                 >上海</placeName>，<date>六二年</date>中学毕业，<date>六三年</date>毛主席号召知识青年上山下乡去农村接受贫下中农的再教育，我因怕艰苦，没有报名上山下乡，后来在社会上结识一些社会上的青年，和他们混在一起，参加他们的流氓、阿飞活动，做小偷，盗抢行动，行凶作恶，投机倒把样样都干。三、五个月都没有回家，父母亲气的没有办法，可又找不上我，有时候我偷不到东西吃就偷爬进饭堂偷吃饭菜，久而久之，我被饭店的一个女
                 <pb n="10"/> 服务员发觉，我一惊感到不妙，正想对她行凶，但想不到她机智得很，一步让过我的拳头，第二步就把我一个拳头倒打我于地上，拔出手枪叫我不许作声，我只好服从于她的话，她把我押进一个房间里，对我说道：“小伙子，好样子，真有骨气相，但，你这样子年轻，混下去也不是办法，还是考虑一下自己的前途吧。”她又说：“如你愿意的话，我可以给你找出路，但你必须在我面前老老实实，一句不谎地告诉我你的真实名<choice>
@@ -850,7 +660,7 @@
             <p>第三天，我到中山陵报到后，分配所在的并重视侦查兵，啥样都学，也学如何使用各种高级武器，也学如何驾驶各种<choice>
                 <orig>車</orig>
                 <reg>车</reg>
-                </choice>辆，也学各种语言，学拳术，学化装等等。就这样，过了二年后。”说到这里，<persName>王贞不语</persName>了，<persName>余飞</persName>问：“还有啥交代呢？”可<persName>王贞</persName>还是不吱声，<persName>余飞</persName>又开导说：“你想想看，真正参加人民子弟兵的人，入伍的时候人人都<choice>
+            </choice>辆，也学各种语言，学拳术，学化装等等。就这样，过了二年后。”说到这里，<persName>王贞</persName>不语了，<persName>余飞</persName>问：“还有啥交代呢？”可<persName>王贞</persName>还是不吱声，<persName>余飞</persName>又开导说：“你想想看，真正参加人民子弟兵的人，入伍的时候人人都<choice>
                 <sic>带</sic>
                 <corr>戴</corr>
                 </choice>大红花，敲锣打鼓的欢送，放鞭炮，而你呢？却是偷偷摸摸地穿軍装，又<choice>
@@ -887,7 +697,7 @@
                 type="country"
                 >阿尔巴尼亚</placeName>吧。因<date>当时</date>记得广播有播送过新闻报道。”<persName>余飞</persName>这时又开口说道：“好吧，你
                 <pb n="12"/>
-                继续交代，还执行什么特殊任务？”<persName>王贞再</persName>继续交代说：“记得一年前<time>不久</time>的一个<time>晚上</time>，首长通知我开小<choice>
+                继续交代，还执行什么特殊任务？”<persName>王贞</persName>再继续交代说：“记得一年前<time>不久</time>的一个<time>晚上</time>，首长通知我开小<choice>
                 <orig>車</orig>
                 <reg>车</reg>
                 </choice>送他带小孩去市医院看病，那是201号首长，当我驾驶車的途中，感到奇怪，201号首长不过二十五岁左右，又没结婚呢，怎么突然又有两个小孩了，而且还有一个四十左右的妇女说是他爱人，所以更加奇怪，但，最后，我开车到<placeName
@@ -904,7 +714,7 @@
                 </choice>须拿回收条，路上无论如何，必须用生命保护好文件不受损失。至于内有什么内容文件，我是不知的。”<persName>余飞</persName>问道：“<date>现在</date>还有什么要交代吗？”“没有？”“那回去再仔细考虑想想吧！”<persName>余飞</persName>又交<choice>
                 <sic>代</sic>
                 <corr>待</corr>
-                </choice>了一下。<persName>余飞</persName>按了一下电铃，来了两个公安员把<persName>王贞带</persName>走了。</p>
+                </choice>了一下。<persName>余飞</persName>按了一下电铃，来了两个公安员把<persName>王贞</persName>带走了。</p>
             <p>审问结束了，现真<choice>
                 <sic>象</sic>
                 <corr>相</corr>
