@@ -115,17 +115,20 @@ declare function so:standOff-distinct($nodes as node()*) as element(standOff) {
         xml:lang="zh">
         <listPlace>{
                 for $p in distinct-values($nodes//placeName)
+                    order by $p
                 return
                     <place><placeName>{$p}</placeName></place>
             }
         </listPlace>
         <listPerson>{
                 for $p in distinct-values($nodes//persName)
+                    order by $p
                 return
                     <person><persName>{$p}</persName></person>
             }</listPerson>
         <listOrg>{
                 for $p in distinct-values($nodes//orgName)
+                    order by $p
                 return
                     <org><orgName>{$p}</orgName></org>
             }</listOrg>
