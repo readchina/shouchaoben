@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zh">
     <listPlace>
+        <place xml:id="P0001">
+            <placeName>长 江大桥</placeName>
+        </place>
         <place xml:id="P0002">
             <placeName>Nanjing</placeName>
             <location>
@@ -140,10 +143,16 @@
     </listPlace>
     <listPerson>
         <person xml:id="PE0001">
-            <persName>诸葛亮</persName>
+            <persName>谒 诸 葛亮</persName>
+        </person>
+        <person xml:id="PE0002">
+            <persName>附 伏</persName>
         </person>
         <person xml:id="PE0003">
-            <persName>叶飞</persName>
+            <persName>叶 飞</persName>
+        </person>
+        <person xml:id="PE0004">
+            <persName>桥 樑 梁</persName>
         </person>
         <person xml:id="PE0005">
             <persName>王 付 副</persName>
@@ -176,13 +185,13 @@
             <persName>叶飞</persName>
         </person>
         <person xml:id="PE0015">
-            <persName>吉普車</persName>
+            <persName>叶（Korrektur余）飞</persName>
         </person>
         <person xml:id="PE0016">
-            <persName>周<roleName>总理</roleName></persName>
+            <persName>周</persName>
         </person>
         <person xml:id="PE0017">
-            <persName>姜</persName>
+            <persName>姜 （ 江 ）政委</persName>
         </person>
         <person xml:id="PE0018">
             <persName>宋</persName>
@@ -194,29 +203,32 @@
             <persName>小罗</persName>
         </person>
         <person xml:id="PE0021">
-            <persName>张连长</persName>
-        </person>
-        <person xml:id="PE0022">
             <persName>张延年</persName>
         </person>
-        <person xml:id="PE0023">
+        <person xml:id="PE0022">
             <persName>张连長</persName>
         </person>
-        <person xml:id="PE0025">
+        <person xml:id="PE0023">
+            <persName>张连长</persName>
+        </person>
+        <person xml:id="PE0024">
             <persName>李</persName>
         </person>
-        <person xml:id="PE0026">
+        <person xml:id="PE0025">
             <persName>李贵</persName>
         </person>
-        <person xml:id="PE0027">
+        <person xml:id="PE0026">
             <persName>林</persName>
+        </person>
+        <person xml:id="PE0027">
+            <persName>林副部长</persName>
         </person>
         <person xml:id="PE0028">
             <persName>林彪</persName>
         </person>
         <person xml:id="PE0029">
             <persName>Lin Liguo</persName>
-            <persName>林立果</persName>
+            <persName>林 立果</persName>
             <birth when="1946">1946<placeName ref="#SP0436"/>
             </birth>
             <death when="1971">1971</death>
@@ -232,93 +244,114 @@
             <idno type="ReadAct">AG0170</idno>
         </person>
         <person xml:id="PE0030">
-            <persName>毛</persName>
-        </person>
-        <person xml:id="PE0031">
             <persName>毛主席</persName>
         </person>
-        <person xml:id="PE0032">
+        <person xml:id="PE0031">
             <persName>江</persName>
         </person>
+        <person xml:id="PE0032">
+            <persName>江政委</persName>
+        </person>
         <person xml:id="PE0033">
-            <persName>江腾蛟</persName>
+            <persName>江泰蛟</persName>
         </person>
         <person xml:id="PE0034">
-            <persName>江青</persName>
+            <persName>江腾蛟</persName>
         </person>
         <person xml:id="PE0035">
-            <persName>王</persName>
+            <persName>江青</persName>
+        </person>
+        <person xml:id="PE0036">
+            <persName>王 付（ Korrektur 副）处长</persName>
+        </person>
+        <person xml:id="PE0037">
+            <persName>王 付（Korrektur副） 处长</persName>
+        </person>
+        <person xml:id="PE0038">
+            <persName>王 貞 贞</persName>
         </person>
         <person xml:id="PE0039">
+            <persName>王付处长</persName>
+        </person>
+        <person xml:id="PE0040">
+            <persName>王处长</persName>
+        </person>
+        <person xml:id="PE0041">
             <persName>王真</persName>
         </person>
         <person xml:id="PE0042">
+            <persName>王貞</persName>
+        </person>
+        <person xml:id="PE0043">
             <persName>王贞</persName>
         </person>
-        <person xml:id="PE0046">
-            <persName>白</persName>
-        </person>
-        <person xml:id="PE0047">
+        <person xml:id="PE0044">
             <persName>白兰</persName>
         </person>
-        <person xml:id="PE0048">
+        <person xml:id="PE0045">
+            <persName>白大夫</persName>
+        </person>
+        <person xml:id="PE0046">
             <persName>老陈</persName>
         </person>
-        <person xml:id="PE0049">
+        <person xml:id="PE0047">
             <persName>联兰</persName>
         </person>
-        <person xml:id="PE0050">
+        <person xml:id="PE0048">
             <persName>西哈努克</persName>
         </person>
-        <person xml:id="PE0051">
+        <person xml:id="PE0049">
             <persName>许世友</persName>
         </person>
-        <person xml:id="PE0052">
+        <person xml:id="PE0050">
             <persName>许世有</persName>
         </person>
-        <person xml:id="PE0053">
+        <person xml:id="PE0051">
             <persName>谢</persName>
         </person>
-        <person xml:id="PE0054">
+        <person xml:id="PE0052">
             <persName>谢富治</persName>
         </person>
+        <person xml:id="PE0053">
+            <persName>谢富治将军</persName>
+        </person>
+        <person xml:id="PE0054">
+            <persName>谢将军</persName>
+        </person>
         <person xml:id="PE0055">
-            <persName>谭</persName>
+            <persName>谢部长</persName>
         </person>
         <person xml:id="PE0056">
-            <persName>谭甫仁</persName>
+            <persName>谭</persName>
         </person>
         <person xml:id="PE0057">
-            <persName>邓颖超</persName>
+            <persName>谭甫仁</persName>
         </person>
         <person xml:id="PE0058">
-            <persName>金</persName>
+            <persName>邓颖超</persName>
         </person>
         <person xml:id="PE0059">
-            <persName>金 付 副</persName>
+            <persName>金</persName>
         </person>
         <person xml:id="PE0060">
-            <persName>金 付 副</persName>
+            <persName>金 付 副 局长</persName>
         </person>
         <person xml:id="PE0061">
-            <persName>金付</persName>
+            <persName>金付局长</persName>
         </person>
         <person xml:id="PE0062">
-            <persName>陈</persName>
-        </person>
-        <person xml:id="PE0063">
             <persName>陈伯达</persName>
         </person>
-        <person xml:id="PE0064">
+        <person xml:id="PE0063">
             <persName>陈占祥</persName>
         </person>
-        <person xml:id="PE0065">
+        <person xml:id="PE0064">
             <persName>陈强</persName>
         </person>
-        <person xml:id="PE0066">
+        <person xml:id="PE0065">
             <persName>雷富顺</persName>
         </person>
-        <person xml:id="PE0067">
+        <person xml:id="PE0066">
             <persName>黄忠</persName>
         </person>
     </listPerson>
@@ -333,93 +366,78 @@
             <orgName>中央</orgName>
         </org>
         <org xml:id="O0004">
-            <orgName>中央专线电报上报中央</orgName>
-        </org>
-        <org xml:id="O0005">
             <orgName>中央保密局</orgName>
         </org>
-        <org xml:id="O0006">
+        <org xml:id="O0005">
             <orgName>中央公安部</orgName>
         </org>
-        <org xml:id="O0007">
+        <org xml:id="O0006">
             <orgName>中央办公厅</orgName>
         </org>
-        <org xml:id="O0008">
+        <org xml:id="O0007">
             <orgName>二机部</orgName>
         </org>
-        <org xml:id="O0009">
-            <orgName>云南</orgName>
-        </org>
-        <org xml:id="O0010">
+        <org xml:id="O0008">
             <orgName>云南省委</orgName>
         </org>
-        <org xml:id="O0011">
+        <org xml:id="O0009">
             <orgName>交通民警中队</orgName>
         </org>
-        <org xml:id="O0012">
+        <org xml:id="O0010">
             <orgName>保密局</orgName>
         </org>
-        <org xml:id="O0013">
+        <org xml:id="O0011">
             <orgName>党</orgName>
         </org>
-        <org xml:id="O0014">
+        <org xml:id="O0012">
             <orgName>党委</orgName>
         </org>
-        <org xml:id="O0015">
-            <orgName>党委局</orgName>
-        </org>
-        <org xml:id="O0016">
+        <org xml:id="O0013">
             <orgName>公安</orgName>
         </org>
-        <org xml:id="O0017">
+        <org xml:id="O0014">
             <orgName>公安局</orgName>
         </org>
-        <org xml:id="O0018">
+        <org xml:id="O0015">
             <orgName>公安部</orgName>
         </org>
-        <org xml:id="O0019">
+        <org xml:id="O0016">
             <orgName>共青团</orgName>
         </org>
-        <org xml:id="O0020">
+        <org xml:id="O0017">
             <orgName>南京公安局</orgName>
         </org>
-        <org xml:id="O0021">
+        <org xml:id="O0018">
             <orgName>南京军区司令部</orgName>
         </org>
-        <org xml:id="O0022">
+        <org xml:id="O0019">
             <orgName>南京警备局</orgName>
         </org>
-        <org xml:id="O0023">
+        <org xml:id="O0020">
             <orgName>南京革委</orgName>
         </org>
-        <org xml:id="O0024">
+        <org xml:id="O0021">
             <orgName>国务院</orgName>
         </org>
-        <org xml:id="O0025">
+        <org xml:id="O0022">
             <orgName>国务院公安部</orgName>
         </org>
-        <org xml:id="O0026">
-            <orgName>林彪反党</orgName>
-        </org>
-        <org xml:id="O0027">
+        <org xml:id="O0023">
             <orgName>林彪反党集团</orgName>
         </org>
-        <org xml:id="O0028">
+        <org xml:id="O0024">
             <orgName>省委</orgName>
         </org>
-        <org xml:id="O0029">
+        <org xml:id="O0025">
             <orgName>省軍（ Kurzzeichen军 ）区</orgName>
         </org>
-        <org xml:id="O0030">
+        <org xml:id="O0026">
             <orgName>空軍作战部</orgName>
         </org>
-        <org xml:id="O0031">
+        <org xml:id="O0027">
             <orgName>红军</orgName>
         </org>
-        <org xml:id="O0032">
-            <orgName>联想</orgName>
-        </org>
-        <org xml:id="O0033">
+        <org xml:id="O0028">
             <orgName>门珍 （ Korrektur诊 ）部</orgName>
         </org>
     </listOrg>
