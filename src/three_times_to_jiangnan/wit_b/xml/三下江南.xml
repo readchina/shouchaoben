@@ -76,8 +76,8 @@
                 钟山
                 迎朝阳，虎踞龙盘今胜昔，伟大领袖
                 <lb />
-                <persName>毛</persName>
-                主席绘新图，工人阶级把奇迹创，自力更生样样有，奋发图
+                <persName>毛<roleName>主席</roleName></persName>
+                绘新图，工人阶级把奇迹创，自力更生样样有，奋发图
                 <lb />
                 强举世稀，红心托起顶天柱，金桥飞架九浪沙。这首诗
                 <lb />
@@ -399,8 +399,8 @@
                 牺牲的，如果我牺牲了，你不要悲伤，把孩子养大成
                 <lb />
                 人，跟
-                <persName>毛</persName>
-                主席干一辈子革命。”
+                <persName>毛<roleName>主席</roleName></persName>
+                干一辈子革命。”
                 <date>次日</date>
                 夫妻二人洒泪而别，到
                 <lb />
@@ -493,8 +493,8 @@
                 抗日战争最艰苦的时候参
                 <lb />
                 加革命的，几十年跟着
-                <persName>毛</persName>
-                主席为人民屡建功勋的，他身经
+                <persName>毛<roleName>主席</roleName></persName>
+                为人民屡建功勋的，他身经
                 <lb />
                 有（百）战，练出了一身好本领，有出人的知谋和惊人的敏感，
                 <lb />
@@ -871,10 +871,11 @@
                 <persName>叶飞</persName>
                 <lb />
                 说：“我是南京城里来的，
-                <persName>姜</persName>
+                <persName>姜
                 （
-                <persName>江</persName>
-                ）政委请你。”
+                江
+                ）<roleName>政委</roleName></persName>
+                请你。”
                 <persName>叶飞</persName>
                 回过头来说：
                 <lb />
@@ -888,14 +889,14 @@
                 走，
                 <persName>叶飞</persName>
                 边走边想：
-                <persName>江</persName>
-                政委我不认识呀！就是
+                <persName>江<roleName>政委</roleName></persName>
+                我不认识呀！就是
                 <orgName>
                     南
                     <lb />
                     京军区
                 </orgName>
-                政委，江泰蛟吗？
+                政委，<persName>江泰蛟</persName>吗？
                 <persName>叶飞</persName>
                 想真他们的见鬼。我
                 <lb />
@@ -939,8 +940,8 @@
                 领导（到）会客室，自我介绍到：“我叫<persName>白兰</persName>，是
                 <lb />
                 这里的招待员，
-                <persName>江</persName>
-                政委有事离开这里，
+                <persName>江<roleName>政委</roleName></persName>
+                有事离开这里，
                 <date>明天</date>
                 再会您，你可以
                 <lb />
@@ -1336,11 +1337,11 @@
                 <orgName>红军</orgName>
                 ，从此他就战斗<lb />
                 在
-                <persName>毛</persName>
-                主席身边，久经战场，身经百战，为人民立了不朽的功勋，
+                <persName>毛<roleName>主席</roleName></persName>
+                身边，久经战场，身经百战，为人民立了不朽的功勋，
                 <pb n="24" />
-                <persName>毛</persName>
-                主席派他去
+                <persName>毛<roleName>主席</roleName></persName>
+                派他去
                 <placeName type="city">南京</placeName>
                 ，
                 <date>当时</date>
@@ -2125,8 +2126,8 @@
                 怕不要他忙说：“为了保卫党
                 <orgName>中央</orgName>
                 ，为了保卫
-                <persName>毛</persName>
-                主席，
+                <persName>毛<roleName>主席</roleName></persName>
+                ，
                 <choice>
                     <sic>那</sic>
                     <corr>哪</corr>
@@ -2272,8 +2273,8 @@
                     </choice>
                 </time>
                 有一列火车过大桥，却不知道伟大领袖
-                <persName>毛</persName>
-                主席根据许世友的提议在车前几分改乘飞机，
+                <persName>毛<roleName>主席</roleName></persName>
+                根据许世友的提议在车前几分改乘飞机，
                 <date>此时</date>
                 已快到
                 <placeName type="province">北京</placeName>

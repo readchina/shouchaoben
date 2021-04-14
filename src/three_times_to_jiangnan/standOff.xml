@@ -216,7 +216,7 @@
         </person>
         <person xml:id="PE0029">
             <persName>Lin Liguo</persName>
-            <persName>林 立果</persName>
+            <persName>林立果</persName>
             <birth when="1946">1946<placeName ref="#SP0436"/>
             </birth>
             <death when="1971">1971</death>
