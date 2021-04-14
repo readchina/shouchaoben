@@ -1603,8 +1603,8 @@
                 上回到自己的岗位上，一会听到一个老太婆叫道：‘哎呦，<persName>白兰</persName>死了”，他们就用电话报告
                 <persName>叶飞</persName>
                 ，
-                <persName>张</persName>
-                连长说：“从我们上岗只有二辆工机部的小
+                <persName>张<roleName>连长</roleName></persName>
+                说：“从我们上岗只有二辆工机部的小
                 <choice>
                     <orig>車</orig>
                     <reg>车</reg>
@@ -1634,12 +1634,11 @@
                     <reg>军</reg>
                 </choice>
                 用摩托車的风驰电闪般的追了出去，随后
-                <persName>张</persName>
-                连长和
+                <persName>张<roleName>连长</roleName></persName>
+                和
                 <persName>王
-                </persName>
-                付（Korrektur副）
-                处长（
+                <roleName>付（Korrektur副）
+                处长</roleName></persName>（
                 <persName>李贵</persName>
                 的助手）带领一个班的战士和几个公安人员，分别乘
                 <placeName type="province">北京</placeName>
@@ -1667,8 +1666,8 @@
                     <corr>弯</corr>
                 </choice>
                 ，突然前面出现了一个很深的山涧，他们急忙跳下来，左边是绝壁，右边是山，中间有一座白色的建筑物，这边是一片树林，可是再找那两辆小汽车，已经无影无踪了，
-                <persName>张</persName>
-                连长和
+                <persName>张<roleName>连长</roleName></persName>
+                和
                 <persName>
                     王
                     <choice>
@@ -1831,8 +1830,8 @@
                 ，两人不禁一笑，
                 <persName>叶飞</persName>
                 说：“老李，快走。”
-                <persName>王</persName>
-                付处长推了两个首长一把，“老叶老李你们快走，叫战士们坐车回城”。战士们手拿武器迅速上了汽车，
+                <persName>王<roleName>付处长</roleName></persName>
+                推了两个首长一把，“老叶老李你们快走，叫战士们坐车回城”。战士们手拿武器迅速上了汽车，
                 <persName>叶飞</persName>
                 吩咐：“汽车断后，摩托车和越野车先走。”
                 <persName>叶飞</persName>
@@ -1953,9 +1952,9 @@
                 <date>五号</date>
                 进去了，
                 <persName>王</persName>
-                付（
-                <persName>Korrektur</persName>
-                副）处长和战士们进行搜查，五号和
+                <roleName>付（
+                Korrektur
+                副）处长</roleName><persName>和战士们进行搜查，五号和
                 <persName>李贵</persName>一
                 进屋，只見一个人在看书，
                 <date>五号</date>
@@ -2332,10 +2331,10 @@
                 同志。”
                 <persName>李贵</persName>
                 一时惊呆了，同上时期在咖啡馆里，
-                <persName>王</persName>
-                处长给女服务员戴了手铐，在许司令的办公室里，
-                <persName>张</persName>
-                连长用枪逼着一个穿空军服上衣的女秘书。
+                <persName>王<roleName>处长</roleName></persName>
+                给女服务员戴了手铐，在许司令的办公室里，
+                <persName>张<roleName>连长</roleName></persName>
+                用枪逼着一个穿空军服上衣的女秘书。
             </p>
             <p>——完——</p>
         </body>
