@@ -1162,7 +1162,7 @@
                 部，停尸房修的靠近门珍部和医<lb/>
                 院的围墙，是借用周围墙垒起来的西墙堵成小院子，<lb/>
                 外面有通往
-                <placeName type="location" ref="#P0033">门珍部</placeName>
+                    <placeName type="location" ref="#P0033">门<choice><sic>珍</sic><corr>诊</corr></choice>部</placeName>
                 两边道。为了使医院的死人都能
                 <pb n="20"/>
                 抬进停尸房，在两边墙角开着门，就是
