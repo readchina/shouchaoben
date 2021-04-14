@@ -9,6 +9,10 @@
                     <persName ref="https://orcid.org/0000-0001-8958-6463">Duncan Paterson</persName>
                 </editor>
                 <principal ref="https://orcid.org/0000-0001-7583-0920">Lena Henningsen</principal>
+                <respStmt>
+                    <resp/>
+                    <persName>Qin Gu</persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>READCHINA</publisher>
