@@ -130,12 +130,6 @@
         <person xml:id="PE0001">
             <persName>谒 诸 葛亮</persName>
         </person>
-        <person xml:id="PE0003">
-            <persName>叶 飞</persName>
-        </person>
-        <person xml:id="PE0006">
-            <persName>谢</persName>
-        </person>
         <person xml:id="PE0007">
             <persName>Duncan Paterson</persName>
         </person>
@@ -150,11 +144,10 @@
             <persName type="alias">余飛</persName>
             <persName type="alias">叶（Korrektur余）飞</persName>
         </person>
-        <person xml:id="PE0013">
-            <persName>叶</persName>
-        </person>
         <person xml:id="PE0014">
-            <persName>叶飞</persName>
+            <persName type="main">叶飞</persName>
+            <persName type="alias">叶</persName>
+            <persName type="alias">叶 飞</persName>
         </person>
         <person xml:id="PE0016">
             <persName>周总理</persName>
@@ -169,16 +162,16 @@
             <persName>小罗</persName>
         </person>
         <person xml:id="PE0021">
-            <persName>张延年</persName>
-            <persName>小张</persName>
+            <persName type="main">张延年</persName>
+            <persName type="alias">小张</persName>
         </person>
         <person xml:id="PE0023">
-            <persName>张连长</persName>
-            <persName>张连長</persName>
+            <persName type="main">张连长</persName>
+            <persName type="alias">张连長</persName>
         </person>
         <person xml:id="PE0025">
-            <persName>李贵</persName>
-            <persName>李</persName>
+            <persName type="main">李贵</persName>
+            <persName type="alisa">李</persName>
         </person>
         <person xml:id="PE0027">
             <persName>林副部长</persName>
@@ -188,8 +181,8 @@
             <persName>林</persName>
         </person>
         <person xml:id="PE0029">
-            <persName>Lin Liguo</persName>
-            <persName>林 立果</persName>
+            <persName type="main">林 立果</persName>
+            <persName type="alias">Lin Liguo</persName>
             <birth when="1946">1946<placeName ref="#SP0436"/>
             </birth>
             <death when="1971">1971</death>
@@ -208,15 +201,15 @@
             <persName>毛主席</persName>
         </person>
         <person xml:id="PE0032">
-            <persName>江泰蛟</persName>
-            <persName>江政委</persName>
+            <persName  type="main">江泰蛟</persName>
+            <persName  type="alias">江政委</persName>
         </person>
         <person xml:id="PE0034">
             <persName>江腾蛟</persName>
         </person>
         <person xml:id="PE0035">
-            <persName>江青</persName>
-            <persName>江</persName>
+            <persName  type="main">江青</persName>
+            <persName  type="alias">江</persName>
         </person>
         <person xml:id="PE0036">
             <persName type="main">王处长</persName>
@@ -224,7 +217,6 @@
             <persName type="alias">王 付（ Korrektur 副）处长</persName>
             <persName type="alias">王 付（Korrektur副） 处长</persName>
         </person>
-
         <person xml:id="PE0041">
             <persName>王真</persName>
         </person>
@@ -255,16 +247,9 @@
             <persName>许世有</persName>
         </person>
         <person xml:id="PE0052">
-            <persName>谢富治</persName>
-        </person>
-        <person xml:id="PE0053">
-            <persName>谢富治将军</persName>
-        </person>
-        <person xml:id="PE0054">
-            <persName>谢将军</persName>
-        </person>
-        <person xml:id="PE0055">
-            <persName>谢部长</persName>
+            <persName type="main">谢富治</persName>
+            <persName type="alias">谢富治将军</persName>
+            <persName type="alias">谢将军</persName>
         </person>
         <person xml:id="PE0056">
         </person>
@@ -274,9 +259,6 @@
         </person>
         <person xml:id="PE0058">
             <persName>邓颖超</persName>
-        </person>
-        <person xml:id="PE0059">
-            
         </person>
         <person xml:id="PE0060">
             <persName type="main">金副局长</persName>

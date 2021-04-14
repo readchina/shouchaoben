@@ -1244,8 +1244,8 @@
                 <date>五号</date>
                 ’至今下落不明，就说明了问题，<lb />
                 但任务重大，你还必须去”，说到这里，
-                <persName>谢</persName>
-                将军走到窗<lb />
+                <persName>谢<roleName>将军</roleName></persName>
+                走到窗<lb />
                 前，望着繁华的
                 <placeName type="facility">长安街</placeName>
                 ，一片繁荣富强的影象，人来人往，<lb />
@@ -1516,7 +1516,7 @@
                 区司令员，城防司令员，警备司令员，你演习为什么不告诉我一声呢？’这是（时）我就把他臭骂了一顿说。”李贵说：“我们怎么动手呢？从
                 <date>目前</date>
                 掌握的情况来看，只能先从<persName>白兰</persName>身上下手，请司令员把警备队拨一个连给我们。（”）司令员打了一个电话，一会一个年轻的軍官跨进办公室，司令员介绍说：“这是我们的
-                <persName>张连長</persName>
+                <persName>张<roleName>连長</roleName></persName>
                 （kurzzeichen长）。你以后听
                 <persName>叶飞</persName>
                 和
@@ -1564,7 +1564,7 @@
                     <reg>军</reg>
                 </choice>
                 后院家属宿舍，全营这只有三楼四层楼，摆成一个心字形，而是低的那个中间楼二层，楼梯设置在两边，<persName>叶飞</persName>布置了两个精明的战士，分别把守东西两个楼梯口，<persName>白兰</persName>回家的时候不准惊动任何人，又命令，
-                <persName>张连长</persName>
+                <persName>张<roleName>连长</roleName></persName>
                 車（kurzzeichen车）附近的
                 <choice>
                     <orig>馬</orig>
@@ -2246,8 +2246,8 @@
                 边走边说。原来以上次检查的房以后，<persName>叶飞</persName>回
                 <placeName type="province">北京</placeName>
                 向将军汇报了情况，过了两                        个星期，
-                <persName>谢</persName>
-                将军给
+                <persName>谢<roleName>将军</roleName></persName>
+                给
                 <persName>叶飞</persName>
                 一封信，对他说，此信只能交给许司令，他会根据里面的指示，指给你，我们的指示。
                 <time>以后</time>
