@@ -775,8 +775,8 @@
                 “你不知道吗？这是我们
                 <orgName>空軍作战部</orgName>
                 的
-                <persName>林</persName>
-                副部长。”
+                <persName>林<roleName>副部长</roleName></persName>
+                。”
             </p>
             <p>
                 <pb n="12" />
@@ -784,8 +784,8 @@
             </p>
             <p>
                 “据说是
-                <persName>林</persName>
-                副部长的未婚妻。”
+                <persName>林<roleName>副部长</roleName></persName>
+                的未婚妻。”
             </p>
             <p>
                 <persName>余飞</persName>
