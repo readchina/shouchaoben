@@ -108,11 +108,7 @@
             <placeName>长安街</placeName>
         </place>
         <place xml:id="P0033">
-            <placeName type="main">门珍部</placeName>
-            <placeName type="alias">门珍
-                （
-                Korrektur诊
-                ）部</placeName>
+            <placeName type="main">门诊部</placeName>
         </place>
         <place xml:id="P0034">
             <placeName>阿尔巴尼亚</placeName>
@@ -129,7 +125,8 @@
     </listPlace>
     <listPerson>
         <person xml:id="PE0001">
-            <persName>
+            <persName type="main">诸葛亮</persName>
+            <persName type="alias">
                 <choice>
                     <sic>谒</sic>
                     <corr>诸</corr>
@@ -152,7 +149,6 @@
         <person xml:id="PE0006">
             <persName type="main">叶飞</persName>
             <persName type="alias">叶</persName>
-            <persName type="alias">叶 飞</persName>
         </person>
         <person xml:id="PE0007">
             <persName>周<roleName>总理</roleName></persName>
@@ -218,7 +214,6 @@
         <person xml:id="PE0020">
             <persName type="main">王<roleName>处长</roleName></persName>
             <persName>王<roleName>付处长</roleName></persName>
-            <persName type="alias">王 付（ Korrektur 副）处长</persName>
             <persName type="alias">王 <roleName>付（Korrektur副） 处长</roleName></persName>
         </person>
         <person xml:id="PE0021">
@@ -227,7 +222,6 @@
         <person xml:id="PE0022">
             <persName type="main">王贞</persName>
             <persName type="alias">王貞</persName>
-            <persName type="alias">王 貞 贞</persName>
         </person>
         <person xml:id="PE0023">
             <persName>白兰</persName>
@@ -266,10 +260,6 @@
             <persName type="main">金<roleName>副局长</roleName></persName>
             <persName type="alias">金</persName>
             <persName type="alias">金<roleName>付局长</roleName></persName>
-            <persName type="alias">金<choice>
-                    <sic>付</sic>
-                    <corr>副</corr>
-                </choice>局长</persName>
         </person>
         <person xml:id="PE0034">
             <persName>陈伯达</persName>
@@ -286,14 +276,13 @@
         <person xml:id="PE0038">
             <persName>黄忠</persName>
         </person>
+        <person xml:id="PE0039">
+            <persName>Qin Gu</persName>
+        </person>
     </listPerson>
     <listOrg>
         <org xml:id="O0001">
-            <orgName>
-                南
-                <lb />
-                京军区
-            </orgName>
+            <orgName>南京军区</orgName>
         </org>
         <org xml:id="O0002">
             <orgName>中国民航</orgName>
@@ -365,9 +354,7 @@
             <orgName>省委</orgName>
         </org>
         <org xml:id="O0025">
-            <orgName>省軍（
-                Kurzzeichen军
-                ）区</orgName>
+            <orgName>省軍（Kurzzeichen军 ）区</orgName>
         </org>
         <org xml:id="O0026">
             <orgName>空軍作战部</orgName>
