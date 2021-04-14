@@ -122,9 +122,7 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <xi:include href="../../standOff.xml" parse="xml" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <xi:fallback url="https://raw.githubusercontent.com/readchina/shouchaoben/master/src/three_times_to_jiangnan/standOff.xml?token=ALDQGOPB7CPDQGNV7GIKWILAP73IW"/>
-    </xi:include>
+    <xi:include href="../../standOff.xml" parse="xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <text xml:lang="zh">
         <front>
             <titlePage>
