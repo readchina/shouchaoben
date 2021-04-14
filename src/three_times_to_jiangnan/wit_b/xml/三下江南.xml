@@ -374,8 +374,8 @@
                 ，将军向总理汇报了情况，命令各单
                 <lb />
                 位支持，然后
-                <persName>谢</persName>
-                将军又在公安部挑选一名同志，继续完
+                <persName>谢<roleName>将军</roleName></persName>
+                又在公安部挑选一名同志，继续完
                 <lb />
                 成任务。这就是“
                 <date>五号</date>
@@ -420,8 +420,8 @@
                 了将军，
                 <persName>谢<roleName>将军</roleName></persName>
                 打开一看，上面写道：“
-                <persName>谢</persName>
-                将军，我此
+                <persName>谢<roleName>将军</roleName></persName>
+                ，我此
                 <lb />
                 去成败难定，倘我失踪，请用
                 <persName>叶飞</persName>
@@ -1123,7 +1123,7 @@
                 <time>过去</time>
                 一看，房中摆着三口棺材，<lb />
                 没盖，传着里呼的大口看着大他，好像要象（
-                <persName>Korrektur</persName>
+                Korrektur
                 像）要吃掉他，他也<lb />
                 顾不得这些，顺手在第一口棺材里一
                 <choice>
@@ -1375,7 +1375,7 @@
                 有
                 <orgName>南京革委</orgName>
                 和付（
-                <persName>Korrektur</persName>
+                Korrektur
                 副）司令员的名字”，将
                 <choice>
                     <orig>軍</orig>

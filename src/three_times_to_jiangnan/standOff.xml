@@ -2,142 +2,127 @@
 <standOff xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zh">
     <listPlace>
         <place xml:id="P0001">
-            <placeName>长 江大桥</placeName>
-        </place>
-        <place xml:id="P0002">
-            <placeName>Nanjing</placeName>
+            <placeName type="main">南京</placeName>
+            <placeName type="alias">Nanjing</placeName>
+            <placeName type="alias">南京城</placeName>
+            <placeName type="alias">南京市</placeName>
             <location>
                 <geo>32.06167 118.77778</geo>
             </location>
             <idno type="ReadAct">SP0093</idno>
         </place>
-        <place xml:id="P0003">
+        <place xml:id="P0002">
             <placeName>XX医院</placeName>
         </place>
-        <place xml:id="P0004">
+        <place xml:id="P0003">
             <placeName>no place</placeName>
         </place>
-        <place xml:id="P0005">
+        <place xml:id="P0004">
             <placeName>上海</placeName>
         </place>
-        <place xml:id="P0006">
+        <place xml:id="P0005">
             <placeName>上海咖啡馆</placeName>
         </place>
-        <place xml:id="P0007">
+        <place xml:id="P0006">
             <placeName>东大街</placeName>
         </place>
-        <place xml:id="P0008">
+        <place xml:id="P0007">
             <placeName>中国</placeName>
         </place>
-        <place xml:id="P0009">
+        <place xml:id="P0008">
             <placeName>丰台</placeName>
         </place>
+        <place xml:id="P0009">
+            <placeName type="main">云南</placeName>
+            <placeName type="alias">云南省</placeName>
+        </place>
         <place xml:id="P0010">
-            <placeName>云南</placeName>
-        </place>
-        <place xml:id="P0011">
-            <placeName>云南省</placeName>
-        </place>
-        <place xml:id="P0012">
             <placeName>内蒙古</placeName>
         </place>
-        <place xml:id="P0013">
+        <place xml:id="P0011">
             <placeName>北京</placeName>
         </place>
-        <place xml:id="P0014">
+        <place xml:id="P0012">
             <placeName>北京站</placeName>
-        </place>
-        <place xml:id="P0015">
             <placeName>北京车站</placeName>
         </place>
-        <place xml:id="P0016">
-            <placeName>南京</placeName>
-        </place>
-        <place xml:id="P0017">
-            <placeName>南京城</placeName>
-        </place>
-        <place xml:id="P0018">
-            <placeName>南京市</placeName>
-        </place>
-        <place xml:id="P0019">
+        <place xml:id="P0013">
             <placeName>南京机场</placeName>
         </place>
-        <place xml:id="P0020">
-            <placeName>南京长江大桥</placeName>
+        <place xml:id="P0015">
+            <placeName type="main">南京长江大桥</placeName>
+            <placeName type="alias">长江大桥</placeName>
         </place>
-        <place xml:id="P0021">
+        <place xml:id="P0016">
             <placeName>呼和浩特</placeName>
         </place>
-        <place xml:id="P0022">
+        <place xml:id="P0017">
             <placeName>大桥</placeName>
         </place>
-        <place xml:id="P0023">
+        <place xml:id="P0018">
             <placeName>大江</placeName>
         </place>
-        <place xml:id="P0024">
+        <place xml:id="P0019">
             <placeName>天津</placeName>
         </place>
-        <place xml:id="P0025">
+        <place xml:id="P0020">
             <placeName>少林寺</placeName>
         </place>
-        <place xml:id="P0026">
+        <place xml:id="P0021">
             <placeName>广州</placeName>
         </place>
-        <place xml:id="P0027">
+        <place xml:id="P0022">
             <placeName>昆明</placeName>
         </place>
-        <place xml:id="P0028">
+        <place xml:id="P0023">
             <placeName>杭州</placeName>
         </place>
-        <place xml:id="P0029">
+        <place xml:id="P0024">
             <placeName>柬埔寨</placeName>
         </place>
-        <place xml:id="P0030">
+        <place xml:id="P0025">
             <placeName>榕城</placeName>
         </place>
-        <place xml:id="P0031">
+        <place xml:id="P0026">
             <placeName>江南</placeName>
         </place>
-        <place xml:id="P0032">
+        <place xml:id="P0027">
             <placeName>河南</placeName>
         </place>
-        <place xml:id="P0033">
+        <place xml:id="P0028">
             <placeName>浙江西湖</placeName>
         </place>
-        <place xml:id="P0034">
+        <place xml:id="P0029">
             <placeName>省軍区大礼堂</placeName>
         </place>
-        <place xml:id="P0035">
+        <place xml:id="P0030">
             <placeName>空军第四招待所</placeName>
         </place>
-        <place xml:id="P0036">
+        <place xml:id="P0031">
             <placeName>联合检查大桥</placeName>
         </place>
-        <place xml:id="P0037">
+        <place xml:id="P0032">
             <placeName>苏州</placeName>
         </place>
-        <place xml:id="P0038">
+        <place xml:id="P0033">
             <placeName>重庆</placeName>
         </place>
-        <place xml:id="P0039">
+        <place xml:id="P0034">
             <placeName>长安街</placeName>
         </place>
-        <place xml:id="P0040">
-            <placeName>长江大桥</placeName>
-        </place>
-        <place xml:id="P0041">
+        <place xml:id="P0035">
             <placeName>门珍部</placeName>
         </place>
-        <place xml:id="P0042">
+        <place xml:id="P0036">
             <placeName>阿尔巴尼亚</placeName>
         </place>
-        <place xml:id="P0043">
+        <place xml:id="P0037">
             <placeName>香港</placeName>
         </place>
-        <place xml:id="P0044">
+        <place xml:id="P0038">
             <placeName>鲁山</placeName>
         </place>
-        <place xml:id="P0045">
+        <place xml:id="P0039">
             <placeName>鲤城</placeName>
         </place>
     </listPlace>
@@ -145,26 +130,14 @@
         <person xml:id="PE0001">
             <persName>谒 诸 葛亮</persName>
         </person>
-        <person xml:id="PE0002">
-            <persName>附 伏</persName>
-        </person>
         <person xml:id="PE0003">
             <persName>叶 飞</persName>
-        </person>
-        <person xml:id="PE0004">
-            <persName>桥 樑 梁</persName>
-        </person>
-        <person xml:id="PE0005">
-            <persName>王 付 副</persName>
         </person>
         <person xml:id="PE0006">
             <persName>谢</persName>
         </person>
         <person xml:id="PE0007">
             <persName>Duncan Paterson</persName>
-        </person>
-        <person xml:id="PE0008">
-            <persName>Korrektur</persName>
         </person>
         <person xml:id="PE0009">
             <persName>Lena Henningsen</persName>
@@ -173,19 +146,15 @@
             <persName>上帝</persName>
         </person>
         <person xml:id="PE0011">
-            <persName>余飛</persName>
-        </person>
-        <person xml:id="PE0012">
-            <persName>余飞</persName>
+            <persName type="main">余飞</persName>
+            <persName type="alias">余飛</persName>
+            <persName type="alias">叶（Korrektur余）飞</persName>
         </person>
         <person xml:id="PE0013">
             <persName>叶</persName>
         </person>
         <person xml:id="PE0014">
             <persName>叶飞</persName>
-        </person>
-        <person xml:id="PE0015">
-            <persName>叶（Korrektur余）飞</persName>
         </person>
         <person xml:id="PE0016">
             <persName>周</persName>
@@ -205,11 +174,9 @@
         <person xml:id="PE0021">
             <persName>张延年</persName>
         </person>
-        <person xml:id="PE0022">
-            <persName>张连長</persName>
-        </person>
         <person xml:id="PE0023">
             <persName>张连长</persName>
+            <persName>张连長</persName>
         </person>
         <person xml:id="PE0024">
             <persName>李</persName>
@@ -262,28 +229,19 @@
             <persName>江青</persName>
         </person>
         <person xml:id="PE0036">
-            <persName>王 付（ Korrektur 副）处长</persName>
+            <persName type="main">王处长</persName>
+            <persName type="alias">王付处长</persName>
+            <persName type="alias">王 付（ Korrektur 副）处长</persName>
+            <persName type="alias">王 付（Korrektur副） 处长</persName>
         </person>
-        <person xml:id="PE0037">
-            <persName>王 付（Korrektur副） 处长</persName>
-        </person>
-        <person xml:id="PE0038">
-            <persName>王 貞 贞</persName>
-        </person>
-        <person xml:id="PE0039">
-            <persName>王付处长</persName>
-        </person>
-        <person xml:id="PE0040">
-            <persName>王处长</persName>
-        </person>
+
         <person xml:id="PE0041">
             <persName>王真</persName>
         </person>
-        <person xml:id="PE0042">
-            <persName>王貞</persName>
-        </person>
         <person xml:id="PE0043">
-            <persName>王贞</persName>
+            <persName type="main">王贞</persName>
+            <persName type="alias">王貞</persName>
+            <persName type="alias">王 貞 贞</persName>
         </person>
         <person xml:id="PE0044">
             <persName>白兰</persName>
@@ -306,9 +264,6 @@
         <person xml:id="PE0050">
             <persName>许世有</persName>
         </person>
-        <person xml:id="PE0051">
-            <persName>谢</persName>
-        </person>
         <person xml:id="PE0052">
             <persName>谢富治</persName>
         </person>
@@ -322,36 +277,36 @@
             <persName>谢部长</persName>
         </person>
         <person xml:id="PE0056">
-            <persName>谭</persName>
         </person>
         <person xml:id="PE0057">
-            <persName>谭甫仁</persName>
+            <persName type="main">谭甫仁</persName>
+            <persName type="alias">谭</persName>
         </person>
         <person xml:id="PE0058">
             <persName>邓颖超</persName>
         </person>
         <person xml:id="PE0059">
-            <persName>金</persName>
+            
         </person>
         <person xml:id="PE0060">
-            <persName>金 付 副 局长</persName>
-        </person>
-        <person xml:id="PE0061">
-            <persName>金付局长</persName>
-        </person>
-        <person xml:id="PE0062">
-            <persName>陈伯达</persName>
+            <persName type="main">金副局长</persName>
+            <persName type="alias">金</persName>
+            <persName type="alias">金付局长</persName>
+            <persName type="alias">金 付 副 局长</persName>
         </person>
         <person xml:id="PE0063">
-            <persName>陈占祥</persName>
+            <persName>陈伯达</persName>
         </person>
         <person xml:id="PE0064">
-            <persName>陈强</persName>
+            <persName>陈占祥</persName>
         </person>
         <person xml:id="PE0065">
-            <persName>雷富顺</persName>
+            <persName>陈强</persName>
         </person>
         <person xml:id="PE0066">
+            <persName>雷富顺</persName>
+        </person>
+        <person xml:id="PE0067">
             <persName>黄忠</persName>
         </person>
     </listPerson>
