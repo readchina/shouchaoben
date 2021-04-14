@@ -1,46 +1,29 @@
-declare namespace fun = "http://www.functx.com";
-declare function fun:add-attributes
-  ( $elements as element()* ,
-    $attrNames as xs:QName* ,
-    $attrValues as xs:anyAtomicType* )  as element()? {
+xquery version "3.1";
 
-   for $element in $elements
-   return element { node-name($element)}
-                  { for $attrName at $seq in $attrNames
-                    return if ($element/@*[node-name(.) = $attrName])
-                           then ()
-                           else attribute {$attrName}
-                                          {$attrValues[$seq]},
-                    $element/@*,
-                    $element/node() }
- } ;
-
-declare variable $sanjin-A := db:open("three_times_to_jiangnan","wit_a/xml/三进南京城.xml");
-declare variable $sanjin-B :=  db:open("three_times_to_jiangnan","wit_b/xml/三下江南.xml");
-declare variable $sanjin-C :=  db:open("three_times_to_jiangnan","wit_c/xml/余飞三下南京.xml");
-
+(:~ Local Transcripts ~:)
+declare variable $sanjin-A := doc('../wit_a/xml/三进南京城.xml');
+declare variable $sanjin-B := doc('../wit_b/xml/三下江南.xml');
+declare variable $sanjin-C := doc('../wit_c/xml/余飞三下南京.xml');
+declare variable $standOff := doc("../standOff.xml");
 
 declare function local:add-place-ref($input as node()*)
 {
-let $standOff :=  db:open("three_times_to_jiangnan","standOff.xml")
-for $node in $input//*:text//*:placeName
-return fun:add-attributes($node, xs:QName('ref'), "#"||data($standOff//*:placeName[./string() = $node/string()]/../@*:id))
+for $n in $input//*:text//*:placeName
+return update insert  attribute ref{"#"||data($standOff//*:placeName[./string() = $n/string()]/../@*:id)} into $n
 };
 
 
 declare function local:add-person-ref($input as node()*)
 {
-let $standOff :=  db:open("three_times_to_jiangnan","standOff.xml")
-for $node in $input//*:text//*:persName
-return fun:add-attributes($node, xs:QName('ref'), "#"||data($standOff//*:persName[./string() = $node/string()]/../@*:id))
+for $n in $input//*:text//*:persName
+return update insert  attribute ref{"#"||data($standOff//*:persName[./string() = $n/string()]/../@*:id)} into $n
 };
 
 
 declare function local:add-org-ref($input as node()*)
 {
-let $standOff :=  db:open("three_times_to_jiangnan","standOff.xml")
-for $node in $input//*:text//*:orgName
-return fun:add-attributes($node, xs:QName('ref'), "#"||data($standOff//*:orgName[./string() = $node/string()]/../@*:id))
+for $n in $input//*:text//*:orgName
+return update insert  attribute ref{"#"||data($standOff//*:orgName[./string() = $n/string()]/../@*:id)} into $n
 };
 
 local:add-place-ref($sanjin-A|$sanjin-B|$sanjin-C),

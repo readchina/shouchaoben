@@ -138,13 +138,11 @@
                 ，他站在桥上，举目远望，漫谈革命的大好形势，
                 <lb />
                 代表团里有一个
-                <persName>
                     桥
                     <choice>
                         <sic>樑</sic>
                         <corr>梁</corr>
                     </choice>
-                </persName>
                 ）专家，他兴致勃勃地在桥上行走，
                 <lb />
                 用步子来量大桥的宽长，突然一辆轿车飞驰而来，在他距
@@ -905,7 +903,7 @@
                     <sic>敞</sic>
                     <corr>撇</corr>
                 </choice>
-                ，半路上又来了一江政委，谁知
+                ，半路上又来了一<persName>江<roleName>政委</roleName></persName>，谁知
                 <lb />
                 他是黑心红心，应当提防着奌（
                 <time>kurzzeichen点</time>
@@ -1149,10 +1147,10 @@
                 <persName>叶飞</persName>进
                 门后发现<lb />
                 通往
-                <orgName>门珍
+                <placeName>门珍
                 （
                 Korrektur诊
-                ）部</orgName>的那个小门，
+                ）部</placeName>的那个小门，
                 <persName>叶飞</persName>
                 马上把胖子死人拉了起来，自己<lb />
                 躲进去了，然后把死人盖在自己身上，遮得严严实实。摩托车<lb />
@@ -1827,7 +1825,7 @@
                     </choice>
                 </persName>
                 处长，正在指挥战士要捆他俩，抓他的正是
-                <persName>李贵</persName>和<persName>张连长</persName>
+                <persName>李贵</persName>和<persName>张<roleName>连长</roleName></persName>
                 ，两人不禁一笑，
                 <persName>叶飞</persName>
                 说：“老李，快走。”
@@ -2263,7 +2261,7 @@
                 ，按许司令的命令，
                 <pb n="50" />
                 李贵和
-                <persName>张连长</persName>
+                <persName>张<roleName>连长</roleName></persName>
                 二个就出现在院子周围，监视里面的人，钱胖子的上司
                 <time>
                     十一
