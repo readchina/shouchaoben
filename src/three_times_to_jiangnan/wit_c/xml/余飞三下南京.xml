@@ -237,10 +237,10 @@
                     <corr>并</corr>
                 </choice>
                 要求见
-                <persName>谢</persName>
-                部长。她说明情况，送上信。
-                <persName>谢</persName>
-                部长拆开一看，写的是：要破此案，必须派老黄牛来。老黄牛是谁呢？问
+                <persName>谢<roleName>部长</roleName></persName>
+                。她说明情况，送上信。
+                <persName>谢<roleName>部长</roleName></persName>
+                拆开一看，写的是：要破此案，必须派老黄牛来。老黄牛是谁呢？问
                 <orgName>保密局</orgName>
                 ，原来就是
                 <orgName>公安部</orgName>

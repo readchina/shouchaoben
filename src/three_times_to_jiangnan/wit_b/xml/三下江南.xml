@@ -280,8 +280,8 @@
                 将军商量，把
                 <placeName type="country">阿尔巴尼亚</placeName>
                 朋友的发现告诉了
-                <persName>谢</persName>
-                将军。
+                <persName>谢<roleName>将军</roleName></persName>
+                。
                 <lb />
                 将军说：“我也有些可疑的事要向你报告，根据下面
                 <lb />
@@ -323,16 +323,16 @@
                 <lb />
             </p>
             <p>
-                <persName>谢</persName>
-                将军回到
+                <persName>谢<roleName>将军</roleName></persName>
+                回到
                 <orgName>公安局</orgName>
                 ，马上召开党委会，决定派一个
                 <lb />
                 同志去
                 <placeName type="city">南京</placeName>
                 ，代号“三号侦查员”，以
-                <persName>谢</persName>
-                将军为总指挥，
+                <persName>谢<roleName>将军</roleName></persName>
+                为总指挥，
                 <lb />
                 一号，三号，五号，七号，用单号排下去，先派三号同志
                 <pb n="6" />
@@ -359,8 +359,8 @@
                 不
                 <supplied>无</supplied>
                 音信。
-                <persName>谢</persName>
-                将军发觉事情的严重性，他认为炸桥的
+                <persName>谢<roleName>将军</roleName></persName>
+                发觉事情的严重性，他认为炸桥的
                 <lb />
                 事很可能有，不然的为什么调查小汽车后，人毫不
                 <supplied>无</supplied>
@@ -408,8 +408,8 @@
                 去了，事情果然同“三（五）号”同志所预料的那样，也
                 <lb />
                 失踪了。
-                <persName>谢</persName>
-                将军悲痛交阵，亲自到“
+                <persName>谢<roleName>将军</roleName></persName>
+                悲痛交阵，亲自到“
                 <date>五号</date>
                 ”家里去慰问，
                 <lb />
@@ -418,8 +418,8 @@
                 ”的爱人得知爱人出了事，痛哭流涕，把便条交给
                 <lb />
                 了将军，
-                <persName>谢</persName>
-                将军打开一看，上面写道：“
+                <persName>谢<roleName>将军</roleName></persName>
+                打开一看，上面写道：“
                 <persName>谢</persName>
                 将军，我此
                 <lb />
@@ -813,8 +813,8 @@
             <p>
                 红旗轿车一直开到一条安静的街道，在公安部长家门口，
                 <lb />
-                <persName>谢</persName>
-                将军把
+                <persName>谢<roleName>将军</roleName></persName>
+                把
                 <placeName type="country">阿尔巴尼亚</placeName>
                 朋友的发现，以及“三号”“
                 <date>五号</date>
@@ -1225,8 +1225,8 @@
                 话说<persName>叶飞</persName>回
                 <placeName type="province">北京</placeName>
                 ，向
-                <persName>谢富治</persName>
-                将军汇报了侦查后的<lb />
+                <persName>谢富治<roleName>将军</roleName></persName>
+                汇报了侦查后的<lb />
                 经过，看来
                 <placeName type="province">北京</placeName>
                 的阶级敌人和
@@ -1257,8 +1257,8 @@
                     <corr>吗</corr>
                 </choice>
                 ？”，
-                <persName>谢</persName>
-                将军轻声说，“我派
+                <persName>谢<roleName>将军</roleName></persName>
+                轻声说，“我派
                 <persName>叶飞</persName>
                 同志到你处<lb />
                 完成一项重要任务，你在
@@ -1408,8 +1408,8 @@
                 的形及
                 <placeName type="city">广州</placeName>
                 ，附近空航送来”，
-                <persName>谢</persName>
-                将军还说（：“）在
+                <persName>谢<roleName>将军</roleName></persName>
+                还说（：“）在
                 <placeName type="city">南京</placeName>
                 还<lb />
                 有这样的秘密据奌（
