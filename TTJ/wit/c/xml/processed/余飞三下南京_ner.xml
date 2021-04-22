@@ -1,0 +1,323 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>余飞三下南京</title>
+                <!-- TODO(DP) add Dang Xiayin, May 2018 contribution -->
+                <editor> <persName>Lena Henningsen</persName> and <persName ref="https://orcid.org/0000-0001-8958-6463">Duncan Paterson</persName> </editor>
+                <principal ref="https://orcid.org/0000-0001-7583-0920">Lena Henningsen</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>READCHINA</publisher>
+                <pubPlace>Freiburg</pubPlace>
+                <date when="2021">2021</date>
+                <availability>
+                    <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                        International license.</p>
+                </availability>
+                <!-- TODO(DP): add final link -->
+                <ptr target="https://github.com/readchina/shouchaoben"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lena Henningsen private collection</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <!-- TODO(DP): @LenaHenningsen  -->
+                        <summary>Manuscript fiction from the Chinese Cultural Revolution. The text
+                            indicates that it is … 
+                            </summary>
+                        <!-- TODO(DP): @LenaHenningsen  -->    
+                        <msItem>
+                            <bibl>
+                                <author>Anonymous</author> <title>余飞三下南京</title>
+                                <placeName>??</placeName> <date when="1977">??</date> </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <!-- TODO(DP): @LenaHenningsen  -->
+                        <objectDesc>
+                            <p>XX pages of XY paper, binding YY, measuring YZ times ZZ cm.</p>
+                            <p>The pages are XX with page numbers
+                                starting / apearing XY.</p>
+                            <p>Single / multiple hand throughout</p>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>（封面）</p>
+            <p>余</p>
+            <p>                 飛（Kurzzeichen飞）</p>
+            <p>
+                <NUMBER>三</NUMBER>
+            </p>
+            <p>下</p>
+            <p>南</p>
+            <p>京</p>
+            <p>反符</p>
+            <p>特氏</p>
+            <p>故藏</p>
+            <p>事書</p>
+            <p>册館</p>
+            <p>之</p>
+            <p>
+                <NUMBER>一</NUMBER>
+            </p>
+            <p>（<ORDINAL>第</ORDINAL>
+                <NUMBER>1</NUMBER>页）</p>
+            <p>
+                <PERSON>余飞</PERSON>
+                <NUMBER>三</NUMBER>下<CITY>南京</CITY>
+            </p>
+            <p>
+                <DATE>一九七0</DATE>（Korrektur零）年年初，<COUNTRY>阿尔巴尼亚</COUNTRY>代表团来我国访问，访经来时向我中央要求参观<FACILITY>南京长江大桥</FACILITY>。<ORGANIZATION>中央</ORGANIZATION>同意了，並（<PERSON>Korrektur</PERSON>并）通知<CITY>南京市</CITY>要做好接待和保卫工作。<MISC>这天</MISC>
+                <TIME>下午四点钟</TIME>，<COUNTRY>阿尔巴尼亚</COUNTRY>客人到达<FACILITY>南京机场</FACILITY>，下飞机后立即坐車（<MISC>Kurzzeichen车</MISC>）来到<FACILITY>南京长江大桥</FACILITY>，看到那雄伟、壮丽的<FACILITY>长江大桥</FACILITY>桥身，<COUNTRY>阿尔巴尼亚</COUNTRY>客人称赞不绝：“说<COUNTRY>中国</COUNTRY>自己设计、施工的这座桥是世界<ORDINAL>第一</ORDINAL>流的，真了不起。”</p>
+            <p>陪同参观的<COUNTRY>中国</COUNTRY>同志说：“要是<TIME>晚上</TIME>来看，这座桥更漂亮。”</p>
+            <p>
+                <NUMBER>一</NUMBER>个<COUNTRY>阿尔巴尼亚</COUNTRY>客人说：“那就<TIME>晚上</TIME>来参观。”</p>
+            <p>旁边<NUMBER>一</NUMBER>个陪同参观的负责同志说：“<DATE>今晚</DATE>
+                <TIME>七点</TIME>宴会，<TIME>八点</TIME>
+                <MISC>到</MISC>
+                <TIME>十点</TIME>文艺晚会。”</p>
+            <p>说话间，<NUMBER>一</NUMBER>辆军用轿車按着喇叭飞驰而过。提议<TIME>晚上</TIME>参观的<COUNTRY>阿尔巴尼亚</COUNTRY>客人看手錶（Kurzzeichen表）：“咦！停了，怎么我的手表停了？”周围的人不约而同都看手表，都停了。这件事引起了陪同参观的公安人员的注意，回去立即向<ORGANIZATION>公安局</ORGANIZATION>汇报，公安局向公安部汇报。公安部接到这个汇报，<ORGANIZATION>联想</ORGANIZATION>起不久前发生的<NUMBER>一</NUMBER>件事。</p>
+            <p>
+                <TIME>半年前</TIME>，<COUNTRY>柬埔寨</COUNTRY>
+                <PERSON>西哈努克</PERSON>
+                <TITLE>亲王</TITLE>要参观<FACILITY>南京长江大桥</FACILITY>，因为他是<TITLE>国家元首</TITLE>，要来参观，要保护他的安全，所以绝对保密，戒严。</p>
+            <p>
+                <MISC>这天</MISC>
+                <TIME>晚上</TIME>，<NUMBER>一</NUMBER>辆小卧车开到了桥头，<NUMBER>一</NUMBER>个妇女，装着象（Korrektur像）<NUMBER>一</NUMBER>个部队首长的人告诉执勤人员说：“她的<NUMBER>一</NUMBER>个得了重病的孩子急需到市医院搶（Kurzzeichen抢）救。”</p>
+            <p>执勤人员说：“戒严时间需要公安局的特许证才能通过。”</p>
+            <p>妇女一听，马上从口袋里拿出特许证给执勤人员看。执勤人员看后，还拿不定主意，便去桥头值班室打电话请示公安局。公安局考虑，<DATE>今</DATE>（<ORDINAL>第</ORDINAL>
+                <NUMBER>2</NUMBER>页）晚桥头戒严是和警备局同时行动，便打电话和警备局商量，征求意见。警备局考虑到自己的工作和任务，事关重大，要绝对戒严，以防万一。最后经研究决定，同意妇女带孩子步行过桥，並（Korrektur并）且要执勤人员监督护送。</p>
+            <p>于是，小卧车往回转。执勤人员拉上妇女和<NUMBER>一</NUMBER>个<NUMBER>十</NUMBER>
+                <MISC>来岁</MISC>的小孩，妇女怀里抱着<NUMBER>一</NUMBER>个不满周岁的婴儿过了桥。走到桥中间，小孩不走了，双手扶着桥栏杆大哭，吓唬、哄骗都没有用。执勤人员看了看表差<NUMBER>十五</NUMBER>
+                <MISC>分钟</MISC>就到<PERSON>西哈努克</PERSON>
+                <TITLE>亲王</TITLE>来的时间，心里非常着急，问妇女怎么办。</p>
+            <p>妇女想了想说：“这样吧，我把小孩抱到桥头派出所，让派出所我爱人的朋友他来接孩子。”</p>
+            <p>执勤人员没有别的办法只好同意了，只说：“越快越好。”</p>
+            <p>妇女走了一会，<NUMBER>四</NUMBER>辆摩托车和<NUMBER>一</NUMBER>辆小汽车开向大桥。这是警备局和<ORGANIZATION>公安局</ORGANIZATION>最后<NUMBER>一</NUMBER>次<FACILITY>联合检查大桥</FACILITY>，发现执勤人员和小孩，小孩只是不断的哭。停车查问，执勤人员向首长汇报了情况。刚说了<NUMBER>几</NUMBER>句，侧面<NUMBER>一</NUMBER>个老<TITLE>侦查员</TITLE>猛地抱起孩子，然后把小孩的耳朵一拧，小孩的胸部立刻有<NUMBER>一</NUMBER>道小口开了，胸膛放着<NUMBER>一</NUMBER>颗定时炸弹，时针正指着<TIME>八点钟</TIME>。原来这孩子是<GPE>西德</GPE>制的机器人，身上装着<NUMBER>许多</NUMBER>机器，无论说话、走路、愤怒、哀乐，相当灵活，加上<TIME>晚上</TIME>，身上穿着风雪大衣，所以根本看不出。侦察员看自己的手表离<TIME>八点钟</TIME>差<NUMBER>五</NUMBER>
+                <MISC>分钟</MISC>，他急忙把小孩拖上摩托车，“腾”的<NUMBER>一</NUMBER>声开走了。<TIME>八点</TIME>整，定时炸弹在江中<NUMBER>一</NUMBER>声巨响<CAUSE_OF_DEATH>爆炸</CAUSE_OF_DEATH>了。</p>
+            <p>
+                <ORGANIZATION>公安部</ORGANIZATION>把<NUMBER>两</NUMBER>件事一起来分析，经讨论认为有特务破坏<FACILITY>长江大桥</FACILITY>。那么派谁去破这个案呢？讨论来，讨论去，最后一致认为派侦察员<PERSON>陈占祥</PERSON>同志，但又想到<PERSON>陈占祥</PERSON>同志响应国家号召，<NUMBER>三十多</NUMBER>
+                <MISC>岁</MISC>才结婚，回家（<ORDINAL>第</ORDINAL>
+                <NUMBER>3</NUMBER>页）<MISC>没</MISC>
+                <NUMBER>几</NUMBER>
+                <MISC>天</MISC>，<DATE>现在</DATE>派他任务不大合适。但任务要紧，一时没有合适的人，<PERSON>陈占祥</PERSON>同志的新房就在<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>郊区，他接到电话后，就立即回公安部。</p>
+            <p>负责同志找他谈话后，他表示：“以革命利益为重，坚决放弃婚假，执行任务。”领导叫他安排一下就出发。<PERSON>陈占祥</PERSON>同志的爱人，是某工厂的<NUMBER>一</NUMBER>个保卫干事。他回去把事情讲后，爱人一点意见也没有，<NUMBER>两</NUMBER>
+                <MISC>天</MISC>后<PERSON>陈占祥</PERSON>就出发了。临走前，给爱人<NUMBER>一</NUMBER>封信说：“如果<NUMBER>七</NUMBER>
+                <MISC>天</MISC>以后，没有收到我的来信和电报，就把这封信交给<PERSON>谢</PERSON>
+                <TITLE>部长</TITLE>。”</p>
+            <p>
+                <NUMBER>七</NUMBER>
+                <MISC>天</MISC>以后，他爱人果然没有收到他的来信、电报，她便到公安部向门口执勤人员说明了自己的身份，並（Korrektur并）要求见<PERSON>谢</PERSON>
+                <TITLE>部长</TITLE>。她说明情况，送上信。<PERSON>谢</PERSON>
+                <TITLE>部长</TITLE>拆开一看，写的是：要破此案，必须派老黄牛来。老黄牛是谁呢？问<ORGANIZATION>保密局</ORGANIZATION>，原来就是<ORGANIZATION>公安部</ORGANIZATION>
+                <NUMBER>二</NUMBER>
+                <MISC>0</MISC>（Korrektur零）<ORDINAL>三</ORDINAL>号老侦察员<PERSON>余飞</PERSON>同志。</p>
+            <p>
+                <PERSON>余飞</PERSON>
+                <NUMBER>四十</NUMBER>
+                <MISC>岁左右</MISC>，<DATE>当时</DATE>还在<STATE_OR_PROVINCE>云南省</STATE_OR_PROVINCE>，<ORGANIZATION>云南</ORGANIZATION>
+                <TITLE>省委书记</TITLE>
+                <PERSON>谭甫仁</PERSON>被刺，他任专案组副<TITLE>组长</TITLE>。因谭案基本破案，便调他去破<FACILITY>南京长江大桥</FACILITY>之案。他接到电报后，立即乘快車（<MISC>Kurzzeichen车</MISC>）回<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>。他坐的软卧車厢。旅途中，由于职业习惯，又回忆起破谭案的经过。</p>
+            <p>
+                <PERSON>谭甫仁</PERSON>同志，工作积极踏实，对人谦虚谨慎。他住的<NUMBER>一</NUMBER>共<NUMBER>三</NUMBER>间，<MISC>头</MISC>
+                <NUMBER>一</NUMBER>间会客室，<ORDINAL>第二</ORDINAL>间办公室，<ORDINAL>第三</ORDINAL>间寝室。他爱人是他的<TITLE>秘书</TITLE>。夫妇俩经常在休息的时候谈工作。这天<TIME>晚上</TIME>，<PERSON>谭</PERSON>夫妇俩坐在卧室窗下沙发上谈工作，她突然发现窗户外有<NUMBER>一</NUMBER>人影一闪，刚要叫有刺客，没等开口，胸部好像被什么東西猛戳了一下，眼前<NUMBER>一</NUMBER>黑，啥也不知道了。谭见她倒在沙发上，忙回头看，又觉得头上被什么東（<PERSON>Kurzzeichen东</PERSON>）西打了<NUMBER>两</NUMBER>下，立即失去了知觉。住在隔壁的女儿，听到有人倒地的声音，跑来一看，哭喊起来，（<ORDINAL>第</ORDINAL>
+                <NUMBER>4</NUMBER>页）一会警卫员、<ORGANIZATION>省委</ORGANIZATION>负责同志赶来了。抢救<TIME>半夜</TIME>，谭才慢慢醒来，断断续续地说了<NUMBER>两</NUMBER>个字：“内......部......”就闭上了眼睛。</p>
+            <p>破案范围在内部。伤是<NUMBER>两</NUMBER>颗无声手枪子弹造成的。检查这种无声手枪，<ORGANIZATION>省委</ORGANIZATION>、军区的<TITLE>部长</TITLE>、<TITLE>科长</TITLE>才有。于是马上召开<TITLE>部长</TITLE>、<TITLE>科长</TITLE>会议，说是检查战备物资，看大家枪、子弹保管情况。按照规定，无声手槍（Kurzzeichen枪）作为防身武器，是随身携带的。说后，大家都把自己的手枪拿出来检查（包括子弹），只见<NUMBER>一</NUMBER>位<TITLE>副科长</TITLE>说：“我不知道，没带来。”领导批评他<NUMBER>几</NUMBER>句，叫他回去拿。<TITLE>科长</TITLE>走了，领导不放心，又叫<NUMBER>两</NUMBER>个侦察员去。保卫<TITLE>科长</TITLE>走到门口，小声对侦察员说：“对不起，那件事是我干的。”</p>
+            <p>侦察员吃了一惊，马上故作镇静的（Korrektur地）安慰说：“好嘛，党的政策你是知道的，坦白从宽，抗拒从严。”</p>
+            <p>说话间，乘（<PERSON>Korrektur</PERSON>趁）侦察员不备，保卫<TITLE>科长</TITLE>忙伸手进衣袋内，<NUMBER>一</NUMBER>枪打倒侦察员。走在<NUMBER>十几</NUMBER>步远的另<NUMBER>一</NUMBER>个侦察员一看，就向保卫<TITLE>科长</TITLE>开枪。“呯，呯，呯”枪声把<PERSON>余飞</PERSON>同志从回忆中惊醒。“呯，呯”枪声连响了，他认为是错觉，拧一拧耳朵一听，“呯，呯”又响<NUMBER>两</NUMBER>枪，接着有人敲门。他的心里思考着，又摸了腰间的枪，顺手开了门。         此枪声何来？无以解。</p>
+            <p>“你是<PERSON>余飞</PERSON>吗？”门开了，<NUMBER>一</NUMBER>个胖头结实的中年軍（<PERSON>Kurzzeichen</PERSON>军）人侧身挤了进来，微笑着点着头，说完后，把右手伸向<PERSON>叶</PERSON>（Korrektur余）飞。问话中带着肯定的语气，象（Korrektur像）个老相识，递过烟，打燃火。借軍人吸烟的机会，余飞斜眼瞭了门外，还站着<NUMBER>两</NUMBER>个軍人大汉，知道难以脱身，<PERSON>余飞</PERSON>认为遇上了特务。</p>
+            <p>
+                <NUMBER>两</NUMBER>人坐定后，中年軍人吸了<NUMBER>两</NUMBER>口烟，便问：“谭案破得怎样？”</p>
+            <p>“这个我不太清楚。”</p>
+            <p>（<ORDINAL>第</ORDINAL>
+                <NUMBER>5</NUMBER>页）“那么你这个专案<TITLE>组长</TITLE>是睡大觉了。”</p>
+            <p>“因为我<TIME>走时</TIME>太慌忙，没有交换情况。” 突然，<PERSON>余飞站起来，侧身伸向行李架。中年軍（Kurzzeichen</PERSON>军）人慌忙<NUMBER>一</NUMBER>把抓住说：“你要干什么？”</p>
+            <p>
+                <PERSON>余飞</PERSON>回头看见那个軍人有<NUMBER>一</NUMBER>颗黑痣，笑着说：“拿<NUMBER>两</NUMBER>个苹果，解解渴。”</p>
+            <p>“不客气。”軍人的手松了。</p>
+            <p>说话间，<PERSON>余飞</PERSON>削好苹果，递给軍人<NUMBER>一</NUMBER>个。然后把茶布上的苹果皮，向上提起玻璃窗，捧着果皮往外倒。这时火車减慢車速，乘（<PERSON>Korrektur趁</PERSON>）倒果皮之机，<PERSON>余飞</PERSON>猛喝<NUMBER>一</NUMBER>声，飞出窗外。等大胖子艰难地跳出窗外时，<PERSON>余飞</PERSON>已摆脱特务的跟踪，改乘另外列車（Kurzzeichen车），顺利地回到<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>。</p>
+            <p>公安部领导同志，给<PERSON>余飞</PERSON>布置了新任务，<PERSON>很高兴</PERSON>。<PERSON>陈占祥</PERSON>是他的老战友了，<NUMBER>两</NUMBER>人工作很顺手。但要完成任务，他提出<NUMBER>三</NUMBER>个条件：</p>
+            <p>
+                <NUMBER>一</NUMBER>、要<ORGANIZATION>中央办公厅</ORGANIZATION>介绍信<NUMBER>一</NUMBER>封；</p>
+            <p>
+                <NUMBER>二</NUMBER>、给<NUMBER>一</NUMBER>个随时调动部队的权力；</p>
+            <p>
+                <NUMBER>三</NUMBER>、给<NUMBER>一</NUMBER>架微型录音机。（这种录音机，只有指头大，<COUNTRY>中国</COUNTRY>从<GPE>西德</GPE>进口了<NUMBER>四</NUMBER>部）</p>
+            <p>
+                <NUMBER>三</NUMBER>个要求，公安部向上级请示后，全部答应。<PERSON>余飞</PERSON>很快地出发了。为了摆脱特务的跟踪，<PERSON>余飞</PERSON>乘快車到了内蒙的<CITY>呼和浩特</CITY>，休息了<NUMBER>三</NUMBER>
+                <MISC>天</MISC>。他去邮电局后，向自己的招待所发了电报、内容是：因<PERSON>余飞</PERSON>病危，速回<STATE_OR_PROVINCE>上海</STATE_OR_PROVINCE>。回到招待所，服务员把电报递给他，他立即办理了手续，告别负责同志，向<CITY>南京</CITY>去了。离开<STATE_OR_PROVINCE>内蒙古</STATE_OR_PROVINCE>
+                <ORDINAL>第二</ORDINAL>
+                <MISC>天</MISC>，差<NUMBER>两百多</NUMBER>公里就到<CITY>南京</CITY>。<PERSON>余飞</PERSON>有意抬头一看，前<NUMBER>几</NUMBER>排椅子上有个面熟、戴黑眼镜的人，胖胖的正在看报。到底是谁呢？再仔细反复的观看，发现胖子的手（<ORDINAL>第</ORDINAL>
+                <NUMBER>6</NUMBER>页）上有<NUMBER>一</NUMBER>颗黑的大痣。记起来了，从<STATE_OR_PROVINCE>云南</STATE_OR_PROVINCE>回<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>时，在半路上遇到的那个中年軍（Kurzzeichen军）人。这时<ORGANIZATION>火車（Kurzzeichen车</ORGANIZATION>）需要让<NUMBER>一</NUMBER>辆特别快車，暂时停在<NUMBER>一</NUMBER>个小站上。<PERSON>余飞</PERSON>趁那个人埋头喝茶时，提着皮包下了火車。刚迈<NUMBER>几</NUMBER>步，回头一看，又有<NUMBER>两</NUMBER>个軍人下了火车。这时刚好特别快車进了站，“汽哧，汽哧”的放着粗气。<PERSON>余飞</PERSON>急中生智，<NUMBER>几</NUMBER>大步钻进了蒸气（Korrektur汽）里，侧身跳进火車头，蒸气完后，<NUMBER>两</NUMBER>
+                <MISC>个軍人大汉</MISC>才回头找余飞。</p>
+            <p>
+                <PERSON>余飞</PERSON>乘特别快車到了<CITY>南京</CITY>，找到了公安局，要见领导同志。值班人员告诉他：“局党委正在看会，不会客。”<PERSON>余飞</PERSON>拿出公安部介绍信，并说有急事。值班员说：“那我在电话里请示一下。”那边党委<TITLE>书记</TITLE>接了电话，对值班人员说：“派辆汽车送<PERSON>余飞</PERSON>同志去招待所，<DATE>明天</DATE>再说。”旁边有个金<TITLE>副局长</TITLE>说：“部里来人，应去<NUMBER>一</NUMBER>个领导接头。”局党委就派金<TITLE>副局长</TITLE>送余飞去公安局招待所。送到适当的房间，说了<NUMBER>几</NUMBER>句话，叫来<NUMBER>一</NUMBER>个年轻漂亮的女服务员，吩咐说：“部里来的同志，要好好照顾一下。”说完，<PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>告别了<PERSON>余飞</PERSON>。</p>
+            <p>服务员打了<NUMBER>一</NUMBER>盆水，余飞洗后，女服务员问<PERSON>余飞</PERSON>：“首长，要什么东西？”<PERSON>余飞</PERSON>确实饿了，忙说道：“随便弄点吃的来，啥都行，只要快点。”服务员马上端来<NUMBER>一</NUMBER>盘热的熟饼，<NUMBER>一</NUMBER>杯咖啡。<PERSON>余飞</PERSON>端起咖啡正要喝，一看咖啡的颜色不对，用鼻子嗅<NUMBER>一</NUMBER>嗅，马上放到桌子上，拿出<NUMBER>两</NUMBER>
+                <MISC>块钱</MISC>说：“麻烦你一下，请给我买<NUMBER>两</NUMBER>盒中华牌香烟。”</p>
+            <p>服务员走了，<PERSON>余飞</PERSON>迅速从包里拿出<NUMBER>一</NUMBER>包包化验粉，用两个手指捻了<NUMBER>一点</NUMBER>放到杯里，咖啡变成黑色。化验说明咖啡里有<NUMBER>一</NUMBER>种大约可以使人麻醉<NUMBER>四</NUMBER>
+                <MISC>小时</MISC>的药。<PERSON>余飞</PERSON>顺手把咖啡倒进痰盂里，把熟并（Korrektur饼）一点（<ORDINAL>第</ORDINAL>
+                <NUMBER>7</NUMBER>页）<NUMBER>一点</NUMBER>拧成粉放在卓在上，<NUMBER>大部分</NUMBER>顺手仍在窗外。</p>
+            <p>服务员这时走了进来，<PERSON>余飞</PERSON>擦了擦嘴，好象（Korrektur像）刚吃过的样子。他接过烟，说了声“谢谢，我太疲倦了，想休息一下。”说完打了个哈欠，伸了个懒腰。服务员走后，<PERSON>余飞</PERSON>从皮包里取出机要文件，放在贴身衣袋里，再将微型录音机打开，藏在皮包里。布置妥当，把皮包放在桌子上，关门脱衣蒙头大睡。</p>
+            <p>一会儿，女服务员轻轻推开门，轻轻走到床边，喊了<NUMBER>两</NUMBER>声，<PERSON>余飞</PERSON>没有吭声。女服务员取出他的皮包，拉上门，很快的走了。走出招待所，她坐上汽車（<MISC>Kurzzeichen车</MISC>）到了金<TITLE>副局长</TITLE>家里。金<TITLE>副局长</TITLE>已等很久了，见她来了热情招待，又递糕点，又递茶。然后说：“你辛苦了，你为我们的事业立了大功。”</p>
+            <p>女服务员说：“那（<PERSON>Korrektur</PERSON>哪）里，那里，这是我应该做的。”服务员说完后，坐下来喝茶。</p>
+            <p>
+                <PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>翻开皮包里的东西，一会儿，<PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>叹了一口气，说：“唉，真可惜，没有我们急需的资料，都是团级<TITLE>干部</TITLE>的文件，带回去，继续监视。”</p>
+            <p>女服务员告别了金<TITLE>副局长</TITLE>，匆匆忙忙赶回了招待所，走进余飞的房间，又喊了<NUMBER>两</NUMBER>声：“首长，首长！”没有应声，于是把皮包放回原处，轻轻的关上门走了。</p>
+            <p>
+                <PERSON>余飞</PERSON>翻身坐起来，取出微型录音机，放在被窝里播放<NUMBER>一</NUMBER>遍，<PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>的话立刻在耳边响了：“你为我们事业立下了大功”，“......继续监视。”录音结果证明：<PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>是潜伏在国家专政机关内部的特务。</p>
+            <p>
+                <PERSON>余飞</PERSON>写下简单的报告，发回公安部。然后到警备局亮出中央办（<ORDINAL>第</ORDINAL>
+                <NUMBER>8</NUMBER>页）公厅介绍信，要警备局立即逮捕金<TITLE>副局长</TITLE>。警备局负责同志感到为难，说：“<PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>是中央管的<TITLE>干部</TITLE>，警备局无权处理。”商量下，警备局只好同意拘留审查，<DATE>今后</DATE>好说话。</p>
+            <p>
+                <PERSON>金</PERSON>
+                <TITLE>副局长</TITLE>被拘留在警备局的<NUMBER>一</NUMBER>间房子里，他不吃饭，不睡觉，对服侍他的警卫员大发脾气：“我是中央管的<TITLE>干部</TITLE>，警备局无权处理，无权审查。”警备局不好来见，便请<PERSON>余飞</PERSON>来见金。金<NUMBER>一</NUMBER>见<PERSON>余飞</PERSON>，好象（<PERSON>Korrektur</PERSON>像）找到了说话的地方，说：“警备局不按政策，无理取闹，部里来的同志给作（Korrektur做）主吧！”</p>
+            <p>
+                <PERSON>余飞</PERSON>笑着回答：“让它作主吧。”拿出录音机，打开开关，立即金的声音在录音机里说话了。听到声音，金的脸吓得惨白，他低下<ORDINAL>头</ORDINAL>咬了一下自己的衣领，便晕倒在沙发上。</p>
+            <p>
+                <PERSON>余飞</PERSON>放完录音机，满意的放好机子，正想说：“怎么样，明白吗？”一看金晕倒在沙发上，口吐白沫死了。<PERSON>余飞</PERSON>后悔自己的粗心大意。他让警备局处理金的后事，並（<PERSON>Korrektur</PERSON>并）监视女服务员，自己乘飞机回<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>，汇报工作，研究下<NUMBER>一</NUMBER>步工作。</p>
+            <p>
+                <PERSON>余飞</PERSON>回到<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>刚<NUMBER>两</NUMBER>
+                <MISC>天</MISC>，就接到<ORGANIZATION>南京警备局</ORGANIZATION>的电报说：“女服务员<CAUSE_OF_DEATH>自杀</CAUSE_OF_DEATH>了。”<ORGANIZATION>公安部</ORGANIZATION>根据新的情况分析，决定从女服务员身上开刀，把断的线头再接起来，查清楚。于是<PERSON>余飞</PERSON>
+                <NUMBER>二</NUMBER>次下<CITY>南京</CITY>。</p>
+            <p>经过现场分析，女服务员是用手帕<CAUSE_OF_DEATH>自杀</CAUSE_OF_DEATH>的，这种手帕是国际工厂专门为<TITLE>间谍</TITLE>生产的，只要用这种手帕在鼻子上<NUMBER>一</NUMBER>幌（Korrektur晃），就可以使人晕倒在地。女服务员是在被监视后，用手帕擦眼、泪水、鼻子，<CAUSE_OF_DEATH>中毒</CAUSE_OF_DEATH>而死的。招待所每天都有<NUMBER>许多</NUMBER>人来来往往，很不好查。<PERSON>余飞</PERSON>组织全所同志（<ORDINAL>第</ORDINAL>
+                <NUMBER>9</NUMBER>页）座谈。回忆了<NUMBER>几</NUMBER>
+                <MISC>天</MISC>，有个人才想起来，<DATE>当时</DATE>有个开卡車（Kurzzeichen车）的小伙子常来找这个女服务员，但不知車号和小伙子的姓名。公安局查了<NUMBER>几</NUMBER>
+                <MISC>天</MISC>，卡車只有<NUMBER>四十多</NUMBER>
+                <MISC>辆</MISC>，再还要缩小范围，才查明经常找这个女服务员的小伙子名叫<PERSON>王真</PERSON>，是本市“<TIME>5・71</TIME>”信箱的汽车<TITLE>司机</TITLE>，車号：<NUMBER>69-264</NUMBER>号。<TITLE>驾驶员</TITLE>
+                <NUMBER>半</NUMBER>
+                <MISC>年前</MISC>已去<STATE_OR_PROVINCE>上海</STATE_OR_PROVINCE>出差。为避免打草惊蛇，公安局通知全市交通民警，<NUMBER>571</NUMBER>信箱的<NUMBER>69-264</NUMBER>号車回来后，要暗中监视，並（Korrektur并）立即上报。</p>
+            <p>
+                <ORDINAL>第四</ORDINAL>
+                <MISC>天</MISC>
+                <TIME>下午</TIME>，<ORGANIZATION>公安局</ORGANIZATION>报告<PERSON>余飞</PERSON>，交通队来电话说<NUMBER>69-264</NUMBER>号車回<CITY>南京</CITY>了，<DATE>现在</DATE>
+                <FACILITY>东大街</FACILITY>中段行驶。<PERSON>余飞</PERSON>听罢，立即叫公安部来<CITY>南京</CITY>出差的小罗做助手，开动公安局的吉普車，不多时便追上了<NUMBER>69-264</NUMBER>号車。<NUMBER>两</NUMBER>辆車<NUMBER>一</NUMBER>前<NUMBER>一</NUMBER>后，始终保持<NUMBER>半</NUMBER>里的距离。卡車开上了小路，<PERSON>吉普車</PERSON>也上了小路。黄昏时卡車开进了山陵的<NUMBER>一</NUMBER>个树林里，<NUMBER>一</NUMBER>拐弯不见了。这时天已渐渐黑了，<PERSON>余飞</PERSON>和小罗也把車开进了树林放好。<NUMBER>两</NUMBER>个人把无声手枪推上了子弹，进树林里搜查起来。搜查一阵，发现不来远有灯光闪闪。走近一看，树林的山脚下有<NUMBER>两</NUMBER>幢<NUMBER>三</NUMBER>层楼房，周围<NUMBER>一丈多</NUMBER>高的围墙，並且上面有电网。<PERSON>余飞</PERSON>穿好绝缘服，爬上<NUMBER>一</NUMBER>棵大树，看见墙里有明亮的灯光，看见花园和小运动场。在运动场上停着<NUMBER>一</NUMBER>辆<MISC>嘎斯</MISC>
+                <NUMBER>69</NUMBER>和<NUMBER>两</NUMBER>辆小卧車。在葡萄树下，有<NUMBER>四</NUMBER>、<NUMBER>五</NUMBER>个中年軍（<PERSON>Kurzzeichen</PERSON>军）人在休息谈天。<PERSON>余飞</PERSON>估计这是<NUMBER>571</NUMBER>信箱的外属軍事机关。想罢纵身一跃，越过电网，轻轻一跳到了花园，躲在暗处，注视着楼下闪着亮光的办公室。办公室草绿色的沙发上坐着<NUMBER>一</NUMBER>个身穿軍装的女青年，看样子不过<NUMBER>20</NUMBER>
+                <MISC>岁左右</MISC>。桌上台灯的光亮映在她那白净的脸上，细看上去，显得格外漂亮。她好象（Korrektur像）仔细地看<NUMBER>一</NUMBER>份打印的材料，不时用筆（Kurzzeichen笔）在上面点着划着。突然门外（<ORDINAL>第</ORDINAL>
+                <NUMBER>10</NUMBER>页）有人喊“报告”，她头也不抬随口答应：“进来。”</p>
+            <p>“报告首长，他死也不招。”开门进来<NUMBER>两</NUMBER>个軍（<PERSON>Kurzzeichen</PERSON>军）人大汉，其中<NUMBER>一</NUMBER>个的手腕上有颗黑痣。<PERSON>余飞</PERSON>一惊，想起来了，从<STATE_OR_PROVINCE>云南</STATE_OR_PROVINCE>回<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>时在車（Kurzzeichen车）上遇到的那个人，这是<ORDINAL>第三</ORDINAL>次见面了。想到这里，听那女人说：“给她（Korrektur他）讲清楚，只要说明干啥，保证他安全，照样是<TITLE>干部</TITLE>。”声音清脆严厉。</p>
+            <p>“软硬办法用尽了。”</p>
+            <p>女人又说：“给我带进来，我就不信他是钢铁铸的。”此人生气了。</p>
+            <p>“是！”<NUMBER>两</NUMBER>个軍人敬了个礼，转身走了出去。一会儿，<NUMBER>一</NUMBER>个遍体是伤，头发蓬乱的人被带进来了。</p>
+            <p>那女人劝他说：“落在我们手里要识时务，要......”</p>
+            <p>被托（Korrektur拖）进来的人猛抬起头，严厉的说：“胡说，你们是<NUMBER>一</NUMBER>伙狗特务......”破口大骂，<NUMBER>两</NUMBER>只眼睛里闪着怒火。这人<NUMBER>一</NUMBER>抬头，藏在窗外的余飞大吃一惊，“<PERSON>陈占祥</PERSON>”，<PERSON>余飞</PERSON>差一点叫出声来。女人被骂得面红耳赤，恼羞成怒，揮（<PERSON>Kurzzeichen</PERSON>挥）着手叫拖出去枪毙祘（Korrektur算）了。<PERSON>余飞</PERSON>这时潜入后花园，刚藏好，就看见<NUMBER>一</NUMBER>个黑影举着枪，对着近处<NUMBER>一</NUMBER>个躺着的人。<PERSON>余飞</PERSON>把手中时刻握着的无声手枪，<NUMBER>一</NUMBER>枪放倒了那个黑影。这时，听屋里又走出<NUMBER>一</NUMBER>个人边走边说：“咋这么啰嗦。”<PERSON>余飞</PERSON>又举起枪放倒了那个。<PERSON>余飞</PERSON>立即<NUMBER>几</NUMBER>个箭步跑到跟前，<NUMBER>两</NUMBER>手用力举起那个人，设法推出墙外，<PERSON>余飞</PERSON>也跃身而出。刚落地就觉得有硬梆梆（<PERSON>Korrektur邦</PERSON>）的东西顶住了心窝，听到<NUMBER>一</NUMBER>声：“不准动。”<PERSON>余飞</PERSON>一听声音是小罗，忙说：“快上車，把这个人带回去。”原来余飞潜入墙内，小罗一直在外面巡逻。正着急，忽然从围墙里抛出<NUMBER>一</NUMBER>个东西，赶忙接住，差一点把小罗砸倒，一看是个遍体是伤的人。又是<NUMBER>一</NUMBER>个人跳出来，这个人站立不稳时，<PERSON>小罗闪</PERSON>在他背后，用枪顶住了，原来是<PERSON>余飞</PERSON>。</p>
+            <p>（<ORDINAL>第</ORDINAL>
+                <NUMBER>11</NUMBER>页）<NUMBER>两</NUMBER>个人来不及说话，把昏倒的人背起来就走，找到<PERSON>吉普車</PERSON>（Kurzzeichen车），回公安局去了。被打伤的人是<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>侦察员<PERSON>陈占祥</PERSON>，经抢救，慢慢苏醒过来了，他说：“我来<CITY>南京</CITY>的<ORDINAL>第一</ORDINAL>个<TIME>晚上</TIME>，喝了<NUMBER>几</NUMBER>杯酒，醒来时，已在另<NUMBER>一</NUMBER>个院子里被看管起来。那是什么地方？过了多久我也不知道。”休息<NUMBER>几</NUMBER>
+                <MISC>天</MISC>后，<PERSON>余飞</PERSON>和小罗护送<PERSON>陈占祥</PERSON>回<STATE_OR_PROVINCE>北京</STATE_OR_PROVINCE>。公安局听了<PERSON>余飞</PERSON>
+                <NUMBER>两</NUMBER>次下<CITY>南京</CITY>的汇报，找有关部门了解<NUMBER>571</NUMBER>信箱，回答说：“此事秘密，不便告明。”为了彻底破案，<ORGANIZATION>公安部</ORGANIZATION>决定秘密逮捕<PERSON>王真</PERSON>，打开缺口。</p>
+            <p>
+                <PERSON>余飞</PERSON>
+                <ORDINAL>第三</ORDINAL>次来到<CITY>南京</CITY>。刚好省軍（<ORGANIZATION>Kurzzeichen军</ORGANIZATION>）区欢迎<NUMBER>一</NUMBER>个<ORGANIZATION>中央</ORGANIZATION>首长，举行晚会，给公安局<NUMBER>几</NUMBER>张票，<ORGANIZATION>公安局</ORGANIZATION>负责人考虑到<PERSON>余飞</PERSON>是部里来的客人，是上级派来的，便邀请他参加了，于是<PERSON>余飞</PERSON>和公安局<NUMBER>几</NUMBER>个同志来到了軍区礼堂。参加晚会的<NUMBER>大多数</NUMBER>是<CITY>南京</CITY>党、政、軍的高级<TITLE>干部</TITLE>，<PERSON>余飞</PERSON>他们对号入座。等到<TIME>八点钟</TIME>晚会不开始，又过了<NUMBER>十五</NUMBER>
+                <MISC>分钟</MISC>还不开始。<PERSON>余飞</PERSON>忍不住问身边<NUMBER>一</NUMBER>个軍人，那軍人看看表说：“首长都还没有来，怎么开演？”说着转向前努努嘴。<PERSON>余飞</PERSON>想这样大的派头是哪位首长呢？正想着，会场掌声震动，还有的把椅子都翻（Korrektur反）过来拍的更响。<PERSON>余飞</PERSON>也鼓掌，只见<NUMBER>一</NUMBER>男<NUMBER>一</NUMBER>女，可前面有<NUMBER>几</NUMBER>位軍首长挡着，看不清楚。中间休息<NUMBER>十五</NUMBER>
+                <MISC>分钟</MISC>，首长正进入休息室。<PERSON>余飞</PERSON>为看清楚那位首长，借去厕所，回来时路过休息室，从窗口看进去，那（Korrektur哪）知不看便罢，一看大吃一惊。<NUMBER>一</NUMBER>男<NUMBER>一</NUMBER>女都不过<NUMBER>20</NUMBER>
+                <MISC>岁左右</MISC>，男的没见过，女的就是<TIME>那天晚上</TIME>审陈占祥的那个女人。<PERSON>余飞</PERSON>控制住自己内心的震惊，回到座位上，装着若无其事的样子和身边的軍人说闲话。</p>
+            <p>“嘿，<DATE>今晚</DATE>来的<ORGANIZATION>中央</ORGANIZATION>首长真年轻，是哪个兵种的？”</p>
+            <p>“你不知道吗？这是我们<ORGANIZATION>空軍作战部</ORGANIZATION>的<PERSON>林</PERSON>
+                <TITLE>副部长</TITLE>。”</p>
+            <p>（<ORDINAL>第</ORDINAL>
+                <NUMBER>12</NUMBER>页）“那位女首长是谁？”</p>
+            <p>“据说是<PERSON>林</PERSON>
+                <TITLE>副部长</TITLE>的未婚妻。”</p>
+            <p>
+                <PERSON>余飞</PERSON>反复的揣测着这句话，回忆审<PERSON>陈</PERSON>占祥的情况，<PERSON>余飞</PERSON>为这位年青（Korrektur轻）<TITLE>副部长</TITLE>的安全担心。</p>
+            <p>
+                <ORDINAL>第二</ORDINAL>
+                <MISC>天</MISC>，<ORGANIZATION>公安局</ORGANIZATION>按<PERSON>余飞</PERSON>的指示，秘密逮捕了“<NUMBER>571</NUMBER>”信箱<TITLE>驾驶员</TITLE>
+                <PERSON>王真</PERSON>，由<PERSON>余飞</PERSON>亲自审问，被审人自供：</p>
+            <p>我叫<PERSON>王真</PERSON>，男，<NUMBER>二十五</NUMBER>
+                <MISC>岁</MISC>，<GPE>上海市</GPE>人。<DATE>62年</DATE>初中毕业，<DATE>68年</DATE>
+                <MISC>毛</MISC>
+                <TITLE>主席</TITLE>发出号召：“知识青年到农村去，接受贫下中农的再教育。”我怕艰苦，没有去。后来就和社会上的流氓、阿飞鬼混在一起，偷、抢、行凶、投机倒把，样样都学。<NUMBER>三</NUMBER>
+                <MISC>、</MISC>
+                <NUMBER>五</NUMBER>
+                <MISC>个月</MISC>都不回家<NUMBER>一</NUMBER>次。父母亲气得没办法，但找不着我。有时偷不着东西，就到食堂里吃人家的残汤剩菜，甚至舔碗。久而久之，我认识了食堂里的<NUMBER>一</NUMBER>个女服务员，她对我说：“小伙子，这样年轻，这样混下去总不是个办法，还是考虑自己的前途吧！”她还说：“我有个亲戚在部队里工作，当<TITLE>干部</TITLE>，<DATE>最近</DATE>要回<STATE_OR_PROVINCE>上海</STATE_OR_PROVINCE>探亲，我<DATE>今后</DATE>帮你说说，能不能给你找个工作。”我听了，简直高兴了。</p>
+            <p>从此，我每天去食堂一、<NUMBER>两</NUMBER>次，问她那个亲戚回来没有。<NUMBER>半</NUMBER>
+                <MISC>月后的</MISC>
+                <NUMBER>一</NUMBER>
+                <MISC>天</MISC>，她告诉我，他回来了，她交给我<NUMBER>一</NUMBER>张纸条，叫我到XX街去找那个亲戚。我到那里一看，<NUMBER>一</NUMBER>个中年軍（Kurzzeichen军）人坐在院里的树下看报纸。他看过纸条，取下眼镜，仔细看我<NUMBER>一</NUMBER>阵，问了我家里情况和亲人情况后说：“我们当兵的，能找个啥工作。”他想了<NUMBER>一想又说：“我可以介绍你来当兵，願（Kurzzeichen愿）意吗？”我听了喜出望外，忙说愿意。然后他写了一</NUMBER>张纸条给我，叫我到XX路找‘<NUMBER>571</NUMBER>’信箱驻<STATE_OR_PROVINCE>上海</STATE_OR_PROVINCE>办事处。我高兴地找到了那个办事处，（<ORDINAL>第13</ORDINAL>页）<NUMBER>一</NUMBER>个<NUMBER>五十多</NUMBER>
+                <MISC>岁</MISC>的軍（<PERSON>Kurzzeichen</PERSON>军）人接待了我，看了纸条后向我说：“小伙子，我们收的是特种兵，当兵<NUMBER>十</NUMBER>
+                <MISC>年</MISC>
+                <DATE>八年</DATE>也难回家，你回去看看父母，告个别吧。”说完就叫警卫员带我去洗澡，换軍装。我穿着軍装，很神气的回到家。家里不知我从哪里弄来的軍装，叫我趁早退回，不相信我当了兵。我<NUMBER>多</NUMBER>次的解释以后，才慢慢的相信自己。左右邻居纷纷议论，说我整天在社会上鬼混，咋猛的当了兵，感到奇怪。我不理这些，到<CITY>南京</CITY>XX报了到。分给我的兵种是侦察兵，啥都要学，如何使用<NUMBER>多</NUMBER>种武器，如何驾驶多种車（<MISC>Kurzzeichen车</MISC>）辆，学<NUMBER>多</NUMBER>种语言，拳击等等，学了<NUMBER>两</NUMBER>
+                <MISC>年</MISC>时间。说到这里，<PERSON>王真</PERSON>低头不说了，<PERSON>余飞</PERSON>问还有啥？他还是不吭声。<PERSON>余飞</PERSON>又开导说：</p>
+            <p>“想想别人入伍都戴红花，敲锣打鼓放鞭炮。而你呢？悄悄的换上了軍装，祘（Korrektur算）是当兵。再拿你的工作来说，对得起你的父母吗？对得起你出身的<TITLE>工人</TITLE>阶级家庭吗？”</p>
+            <p>
+                <PERSON>余飞</PERSON>一席话，象（Korrektur像）刀子一样刺进了<PERSON>王真的</PERSON>心窝。他发抖了一会，沉默了一会，接着说：</p>
+            <p>“<DATE>当时</DATE>我问过我自己，特别是执行任务时。有<NUMBER>一</NUMBER>
+                <MISC>天</MISC>，首长叫我去，问我学习和训练情况，我说“请首长检查”，首长夸我学的不错。首长叫我领来了<NUMBER>一</NUMBER>支无声手枪，严厉的（Korrektur地）对我说：‘<PERSON>王真</PERSON>同志，我命令你用这支手枪把你父母杀了。’我听后迟迟没有回答。首长揮揮（<PERSON>Kurzzeichen</PERSON>挥）手说：‘回去想好再来。’<TIME>晚上</TIME>，我反复想着首长为什么布置我这样的任务？大概是训练我的勇气和胆量吧。看来首长发火了，<DATE>明天</DATE>再讨论，一定要答应下来。<ORDINAL>第三</ORDINAL>
+                <MISC>天</MISC>我又去见首长，首长说：‘<PERSON>王真</PERSON>同志，后操场有辆車，装的是爆炸物，我命令你马上送到江对面供应站，<TIME>九点钟</TIME>准时回来，路上（<ORDINAL>第</ORDINAL>
+                <NUMBER>14</NUMBER>页）不许乱想。’我一听不是杀我父母的命令，我高兴极了，我立即回答‘是’，敬了礼，连忙去了。”</p>
+            <p>
+                <PERSON>余飞</PERSON>听了是爆炸性的物质，想起了<COUNTRY>阿尔巴尼亚</COUNTRY>朋友参观<FACILITY>南京长江大桥</FACILITY>时遇见的怪事，连忙问：</p>
+            <p>““那是什么时间？”</p>
+            <p>“<DATE>今年七月</DATE>
+                <MISC>分</MISC>（<MISC>Korrektur</MISC>份）。”</p>
+            <p>“好，继续说。”</p>
+            <p>“<NUMBER>半</NUMBER>
+                <MISC>年前一天</MISC>
+                <TIME>晚上</TIME>，通知我开辆小轿車（Kurzzeichen车）送<DATE>二号</DATE>首长到市医院去给孩子看病，<DATE>当时</DATE>我钻到驾驶室里感到奇怪，<ORDINAL>二</ORDINAL>
+                <MISC>号</MISC>首长不过<NUMBER>20</NUMBER>
+                <MISC>岁</MISC>，<DATE>今天</DATE>却象（Korrektur像）<NUMBER>40</NUMBER>
+                <MISC>岁</MISC>的妇女，她没有结婚，为什么会有<NUMBER>两</NUMBER>个孩子呢？我开到了桥头，被执勤人拦住说：“戒严了。”要通过非要特别通行证不可，但<ORDINAL>二</ORDINAL>
+                <MISC>号</MISC>首长将通行证给执勤人员看了看，执勤人员说：“<NUMBER>两</NUMBER>个孩子和<ORDINAL>二</ORDINAL>
+                <MISC>号</MISC>首长由执勤人员监督护送。”</p>
+            <p>审问结束，真象（Korrektur相）大白。<PERSON>余飞</PERSON>将<NUMBER>三</NUMBER>下<CITY>南京</CITY>破案的经过，马上向上级作了总结汇报，最后将<PERSON>王真送</PERSON>公安部。</p>
+            <p>本案正待处理。</p>
+            <p>（<ORDINAL>第</ORDINAL>
+                <NUMBER>15</NUMBER>页，原文写为竖排，未标页码，本文为方便读者阅读，抄写为横排）</p>
+            <p>关于<ORGANIZATION>云南省委</ORGANIZATION>
+                <ORDINAL>第一</ORDINAL>
+                <TITLE>书记</TITLE>
+                <PERSON>谭甫仁</PERSON>之死的说明</p>
+            <p>在余飞<NUMBER>三</NUMBER>下<CITY>南京</CITY>之中曾提到<PERSON>谭甫仁</PERSON>被刺事件，但未说明原因，现据可靠消息补充说明情况：</p>
+            <p>
+                <PERSON>谭甫仁</PERSON>死前不久，他接到<PERSON>林彪</PERSON>（据说尚有<PERSON>江青</PERSON>）<NUMBER>一</NUMBER>封绝密电报，大意曰：某日某时有<NUMBER>一</NUMBER>架不明国籍飞机飞过<CITY>昆明</CITY>，越境叛逃外国，令其击毁该机。于是<PERSON>谭令其</PERSON>部队作好准备。果然该日该时有<NUMBER>一</NUMBER>架飞机自此飞来<CITY>昆明</CITY>，但情况有出入，因该机标有“<ORGANIZATION>中国民航</ORGANIZATION>”字样，且编号一清二楚，谭不敢下令击毁，于是令机群起飞迫降。等到该机在机场降落后，从飞机里走出<NUMBER>一</NUMBER>人，谭一见，嚇（Korrektur吓）得面如土色，冷汗湿衫。原来从飞机里走出的並（<PERSON>Korrektur</PERSON>并）非别人，正是我们敬爱的周总理。<PERSON>谭含泪</PERSON>把绝密电报交给了<PERSON>周</PERSON>
+                <TITLE>总理</TITLE>。真像（Korrektur相）大白，林、江<NUMBER>一</NUMBER>伙妄图趁<TITLE>总理</TITLE>出国访问途经<CITY>昆明</CITY>时陷害<TITLE>总理</TITLE>。事后<TIME>不久</TIME>，谭全家被刺。</p>
+            <p>据说，这封电报直到<TITLE>总理</TITLE>病危逝世前，才嘱咐<PERSON>邓颖超</PERSON>交给<NUMBER>一</NUMBER>位可靠的人——许世友司令员。</p>
+            <p>谭生前靠近林贼，在<MISC>党的</MISC>
+                <ORDINAL>九</ORDINAL>
+                <MISC>届</MISC>
+                <ORDINAL>二</ORDINAL>
+                <MISC>中全会</MISC>上和<PERSON>林彪</PERSON>、<PERSON>陈伯达</PERSON>大吹天才论。但尚未迈到反<TITLE>总理</TITLE>的地步。<PERSON>谭早</PERSON>已被刺身死，<DATE>那时</DATE>
+                <PERSON>林彪</PERSON>尚未完全暴露。应该用历史唯物主义来评价他。<DATE>当时</DATE>报纸评价似有异议。</p>
+            <p>（<ORDINAL>第</ORDINAL>
+                <NUMBER>16</NUMBER>页，原文未标页码）反 特 故 事 册 目 录</p>
+            <p>余 飛 <NUMBER>三</NUMBER> 下 南 京</p>
+            <p>灰 色 的 大 楼</p>
+            <p>
+                <ORDINAL>第</ORDINAL> <NUMBER>十 二</NUMBER> 张 美 人 皮</p>
+            <p>绿 色 的 尸 体</p>
+            <p>
+                <NUMBER>一</NUMBER> 副 梅 花 图 </p>
+            <p>（封底）      余                    余</p>
+            <p>            飛                    飛</p>
+            <p>            <NUMBER>三                    三</NUMBER>
+            </p>
+            <p>            下                    下</p>
+            <p>            南                    南</p>
+            <p>            <STATE_OR_PROVINCE>京                    京</STATE_OR_PROVINCE>
+            </p>
+            <p>反                                                      反</p>
+            <p>特             智                                       特              智</p>
+            <p>故             山                                       故              山</p>
+            <p>事             藏                                       事              藏</p>
+            <p>册                                                      册</p>
+            <p>之                                                      之</p>
+            <p>
+                <NUMBER>一                                                      一</NUMBER>
+            </p>
+        </body>
+    </text>
+</TEI>
