@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 node_modules/
 
 *.code-workspace
+src/three_times_to_jiangnan/xquery/debugging.xquery

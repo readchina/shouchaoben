@@ -241,10 +241,10 @@
                     <corr>并</corr>
                 </choice>
                 要求见
-                <persName ref="#">谢<roleName>部长</roleName>
+                <persName>谢<roleName>部长</roleName>
                 </persName>
                 。她说明情况，送上信。
-                <persName ref="#">谢<roleName>部长</roleName>
+                <persName>谢<roleName>部长</roleName>
                 </persName>
                 拆开一看，写的是：要破此案，必须派老黄牛来。老黄牛是谁呢？问
                 <orgName ref="#O0010">保密局</orgName>
