@@ -9,21 +9,27 @@ declare variable $standOff := doc("../standOff.xml");
 declare function local:add-place-ref($input as node()*)
 {
 for $n in $input//*:text//*:placeName
-return update insert  attribute ref{"#"||data($standOff//*:placeName[./string() = $n/string()]/../@*:id)} into $n
+return if($standOff//*:placeName[./string() = $n/string()])
+then update insert  attribute ref{"#"||data($standOff//*:placeName[./string() = $n/string()]/../@*:id)} into $n
+else ()
 };
 
 
 declare function local:add-person-ref($input as node()*)
 {
 for $n in $input//*:text//*:persName
-return update insert  attribute ref{"#"||data($standOff//*:persName[./string() = $n/string()]/../@*:id)} into $n
+return if($standOff//*:persName[./string() = $n/string()])
+then update insert  attribute ref{"#"||data($standOff//*:persName[./string() = $n/string()]/../@*:id)} into $n
+else ()
 };
 
 
 declare function local:add-org-ref($input as node()*)
 {
 for $n in $input//*:text//*:orgName
-return update insert  attribute ref{"#"||data($standOff//*:orgName[./string() = $n/string()]/../@*:id)} into $n
+return if($standOff//*:orgName[./string() = $n/string()])
+then update insert  attribute ref{"#"||data($standOff//*:orgName[./string() = $n/string()]/../@*:id)} into $n
+else ()
 };
 
 local:add-place-ref($sanjin-A|$sanjin-B|$sanjin-C),
