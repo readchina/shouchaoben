@@ -1,5 +1,4 @@
-
-dist: xenial
+dist: focal
 
 addons:
   apt:
@@ -7,4 +6,5 @@ addons:
       - libxml2-utils
 
 script:
-  - xmllint --noout --xinclude --relaxng tei_all.rng src/**/wit_*/xml/*.xml
+# NOTE(DP): shortform doesn't work on CI: **/xml/*.xml
+  - xmllint --noout --xinclude --relaxng tei_all.rng */*/*/xml/*.xml
