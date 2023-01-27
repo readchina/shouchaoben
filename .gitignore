@@ -26,3 +26,4 @@ resources/_gen/assets/sass/scb-hugo2/sass/style.sass_*.json
 resources/_gen/assets/sass/scb-hugo2/sass/style.sass_*.content
 
 .DS_Store
+node_modules/
