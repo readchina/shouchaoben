@@ -25,3 +25,5 @@ go.work
 style.sass_*.json
 style.sass_*.content
 
+node_modules/
+.DS_Store

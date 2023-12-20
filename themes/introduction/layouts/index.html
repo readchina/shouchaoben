@@ -29,7 +29,9 @@
                     <!-- End title and tagline -->
                     <!-- Some social icons -->
                     <div class="{{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in three{{ end }}">
-                        {{ partial "home/social.html" . }}
+
+                        <!-- {{ partial "home/social.html" . }} -->
+
                     </div>
                     <!-- End top social icons -->
                 </div>
@@ -38,7 +40,9 @@
 
             <div class="hero-foot {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in three{{ end }}">
                 <!-- Tell them all about it! -->
-                {{ partial "nav.html" . }}
+
+                <!-- {{ partial "nav.html" . }} -->
+                
             </div>
         </section> <!-- Done with Hero -->
 
@@ -98,6 +102,7 @@
         {{ end }}
         {{ end }}
         {{ end }}
+
         <!-- Let`s chat, shall we? -->
         {{ with .Resources.GetMatch "contact.md" }}
         <div class="section" id="{{ .File.TranslationBaseName }}">
@@ -142,7 +147,9 @@
             // Updating every second to prevent seconds looking like stood still when timeStyle is ignored.
             setInterval(update_localtime, 1000);
         </script>
+
         {{ end }}
+
     </body>
 
 </html>
