@@ -30,15 +30,15 @@ Link, Perry 1989: "Hand-Copied Entertainment Fiction from the Cultural Revolutio
 
 Nielsen, Inge 2002: "Prized Pulp Fiction: Hand-copied Literature from the Cultural Revolution", in: _China Review International_, Vol. 9, no.2, 344-356.
 
-Zhang Yang 张扬1999_: The Literary Inquisition of "The Second Handshake"_《第二次握手》文字狱, Beijing: Zhongguo shehui chubanshe.
+Zhang Yang 张扬1999: _The Literary Inquisition of "The Second Handshake"_《第二次握手》文字狱, Beijing: Zhongguo shehui chubanshe.
 
-Zhao Zhenkai 赵振开 [Bei Dao 北岛] 1985: _Waves_波动, Hong Kong: Chinese University Press.
+Zhao Zhenkai 赵振开 [Bei Dao 北岛] 1985: _Waves_ 波动, Hong Kong: Chinese University Press.
 
 <br/>
 
 ### This project was undertaken by:
 
-Lena Henningsen (PI and contents), Duncan Paterson (concept), Qin Gu (programming), Xiayin Dang
+Lena Henningsen (PI and contents), Duncan Paterson (concept), Qin Gu (programming), Xiayin Dang (transcriptions)
 
 <br/>
 
