@@ -27,3 +27,13 @@ style.sass_*.content
 
 node_modules/
 .DS_Store
+
+
+# IDEs
+.cursor/
+.vscode/
+.zed/
+
+# LLMs
+.claude/
+.gpt/
