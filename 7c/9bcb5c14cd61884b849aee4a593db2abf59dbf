@@ -1,0 +1,19 @@
+.github/workflows/gh-pages.yml
+  s_00083fa4c7a565::t_fa0ea2b82e5bee 41-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "7c9bcb5c14cd61884b849aee4a593db2abf59dbf",
+  "prompts": {},
+  "sessions": {
+    "s_00083fa4c7a565": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "832b8789-c1df-459b-8b64-0088c5127843",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
