@@ -1,0 +1,21 @@
+content/en/home/intro.md
+  s_00083fa4c7a565::t_3b338dfd5fad3c 58
+  s_00083fa4c7a565::t_2572d7fd22929b 47
+  s_00083fa4c7a565::t_9b706b91dc9860 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "10bdc6f9e045352f2a068eb7d6db0e40642d5ed2",
+  "prompts": {},
+  "sessions": {
+    "s_00083fa4c7a565": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "832b8789-c1df-459b-8b64-0088c5127843",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
