@@ -63,6 +63,9 @@ find "$SITE_ROOT" -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' -o 
     {} +
 
 touch "$SITE_ROOT/.nojekyll"
+
+# HTML requires explicit </script> tags (self-closing <script/> breaks the DOM)
+find "$SITE_ROOT" -name '*.html' -exec perl -pi -e 's/<script([^>]*)\/>/<script$1><\/script>/g' {} +
 ```
 
 On Linux, use `sed -i` instead of `sed -i ''`.
