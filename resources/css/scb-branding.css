@@ -1,0 +1,123 @@
+/* Site-wide READCHINA branding */
+
+:root {
+    --jinks-bottom-background-image: none;
+}
+
+.menubar .logo a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+footer .footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--s1);
+}
+
+footer .footer-partners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--s2);
+    flex-wrap: wrap;
+}
+
+footer .footer-logo img {
+    display: block;
+    max-height: 3rem;
+    width: auto;
+    max-width: 12rem;
+    object-fit: contain;
+}
+
+/* Witness page: transcription + facsimile side by side in main column */
+.witness-layout {
+    display: flex;
+    flex-direction: row;
+    gap: var(--s1);
+    align-items: stretch;
+    min-height: 0;
+    height: calc(100vh - 10rem);
+}
+
+.witness-transcription {
+    flex: 1 1 50%;
+    order: 1;
+    min-width: 0;
+    overflow: auto;
+}
+
+.witness-layout pb-facsimile {
+    flex: 1 1 50%;
+    order: 2;
+    min-width: 0;
+    min-height: 0;
+    height: var(--pb-facsimile-height, calc(100vh - 10rem));
+    --pb-facsimile-height: calc(100vh - 10rem);
+}
+
+@media (max-width: 900px) {
+    .witness-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .witness-layout pb-facsimile {
+        min-height: 50vh;
+        --pb-facsimile-height: 50vh;
+    }
+}
+
+/* Sidebar: metadata and register tabs only */
+.fixed-layout > .after.after-tabs {
+    min-height: 0;
+}
+
+.fixed-layout > .after.after-tabs .metadata-panel,
+.fixed-layout > .after.after-tabs .register,
+.fixed-layout > .after.after-tabs pb-view {
+    overflow: auto;
+    max-height: calc(100vh - 12rem);
+}
+
+.fixed-layout > .after.after-tabs pb-leaflet-map {
+    min-height: 200px;
+    margin-top: var(--s1);
+}
+
+/* Browse collection cards: facsimile thumbnail + metadata */
+.browse-card-header {
+    display: flex;
+    flex-direction: row;
+    gap: var(--s1);
+    align-items: flex-start;
+}
+
+.browse-card-header .browse-thumb {
+    flex: 0 0 auto;
+    width: 6rem;
+    max-height: 8rem;
+    object-fit: cover;
+    border: 1px solid var(--pico-muted-border-color);
+    border-radius: var(--pico-border-radius);
+}
+
+.browse-card-meta {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+@media (max-width: 600px) {
+    .browse-card-header {
+        flex-direction: column;
+    }
+
+    .browse-card-header .browse-thumb {
+        width: 100%;
+        max-height: 12rem;
+    }
+}

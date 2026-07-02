@@ -1,0 +1,74 @@
+/* Shouchaoben landing page overrides */
+
+#about .about-columns {
+    align-items: flex-start;
+    gap: var(--s3);
+}
+
+#about .about-main,
+#about .about-biblio {
+    flex: 1;
+    min-width: 0;
+}
+
+#about .about-biblio .tei-list {
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+#about .about-biblio .tei-head {
+    margin-block-start: 0;
+    margin-block-end: var(--s-1);
+    font-size: 1.25rem;
+}
+
+@media (max-width: 767px) {
+    #about .about-columns {
+        flex-direction: column;
+    }
+}
+
+.hero .hero-text .tei-p:first-child {
+    font-size: 1.25rem;
+    margin-block-end: var(--s-1);
+}
+
+.hero .hero-text .tei-p + .tei-p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-block-start: 0;
+}
+
+.section-dark .section-content {
+    width: 100%;
+}
+
+.section-dark .tei-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: var(--s2);
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+.section-dark .tei-table td {
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: var(--s-1) var(--s0);
+    vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.section-dark .tei-table tr:first-child td {
+    background-color: rgba(255, 255, 255, 0.18);
+    font-weight: 600;
+    border-bottom-width: 2px;
+}
+
+.section-dark .tei-table .tei-hi.bold,
+.section-dark .tei-table .tei-hi.strong {
+    font-weight: 700;
+}
+
+.landing-layout .splash {
+    display: none;
+}

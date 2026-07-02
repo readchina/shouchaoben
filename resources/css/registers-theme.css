@@ -1,0 +1,113 @@
+.places {
+    width: 100vw;
+}
+
+.person, .people .list, .places .list, .place {
+    /* determines the number of columns for the pb-split-list */
+    --pb-categorized-list-columns: var(--jinks-registers-columns);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: var(--pb-view-max-width);
+}
+
+.place h1 small {
+    font-size: var(--jinks-font-size-smaller);
+    vertical-align: super;
+    padding-left: 0.85rem;
+}
+
+.places .list,
+.people .list {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.person .variant:not(:first-child)::before {
+    content: "; ";
+}
+
+.register-detail-layout.fixed-layout {
+    --jinks-layout-before-width: 0;
+    --jinks-layout-after-width: 0;
+}
+
+.register-detail-layout > .before-top,
+.register-detail-layout > .before,
+.register-detail-layout > .after-top,
+.register-detail-layout > .after {
+    display: none !important;
+}
+
+.register-detail .register-name {
+    margin-block-end: 1rem;
+}
+
+.register-detail:has(.register-name) .content > :is(h1, h2, h3, h4).tei-person.tei-person3,
+.register-detail:has(.register-name) .content > :is(h1, h2, h3, h4).tei-place.tei-place3 {
+    display: none;
+}
+
+.register-detail .tei-person:empty,
+.register-detail .tei-person > div:empty,
+.register-detail .tei-person > p:empty,
+.register-detail .tei-person > ul:empty {
+    display: none;
+}
+
+.register-detail .content > .tei-person:not(:has(*)) {
+    display: none;
+}
+
+pb-split-list::part(items) {
+    margin-top: 1rem;
+    gap: 1rem;
+    grid-auto-rows: min-content;
+}
+
+.places .split-list-item header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+pb-custom-form {
+    margin-bottom: 1rem;
+}
+
+pb-custom-form input {
+    width: 100%;
+}
+
+.register li {
+    padding: 0;
+}
+
+pb-leaflet-map {
+    height: 40vh;
+    min-height: 40vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 1rem;
+}
+
+/* place detail view */
+.after pb-leaflet-map.details-map {
+    height: 100%;
+    width: 100%;
+}
+.fixed-layout > .after:has(.details-map) {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .people .list, .places .list {
+        --pb-categorized-list-columns: 1;
+    }
+
+    .people .split-list-item p,
+    .places .split-list-item p {
+        white-space: normal;
+    }
+}
