@@ -64,6 +64,36 @@ find "$SITE_ROOT" -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' -o 
 
 touch "$SITE_ROOT/.nojekyll"
 
+# eXist encodes collection names as literal %XX segments; GitHub Pages decodes URLs once.
+# Rename those directories/files to real Unicode names so witness/people/place pages resolve.
+python3 - <<'PY'
+import os, re, urllib.parse, json
+from pathlib import Path
+root = Path("$SITE_ROOT")
+pct = re.compile(r'%[0-9A-Fa-f]{2}')
+def decode(name):
+    return urllib.parse.unquote(name) if pct.search(name) else name
+for dirpath, dirnames, filenames in os.walk(root, topdown=False):
+    p = Path(dirpath)
+    for name in dirnames + filenames:
+        new = decode(name)
+        if new != name:
+            (p / name).rename(p / new)
+jsonl = root / "index.jsonl"
+if jsonl.exists():
+    out = []
+    for line in jsonl.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        obj = json.loads(line)
+        link = obj.get("link", "")
+        if link.startswith("witnesses/TTJ/"):
+            link = re.sub(r"^witnesses/TTJ/wit/[acf]/xml/", "witnesses/", link)
+            obj["link"] = urllib.parse.unquote(link)
+        out.append(json.dumps(obj, ensure_ascii=False))
+    jsonl.write_text("\n".join(out) + "\n", encoding="utf-8")
+PY
+
 # HTML requires explicit </script> tags (self-closing <script/> breaks the DOM)
 find "$SITE_ROOT" -name '*.html' -exec perl -pi -e 's/<script([^>]*)\/>/<script$1><\/script>/g' {} +
 ```
