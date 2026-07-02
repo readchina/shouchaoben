@@ -1,0 +1,562 @@
+Readme.md
+  s_00083fa4c7a565::t_97613aef18b8c6 3,5,7,9,11,27-28,30-37,39-65,68-76
+  s_00083fa4c7a565::t_50f4c78b06e14c 13,20-26,29
+  s_00083fa4c7a565::t_04621713ec47f7 15-19
+.gitignore
+  s_00083fa4c7a565::t_3ffbde952020c7 4-8
+  s_00083fa4c7a565::t_557d10eb95d57c 2,9-13
+  s_00083fa4c7a565::t_93ad1d6ce4424d 3
+.github/dependabot.yml
+  s_00083fa4c7a565::t_3905fb1651d852 7
+.github/workflows/gh-pages.yml
+  s_00083fa4c7a565::t_b156d93eb01898 25,31,34,40
+  s_00083fa4c7a565::t_191fca3554b941 6-16,21-23,27-28,30,33,36-39
+1/index.html
+  s_00083fa4c7a565::t_abc8882b938529 1-27,33
+browse.html
+  s_00083fa4c7a565::t_2103a3f9a3b89b 1
+index.jsonl
+  s_00083fa4c7a565::t_a805d429f4b8b2 1-3
+people/%E4%B8%8A/index.html
+  s_00083fa4c7a565::t_fde9d7a66c5b9e 1-5
+people/%E4%BD%99/index.html
+  s_00083fa4c7a565::t_0b4505f5ac6eeb 1-5
+people/%E5%8F%B6/index.html
+  s_00083fa4c7a565::t_bd5dae66ab5f94 1-5
+people/%E5%91%A8/index.html
+  s_00083fa4c7a565::t_6f40ef43ed1a81 1-5
+people/%E5%AE%8B/index.html
+  s_00083fa4c7a565::t_e5f7f51db2d723 1-5
+people/%E5%B0%8F/index.html
+  s_00083fa4c7a565::t_7fa0552843e05d 1-5
+people/%E5%BC%A0/index.html
+  s_00083fa4c7a565::t_659d0314985220 1-5
+people/%E6%9D%8E/index.html
+  s_00083fa4c7a565::t_8eeda049127349 1-5
+people/%E6%9E%97/index.html
+  s_00083fa4c7a565::t_f0c92975212d36 1-5
+people/%E6%AF%9B/index.html
+  s_00083fa4c7a565::t_b71ca294239ebb 1-5
+people/%E6%B1%9F/index.html
+  s_00083fa4c7a565::t_f4f2a271cd0693 1-5
+people/%E7%8E%8B/index.html
+  s_00083fa4c7a565::t_c063b54ce0e4bc 1-5
+people/%E7%99%BD/index.html
+  s_00083fa4c7a565::t_be2e0c0359cdd3 1-5
+people/%E8%80%81/index.html
+  s_00083fa4c7a565::t_26ba4b092312a0 1-5
+people/%E8%81%94/index.html
+  s_00083fa4c7a565::t_7c4c5e6707e479 1-5
+people/%E8%A5%BF/index.html
+  s_00083fa4c7a565::t_364b5624d3bd6f 1-5
+people/%E8%AE%B8/index.html
+  s_00083fa4c7a565::t_53e03b8b79c11f 1-5
+people/%E8%AF%B8/index.html
+  s_00083fa4c7a565::t_1c8377131ab223 1-5
+people/%E8%B0%A2/index.html
+  s_00083fa4c7a565::t_2dc957fe54a790 1-5
+people/%E8%B0%AD/index.html
+  s_00083fa4c7a565::t_d80b58827ce40a 1-5
+people/%E9%82%93/index.html
+  s_00083fa4c7a565::t_c8e7e9e491b5fb 1-5
+people/%E9%87%91/index.html
+  s_00083fa4c7a565::t_4a1c5198978780 1-5
+people/%E9%99%88/index.html
+  s_00083fa4c7a565::t_13a15f2ab5ecf1 1-5
+people/%E9%9B%B7/index.html
+  s_00083fa4c7a565::t_d019750ee582d3 1-5
+people/%E9%BB%84/index.html
+  s_00083fa4c7a565::t_8f6235251b9a10 1-5
+people/D/index.html
+  s_00083fa4c7a565::t_f94a9b6473948d 1-5
+people/L/index.html
+  s_00083fa4c7a565::t_57ee582536d576 1-5
+people/PE0001/index.html
+  s_00083fa4c7a565::t_f632bea548eebc 1-5
+people/PE0002/index.html
+  s_00083fa4c7a565::t_aabf54004187d4 1-5
+people/PE0003/index.html
+  s_00083fa4c7a565::t_7ac4b507db5b73 1-5
+people/PE0004/index.html
+  s_00083fa4c7a565::t_29728d5a3c9cab 1-5
+people/PE0005/index.html
+  s_00083fa4c7a565::t_565f8f3acd88f4 1-5
+people/PE0007/index.html
+  s_00083fa4c7a565::t_37d19d10e5a811 1-5
+people/PE0008/index.html
+  s_00083fa4c7a565::t_a701dc5bcd64f4 1-5
+people/PE0009/index.html
+  s_00083fa4c7a565::t_902c82b71f161a 1-5
+people/PE0010/index.html
+  s_00083fa4c7a565::t_10bfbfcfee89d4 1-5
+people/PE0011/index.html
+  s_00083fa4c7a565::t_4d9c1875b7ad79 1-5
+people/PE0012/index.html
+  s_00083fa4c7a565::t_79607466fa5bd6 1-5
+people/PE0013/index.html
+  s_00083fa4c7a565::t_f243626ecceb7a 1-5
+people/PE0014/index.html
+  s_00083fa4c7a565::t_061e7869079c6b 1-5
+people/PE0015/index.html
+  s_00083fa4c7a565::t_c7fd7778a9f4c0 1-5
+people/PE0016/index.html
+  s_00083fa4c7a565::t_083d848d358e88 1-5
+people/PE0017/index.html
+  s_00083fa4c7a565::t_41b42028d81edd 1-5
+people/PE0018/index.html
+  s_00083fa4c7a565::t_ab333924386a0e 1-5
+people/PE0019/index.html
+  s_00083fa4c7a565::t_5dcf555e384709 1-5
+people/PE0020/index.html
+  s_00083fa4c7a565::t_64a61d18bd5f39 1-5
+people/PE0021/index.html
+  s_00083fa4c7a565::t_ed7d53f813387d 1-5
+people/PE0022/index.html
+  s_00083fa4c7a565::t_f1290054ee5a7f 1-5
+people/PE0023/index.html
+  s_00083fa4c7a565::t_3307ec000ad66c 1-5
+people/PE0024/index.html
+  s_00083fa4c7a565::t_f9179192f03d96 1-5
+people/PE0025/index.html
+  s_00083fa4c7a565::t_44053dec9cec32 1-5
+people/PE0026/index.html
+  s_00083fa4c7a565::t_3c7bf4541d9fc0 1-5
+people/PE0027/index.html
+  s_00083fa4c7a565::t_c16a047b3b53d1 1-5
+people/PE0028/index.html
+  s_00083fa4c7a565::t_e1ccd46cdfc02d 1-5
+people/PE0029/index.html
+  s_00083fa4c7a565::t_bb3ac2bd5e751b 1-5
+people/PE0030/index.html
+  s_00083fa4c7a565::t_9315374bc7bb25 1-5
+people/PE0031/index.html
+  s_00083fa4c7a565::t_c744ef575189ad 1-5
+people/PE0032/index.html
+  s_00083fa4c7a565::t_197d50d17752f1 1-5
+people/PE0033/index.html
+  s_00083fa4c7a565::t_9efc2f0dda9ce0 1-5
+people/PE0034/index.html
+  s_00083fa4c7a565::t_5c3444a8f8da87 1-5
+people/PE0035/index.html
+  s_00083fa4c7a565::t_93a3269e68c6df 1-5
+people/PE0036/index.html
+  s_00083fa4c7a565::t_4724c386a34a03 1-5
+people/PE0037/index.html
+  s_00083fa4c7a565::t_22072eac2ce9ae 1-5
+people/PE0038/index.html
+  s_00083fa4c7a565::t_456ed5d45af3b4 1-5
+people/PE0039/index.html
+  s_00083fa4c7a565::t_89ec3803fa963a 1-5
+people/Q/index.html
+  s_00083fa4c7a565::t_e7ecb0ad25fafd 1-5
+people/index.html
+  s_00083fa4c7a565::t_3d7d36c7f50079 1
+places/%E4%B8%8A/index.html
+  s_00083fa4c7a565::t_489bb6a74c9ef6 1-5
+places/%E4%B8%9C/index.html
+  s_00083fa4c7a565::t_c2558f03af7f6d 1-5
+places/%E4%B8%AD/index.html
+  s_00083fa4c7a565::t_da3eacf151b4e1 1-5
+places/%E4%B8%B0/index.html
+  s_00083fa4c7a565::t_a2ae95ebee0e07 1-5
+places/%E4%BA%91/index.html
+  s_00083fa4c7a565::t_04788c7c3e801f 1-5
+places/%E5%86%85/index.html
+  s_00083fa4c7a565::t_cc8e2982258f7f 1-5
+places/%E5%8C%97/index.html
+  s_00083fa4c7a565::t_5acc0cf8b54a0d 1-5
+places/%E5%8D%97/index.html
+  s_00083fa4c7a565::t_2f7d1f03b98090 1-5
+places/%E5%91%BC/index.html
+  s_00083fa4c7a565::t_469d93359cc27d 1-5
+places/%E5%A4%A7/index.html
+  s_00083fa4c7a565::t_e6ce0dc95c3a92 1-5
+places/%E5%A4%A9/index.html
+  s_00083fa4c7a565::t_7576020d76e639 1-5
+places/%E5%B0%91/index.html
+  s_00083fa4c7a565::t_5398527e8ea35b 1-5
+places/%E5%B9%BF/index.html
+  s_00083fa4c7a565::t_e7c089f0829867 1-5
+places/%E6%98%86/index.html
+  s_00083fa4c7a565::t_6beabfb71a26ae 1-5
+places/%E6%9D%AD/index.html
+  s_00083fa4c7a565::t_21b490404f6a21 1-5
+places/%E6%9F%AC/index.html
+  s_00083fa4c7a565::t_9af1a2300e769d 1-5
+places/%E6%A6%95/index.html
+  s_00083fa4c7a565::t_776450b219845d 1-5
+places/%E6%B1%9F/index.html
+  s_00083fa4c7a565::t_cc77e350d87601 1-5
+places/%E6%B2%B3/index.html
+  s_00083fa4c7a565::t_676235db3d1d4e 1-5
+places/%E6%B5%99/index.html
+  s_00083fa4c7a565::t_df23f0745f6e1b 1-5
+places/%E7%9C%81/index.html
+  s_00083fa4c7a565::t_2ef18dbba7645f 1-5
+places/%E7%A9%BA/index.html
+  s_00083fa4c7a565::t_a096f1b663daa2 1-5
+places/%E8%81%94/index.html
+  s_00083fa4c7a565::t_bd279fa64e5764 1-5
+places/%E8%8B%8F/index.html
+  s_00083fa4c7a565::t_7e97056b0d3abd 1-5
+places/%E9%87%8D/index.html
+  s_00083fa4c7a565::t_e187d63fb66423 1-5
+places/%E9%95%BF/index.html
+  s_00083fa4c7a565::t_1ac42e888f6850 1-5
+places/%E9%97%A8/index.html
+  s_00083fa4c7a565::t_777cc2c0a0970d 1-5
+places/%E9%98%BF/index.html
+  s_00083fa4c7a565::t_b42dba096810e1 1-5
+places/%E9%A6%99/index.html
+  s_00083fa4c7a565::t_5bb65417a6254b 1-5
+places/%E9%B2%81/index.html
+  s_00083fa4c7a565::t_1052c68e98ca83 1-5
+places/%E9%B2%A4/index.html
+  s_00083fa4c7a565::t_492308b774328a 1-5
+places/P0001/index.html
+  s_00083fa4c7a565::t_322d2a37372f80 1-5
+places/P0002/index.html
+  s_00083fa4c7a565::t_00bb82a88a1aec 1-5
+places/P0003/index.html
+  s_00083fa4c7a565::t_921d0761a2ca11 1-5
+places/P0004/index.html
+  s_00083fa4c7a565::t_90ec0fce6ab851 1-5
+places/P0005/index.html
+  s_00083fa4c7a565::t_0050884212092c 1-5
+places/P0006/index.html
+  s_00083fa4c7a565::t_8e8a39cb4180d7 1-5
+places/P0007/index.html
+  s_00083fa4c7a565::t_0bcac72431ebc5 1-5
+places/P0008/index.html
+  s_00083fa4c7a565::t_368f12e66217a5 1-5
+places/P0009/index.html
+  s_00083fa4c7a565::t_c87b9ab048cfbf 1-5
+places/P0010/index.html
+  s_00083fa4c7a565::t_288706e4364c19 1-5
+places/P0011/index.html
+  s_00083fa4c7a565::t_8a037a881eec92 1-5
+places/P0012/index.html
+  s_00083fa4c7a565::t_d1a345a2d7d634 1-5
+places/P0013/index.html
+  s_00083fa4c7a565::t_1a6b67ce33c240 1-5
+places/P0014/index.html
+  s_00083fa4c7a565::t_8a042a70e79168 1-5
+places/P0015/index.html
+  s_00083fa4c7a565::t_9ec0a2c90d7b4c 1-5
+places/P0016/index.html
+  s_00083fa4c7a565::t_82b842d460e880 1-5
+places/P0017/index.html
+  s_00083fa4c7a565::t_0ff258ec655482 1-5
+places/P0018/index.html
+  s_00083fa4c7a565::t_dbb454ff71ac76 1-5
+places/P0019/index.html
+  s_00083fa4c7a565::t_144996f916a45f 1-5
+places/P0021/index.html
+  s_00083fa4c7a565::t_3180da36011dc2 1-5
+places/P0022/index.html
+  s_00083fa4c7a565::t_3abc8e29a3ff85 1-5
+places/P0023/index.html
+  s_00083fa4c7a565::t_e67c3533a48c3e 1-5
+places/P0024/index.html
+  s_00083fa4c7a565::t_2645321562c7e1 1-5
+places/P0025/index.html
+  s_00083fa4c7a565::t_6f8d22ee15992c 1-5
+places/P0026/index.html
+  s_00083fa4c7a565::t_062d0d5f1e2dd1 1-5
+places/P0027/index.html
+  s_00083fa4c7a565::t_7875b3559213b3 1-5
+places/P0028/index.html
+  s_00083fa4c7a565::t_6d9f494d9c1156 1-5
+places/P0029/index.html
+  s_00083fa4c7a565::t_c94e20d08cc364 1-5
+places/P0030/index.html
+  s_00083fa4c7a565::t_62cd575cbbadd9 1-5
+places/P0031/index.html
+  s_00083fa4c7a565::t_a4b3061bf70842 1-5
+places/P0032/index.html
+  s_00083fa4c7a565::t_596ed82d86e0c8 1-5
+places/P0033/index.html
+  s_00083fa4c7a565::t_a0a58d48b2351b 1-5
+places/P0034/index.html
+  s_00083fa4c7a565::t_93f0d8de5a5f20 1-5
+places/P0035/index.html
+  s_00083fa4c7a565::t_4aa87cbb085edb 1-5
+places/P0036/index.html
+  s_00083fa4c7a565::t_b91c37c51d6b4e 1-5
+places/P0037/index.html
+  s_00083fa4c7a565::t_19434a5fcc6677 1-5
+places/index.html
+  s_00083fa4c7a565::t_2e346750a0d8a5 1
+resources/css/base.css
+  s_00083fa4c7a565::t_107c368fb3af44 1-677
+resources/css/components.css
+  s_00083fa4c7a565::t_5f6c3940a50586 1-407,410-413,416-469,471-554,557-558,561-563,566-576,579-588,591-604,606-607,610-620,623-626,629-632,635-636,639-641,644-647,650-657,660-663,665-668,670-672,676-678,681-683,686-694,697-703,706-718,721-722,725-726,729-753,756-762,765-767,770-771,774-776,779-786,789-792,795-798,801-802,806-813,816-819,822-825,827-835,837-840,843-849,852-854,857-861,864-865,868-869,872-873,876-879,882-884,887-896,899-923,926-932,935-937,940-942,945-948,951-953,956-967,970-972,975-979,982-984,987-988,991-993,996-997,1000-1002,1005-1016,1018-1019,1021,1024-1026,1029-1033,1036-1039,1042-1044,1047-1050,1053-1055,1058-1060,1063-1068,1071-1076
+resources/css/controls.css
+  s_00083fa4c7a565::t_73c925dca7d72d 1-425
+resources/css/documents.css
+  s_00083fa4c7a565::t_35873820d114a0 1-107
+resources/css/epub.css
+  s_00083fa4c7a565::t_c2a26b694678cb 1,3-14,16-24,26-31,33-36,38-92
+resources/css/jinks-components.css
+  s_00083fa4c7a565::t_a4e0f4c40de14c 1-271
+resources/css/jinks-theme.css
+  s_00083fa4c7a565::t_ea10340b2a2aff 1-14
+resources/css/jinks-variables.css
+  s_00083fa4c7a565::t_0daa196ea55d36 1-37,40-41,43-115,117,120,123-126,128-130,132-134,136-138,140-142,144-146,148-162,164-167,169,171-173,175-178,181-283
+resources/css/landing-page.css
+  s_00083fa4c7a565::t_65081920ef8586 1-576
+resources/css/layouts.css
+  s_00083fa4c7a565::t_6100e9f3ccaba9 1-391
+resources/css/menu.css
+  s_00083fa4c7a565::t_c55662d4e4f440 1-133
+resources/css/palette-beige.css
+  s_00083fa4c7a565::t_64c2767510be41 1-9,11-19
+resources/css/palette-blue.css
+  s_00083fa4c7a565::t_12ee1b3633594f 1-9,11-15,17
+resources/css/palette-dark.css
+  s_00083fa4c7a565::t_766e8131d1ad37 1-27
+resources/css/palette-green.css
+  s_00083fa4c7a565::t_505673b17df427 1-9,11-15,17-18
+resources/css/palette-neutral.css
+  s_00083fa4c7a565::t_848e64a94b01ce 1-19
+resources/css/palette-teal.css
+  s_00083fa4c7a565::t_4fc7b3cbaa49a8 1-18
+resources/css/pico-ext.css
+  s_00083fa4c7a565::t_e80e6cd0ca3609 1-65
+resources/css/print-preview.css
+  s_00083fa4c7a565::t_f4782dbb9d190a 1-6,8-17,19-21,23-26,29-32
+resources/css/registers-theme.css
+  s_00083fa4c7a565::t_83c3d372c7bbe5 1-113
+resources/css/scb-branding.css
+  s_00083fa4c7a565::t_620e19519f9fef 1-123
+resources/css/scb-landing.css
+  s_00083fa4c7a565::t_b3b3a1220abd35 1-73
+resources/css/static.css
+  s_00083fa4c7a565::t_4cc3e88dfbdeb4 1-60
+resources/css/toc.css
+  s_00083fa4c7a565::t_93ae8f42a6217a 1-129
+resources/fonts/font.css
+  s_00083fa4c7a565::t_2d8e2ee777a4d1 1-10,12-21,23-32,34-43,45-54,56-87
+resources/i18n/app/de.json
+  s_00083fa4c7a565::t_f5a2a78697629d 1-63
+resources/i18n/app/en.json
+  s_00083fa4c7a565::t_0135ce91a2629e 2-11
+resources/i18n/app/pl.json
+  s_00083fa4c7a565::t_9d8b8429d76541 1-71
+resources/i18n/landing-page/en.json
+  s_00083fa4c7a565::t_5ee62ecf7bb69e 1-12
+resources/i18n/languages.json
+  s_00083fa4c7a565::t_bfaf82af3da858 1-24
+resources/i18n/registers/de.json
+  s_00083fa4c7a565::t_4692aed175bcba 1-7
+resources/i18n/registers/en.json
+  s_00083fa4c7a565::t_597616d40888f9 1-13
+resources/i18n/registers/pl.json
+  s_00083fa4c7a565::t_6f4b64f0295c5e 1-7
+resources/images/arrow-right.svg
+  s_00083fa4c7a565::t_2730f4ef7c552d 1-11
+resources/images/e-editiones-logo-color.svg
+  s_00083fa4c7a565::t_a45358df4bd84b 1
+resources/images/github.svg
+  s_00083fa4c7a565::t_0d276f342deff6 1-3
+resources/images/icon.svg
+  s_00083fa4c7a565::t_bbc8dc13729fc7 1-8
+resources/images/jinntec.svg
+  s_00083fa4c7a565::t_1f1cc7326cbef2 1
+resources/images/tei-publisher-logo-color.svg
+  s_00083fa4c7a565::t_7199903d596c8d 1-9
+resources/images/tei-with-text.svg
+  s_00083fa4c7a565::t_fac8df73041650 1
+resources/images/wm_no_bg.svg
+  s_00083fa4c7a565::t_4b6c55f45332c2 1-74
+resources/scripts/annotations/annotations.js
+  s_00083fa4c7a565::t_21e77bc32db1b8 1-717
+resources/scripts/browse.js
+  s_00083fa4c7a565::t_c1e0b202f09572 2-6,8-63
+resources/scripts/layout.js
+  s_00083fa4c7a565::t_93f2f27afef82b 1-202
+resources/scripts/search.js
+  s_00083fa4c7a565::t_216d7a05c7633e 1-291
+search.html
+  s_00083fa4c7a565::t_be78b30d7e2d87 1,3-9,13,15,17,19,21,23,25,27,29,31,33,35-42,44,46-49,51-56,58-96,98-102,104-106,108-112,114-159,161-164,166-168,170,172-182,186,189,192,195,198,201,204,207,210,213,216,219-317,320-348,351-355,357-361,363-394,396-401,403-417,419-422,424-426,429
+transform/landing.css
+  s_00083fa4c7a565::t_a2724dd779d6c3 1-2,4,8-11,13-16,18-26,28,30,32-37,39-41,43-45,47-49,51-53,55-281
+transform/scb_sjnjc_8.css
+  s_00083fa4c7a565::t_55e4aedd6f9a7d 1-2,4,8-11,13-16,18-26,28,30,32-37,39-41,43-45,47-49,51-53,55-285
+transform/teipublisher.css
+  s_00083fa4c7a565::t_382862b3426f75 1-2,4,8-11,13-16,18-26,28,30,32-37,39-41,43-45,47-49,51-53,55-282
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/1/index.html
+  s_00083fa4c7a565::t_70c57cf8d51369 1-117
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/10/index.html
+  s_00083fa4c7a565::t_135aab96ca5d10 1-111
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/11/index.html
+  s_00083fa4c7a565::t_fbf96063e95d7f 1-109
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/12/index.html
+  s_00083fa4c7a565::t_a9d4c88b8729f6 1-119
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/13/index.html
+  s_00083fa4c7a565::t_68bad9cba7c332 1-113
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/14/index.html
+  s_00083fa4c7a565::t_bd5f4179211ed0 1-116
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/15/index.html
+  s_00083fa4c7a565::t_7acc68fef783c1 1-131
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/16/index.html
+  s_00083fa4c7a565::t_810c33b776fead 1-120
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/17/index.html
+  s_00083fa4c7a565::t_05566ba8557084 1-79,82-85,87,89,91-92,94,97-107,110-115,117-118,120
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/18/index.html
+  s_00083fa4c7a565::t_e10c71b433c6f5 1-6,8-9,11,13-15,17,19-21,23,25-27,29-31,33,35-37,39,41,43-45,47-48,50-53,55-57,59,61-63,66-69,71,73,75-104
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/19/index.html
+  s_00083fa4c7a565::t_2dad9d85a18f2c 1-90
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/2/index.html
+  s_00083fa4c7a565::t_3ff177c02a27cd 1-113
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/20/index.html
+  s_00083fa4c7a565::t_c3626fa3629fac 1-84
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/21/index.html
+  s_00083fa4c7a565::t_fabbb936eceff4 1-91
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/22/index.html
+  s_00083fa4c7a565::t_b1456006b26a60 1-117
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/23/index.html
+  s_00083fa4c7a565::t_41ff55bf977e12 1-117
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/24/index.html
+  s_00083fa4c7a565::t_989b9cf9334c7e 1-136
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/25/index.html
+  s_00083fa4c7a565::t_ecab04f2ce6b54 1-90
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/26/index.html
+  s_00083fa4c7a565::t_cc5e539a2d91a8 1-77
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/27/index.html
+  s_00083fa4c7a565::t_4ae0edd6714ab7 1-94
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/28/index.html
+  s_00083fa4c7a565::t_7a65cfe72d5fb9 1-85
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/29/index.html
+  s_00083fa4c7a565::t_ca4c13bb4456fd 1-96
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/3/index.html
+  s_00083fa4c7a565::t_060a2bc10b4ded 1-81
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/30/index.html
+  s_00083fa4c7a565::t_c6842c5f6edbbf 1-101
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/31/index.html
+  s_00083fa4c7a565::t_de0cd88734c544 1-95
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/32/index.html
+  s_00083fa4c7a565::t_f0d205b38abd21 1-98
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/33/index.html
+  s_00083fa4c7a565::t_369c4f2e5cd311 1-73
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/34/index.html
+  s_00083fa4c7a565::t_d10d8f4d8cf0c5 1-83
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/35/index.html
+  s_00083fa4c7a565::t_6f8c15ea635ae0 1-87
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/36/index.html
+  s_00083fa4c7a565::t_7aba1be5562d2f 1-88
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/37/index.html
+  s_00083fa4c7a565::t_287eaf7c5aeb75 1-91
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/38/index.html
+  s_00083fa4c7a565::t_7b2ee021f1eeab 1-75
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/39/index.html
+  s_00083fa4c7a565::t_80f4cd7aa3507c 1-93
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/4/index.html
+  s_00083fa4c7a565::t_bcaf0d6dd09aee 1-9,11,13,15-17,19-21,23,25,27-31,33,35-37,39,41,43,45-51,53-55,57,59-61,64-67,69,71,73-102
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/40/index.html
+  s_00083fa4c7a565::t_b7cfc6a76896cf 1-105
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/41/index.html
+  s_00083fa4c7a565::t_d29eb52c4ed878 1-93
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/42/index.html
+  s_00083fa4c7a565::t_1efa2a62c438b3 1-108
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/43/index.html
+  s_00083fa4c7a565::t_8f78464d198459 1-77
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/44/index.html
+  s_00083fa4c7a565::t_13fd2dcc879b09 1-89
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/45/index.html
+  s_00083fa4c7a565::t_ee0d9e985a6020 1-81
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/46/index.html
+  s_00083fa4c7a565::t_2d18c79996b62a 1-73
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/47/index.html
+  s_00083fa4c7a565::t_245b308e3ccc9b 1-74
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/48/index.html
+  s_00083fa4c7a565::t_6af9b6e30825c0 1-98
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/49/index.html
+  s_00083fa4c7a565::t_39d1332f0eaf0f 1-99
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/5/index.html
+  s_00083fa4c7a565::t_2009167aaa68df 1-135
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/50/index.html
+  s_00083fa4c7a565::t_57021e289aa45f 1-94
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/6/index.html
+  s_00083fa4c7a565::t_c2254500f7ce0b 1-114
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/7/index.html
+  s_00083fa4c7a565::t_e23019182d327d 1-79,82-85,87,89,91-92,94,97-107,110-115,117-118,120
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/8/index.html
+  s_00083fa4c7a565::t_16e1ee448dbf16 1-111
+witnesses/%E4%B8%89%E4%B8%8B%E6%B1%9F%E5%8D%97.xml/9/index.html
+  s_00083fa4c7a565::t_4e4b6fe34b42c3 1-6,8,10-17,19-21,23,25-27,29,31,33-35,37,39,41,43-45,47-53,55-57,59,61-63,66-69,71,73,75-76,78,81-91,94-99,101-102,104
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/1/index.html
+  s_00083fa4c7a565::t_e2aef418b33edb 1-84
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/10/index.html
+  s_00083fa4c7a565::t_ef3de2b8a1885c 1-69
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/11/index.html
+  s_00083fa4c7a565::t_e0cdac723c416a 1-70
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/12/index.html
+  s_00083fa4c7a565::t_5e16363ae1fb2f 1-93
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/2/index.html
+  s_00083fa4c7a565::t_1e699968fb52e3 1-83
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/3/index.html
+  s_00083fa4c7a565::t_614fcc18a3ee65 1-78
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/4/index.html
+  s_00083fa4c7a565::t_e412b8138d8264 1-78
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/5/index.html
+  s_00083fa4c7a565::t_f69a3a248e87cb 1-79
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/6/index.html
+  s_00083fa4c7a565::t_923ace8df1aedf 1-88
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/7/index.html
+  s_00083fa4c7a565::t_750c2a61ca198e 1-73
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/8/index.html
+  s_00083fa4c7a565::t_482c285455c1cd 1-28,31-34,36-37,40,42-73,79
+witnesses/%E4%B8%89%E8%BF%9B%E5%8D%97%E4%BA%AC%E5%9F%8E.xml/9/index.html
+  s_00083fa4c7a565::t_5436133eaedbc3 1-89
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/1/index.html
+  s_00083fa4c7a565::t_da60364f08bc9c 1-159
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/10/index.html
+  s_00083fa4c7a565::t_be23f0ebd46d6c 1-113
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/11/index.html
+  s_00083fa4c7a565::t_bc0dbedc8bb508 1-152
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/12/index.html
+  s_00083fa4c7a565::t_ff41a5f695ac23 1-114
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/13/index.html
+  s_00083fa4c7a565::t_44dbdd1663e887 1-107
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/14/index.html
+  s_00083fa4c7a565::t_5ef124c5849810 1-105
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/15/index.html
+  s_00083fa4c7a565::t_f13eec2ae6db41 1-129
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/16/index.html
+  s_00083fa4c7a565::t_14e3f22a836e89 1-67
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/17/index.html
+  s_00083fa4c7a565::t_3ff87de39f7481 1-66
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/2/index.html
+  s_00083fa4c7a565::t_80775e57f5d694 1-99
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/3/index.html
+  s_00083fa4c7a565::t_1805737f00145a 1-130
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/4/index.html
+  s_00083fa4c7a565::t_5157a171156f50 1-105
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/5/index.html
+  s_00083fa4c7a565::t_16b807480e12e8 1-131
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/6/index.html
+  s_00083fa4c7a565::t_c907ccd98402d7 1-112
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/7/index.html
+  s_00083fa4c7a565::t_79f69b4647c5f2 1-106
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/8/index.html
+  s_00083fa4c7a565::t_a7c6f08bee0edd 1-119
+witnesses/%E4%BD%99%E9%A3%9E%E4%B8%89%E4%B8%8B%E5%8D%97%E4%BA%AC.xml/9/index.html
+  s_00083fa4c7a565::t_866f50ea1261f5 1-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "fe90175cdd14cf15fb5778c67f474552b9deebae",
+  "prompts": {},
+  "sessions": {
+    "s_00083fa4c7a565": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "832b8789-c1df-459b-8b64-0088c5127843",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
