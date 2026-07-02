@@ -1,3 +1,38 @@
+function fixStaticPbPageLayout() {
+    const page = document.body.querySelector("pb-page");
+    if (!page || !document.body.classList.contains("static")) {
+        return;
+    }
+    const before = page.querySelector(":scope > .before");
+    const main = page.querySelector(":scope > main");
+    if (before && main && before.contains(main)) {
+        const anchor =
+            page.querySelector(":scope > .after-top") ||
+            page.querySelector(":scope > .after");
+        const contentTop = before.querySelector("header.content-top");
+        if (contentTop && anchor) {
+            page.insertBefore(contentTop, anchor);
+        }
+        if (anchor) {
+            page.insertBefore(main, anchor);
+        }
+    }
+    const after = page.querySelector(":scope > .after");
+    if (after?.querySelector(".tab-panel") && !after.classList.contains("after-tabs")) {
+        after.classList.add("after-tabs");
+    }
+    if (before && !before.classList.contains("hidden")) {
+        const hasContent = [...before.children].some(
+            (el) =>
+                !el.classList.contains("resize-handler") &&
+                (el.textContent || "").trim(),
+        );
+        if (!hasContent) {
+            before.classList.add("hidden");
+        }
+    }
+}
+
 function addResizeHandler(resizeContainer, layoutContainer, widthProperty, direction) {
     if (!resizeContainer) {
         return;
@@ -65,7 +100,6 @@ function setUpResizeContainers() {
     if (!container) {
         return;
     }
-    // Setup for left
     const before = container.querySelector(".fixed-layout > .before");
 
     addResizeHandler(before, container, "--jinks-layout-before-width", "left");
@@ -74,28 +108,83 @@ function setUpResizeContainers() {
     addResizeHandler(after, container, "--jinks-layout-after-width", "right");
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    // hide/expand the before and after sidebars
+function initAfterTabs() {
+    const container = document.querySelector(".after.after-tabs");
+    if (!container || container.querySelector(".after-tab-nav")) return;
+    const panels = [...container.querySelectorAll(":scope > .tab-panel")];
+    if (panels.length === 0) return;
+
+    const nav = document.createElement("nav");
+    nav.className = "after-tab-nav";
+    nav.setAttribute("role", "tablist");
+    nav.setAttribute("aria-label", "Sidebar tabs");
+    panels.forEach((panel, i) => {
+        const panelId = `after-tab-panel-${i}`;
+        panel.id = panelId;
+        const titleEl = panel.querySelector(":scope > .tab-title");
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "after-tab-btn" + (i === 0 ? " active" : "");
+        btn.setAttribute("role", "tab");
+        btn.setAttribute("aria-controls", panelId);
+        btn.setAttribute("aria-selected", i === 0 ? "true" : "false");
+        if (titleEl) {
+            const label = (titleEl.getAttribute("data-title") || titleEl.textContent || "")
+                .replace(/\s+/g, " ")
+                .trim();
+            btn.textContent = label;
+            titleEl.hidden = true;
+        }
+        btn.addEventListener("click", () => {
+            panels.forEach((p) => {
+                p.hidden = true;
+            });
+            nav.querySelectorAll(".after-tab-btn").forEach((b) => {
+                b.classList.remove("active");
+                b.setAttribute("aria-selected", "false");
+            });
+            panel.hidden = false;
+            btn.classList.add("active");
+            btn.setAttribute("aria-selected", "true");
+            panel.querySelectorAll("pb-view, pb-facsimile, pb-tify").forEach((el) => {
+                if (typeof el.refresh === "function") {
+                    el.refresh();
+                }
+            });
+        });
+        nav.appendChild(btn);
+        panel.hidden = i !== 0;
+    });
+    panels[0].before(nav);
+}
+
+function runStaticLayoutFix() {
+    fixStaticPbPageLayout();
+    initAfterTabs();
+}
+
+function setupLayoutUi() {
     const asideToggles = document.querySelectorAll(".aside-toggle");
     asideToggles.forEach((toggle) => {
-        const mobileToggle = toggle.classList.contains('mobile');
-        const hiddenClass = mobileToggle ? 'hidden-mobile' : 'hidden';
+        const mobileToggle = toggle.classList.contains("mobile");
+        const hiddenClass = mobileToggle ? "hidden-mobile" : "hidden";
         toggle.addEventListener("click", function () {
-            toggle.classList.toggle('open');
+            toggle.classList.toggle("open");
             const target = this.dataset.toggle;
             const targetElement = document.querySelector(target);
             targetElement.classList.toggle(hiddenClass);
             if (mobileToggle) {
-                document.querySelector('.fixed-layout > main').classList.toggle(hiddenClass);
+                document.querySelector(".fixed-layout > main").classList.toggle(hiddenClass);
             }
-            const topPanel = this.closest(".fixed-layout > .before-top,.fixed-layout > .after-top");
+            const topPanel = this.closest(
+                ".fixed-layout > .before-top,.fixed-layout > .after-top",
+            );
             if (topPanel) {
                 topPanel.classList.toggle(hiddenClass);
             }
         });
     });
 
-    // hide/expand mobile menu
     const mobileMenuToggle = document.querySelector(".mobile.trigger button");
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener("click", function () {
@@ -105,7 +194,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Hide mobile asides on pb-refresh event
     const mobileAsideToggles = document.querySelectorAll(".aside-toggle.mobile");
     if (mobileAsideToggles.length > 0) {
         document.addEventListener("pb-refresh", function () {
@@ -113,17 +201,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 const target = toggle.dataset.toggle;
                 if (target) {
                     const targetElement = document.querySelector(target);
-                    if (targetElement && !targetElement.classList.contains('hidden-mobile')) {
-                        targetElement.classList.add('hidden-mobile');
-                        toggle.classList.remove('open');
+                    if (targetElement && !targetElement.classList.contains("hidden-mobile")) {
+                        targetElement.classList.add("hidden-mobile");
+                        toggle.classList.remove("open");
                     }
-                    const topPanel = toggle.closest(".fixed-layout > .before-top,.fixed-layout > .after-top");
-                    if (topPanel && !topPanel.classList.contains('hidden-mobile')) {
-                        topPanel.classList.add('hidden-mobile');
+                    const topPanel = toggle.closest(
+                        ".fixed-layout > .before-top,.fixed-layout > .after-top",
+                    );
+                    if (topPanel && !topPanel.classList.contains("hidden-mobile")) {
+                        topPanel.classList.add("hidden-mobile");
                     }
-                    const main = document.querySelector('.fixed-layout > main');
-                    if (main && !main.classList.contains('hidden-mobile')) {
-                        main.classList.add('hidden-mobile');
+                    const main = document.querySelector(".fixed-layout > main");
+                    if (main && !main.classList.contains("hidden-mobile")) {
+                        main.classList.add("hidden-mobile");
                     }
                 }
             });
@@ -131,72 +221,34 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     setUpResizeContainers();
-});
-
-function initAfterTabs() {
-    const container = document.querySelector('.after.after-tabs');
-    if (!container) return;
-    const panels = [...container.querySelectorAll(':scope > .tab-panel')];
-    if (panels.length === 0) return;
-
-    const nav = document.createElement('nav');
-    nav.className = 'after-tab-nav';
-    nav.setAttribute('role', 'tablist');
-    nav.setAttribute('aria-label', 'Sidebar tabs');
-    panels.forEach((panel, i) => {
-        const panelId = `after-tab-panel-${i}`;
-        panel.id = panelId;
-        const titleEl = panel.querySelector(':scope > .tab-title');
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'after-tab-btn' + (i === 0 ? ' active' : '');
-        btn.setAttribute('role', 'tab');
-        btn.setAttribute('aria-controls', panelId);
-        btn.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
-        if (titleEl) {
-            const label = (titleEl.getAttribute('data-title') || titleEl.textContent || '').replace(/\s+/g, ' ').trim();
-            btn.textContent = label;
-            titleEl.hidden = true;
-        }
-        btn.addEventListener('click', () => {
-            panels.forEach(p => { p.hidden = true; });
-            nav.querySelectorAll('.after-tab-btn').forEach((b) => {
-                b.classList.remove('active');
-                b.setAttribute('aria-selected', 'false');
-            });
-            panel.hidden = false;
-            btn.classList.add('active');
-            btn.setAttribute('aria-selected', 'true');
-            panel.querySelectorAll('pb-view, pb-facsimile, pb-tify').forEach((el) => {
-                if (typeof el.refresh === 'function') {
-                    el.refresh();
-                }
-            });
-        });
-        nav.appendChild(btn);
-        panel.hidden = (i !== 0);
-    });
-    panels[0].before(nav);
 }
 
-document.addEventListener('DOMContentLoaded', initAfterTabs);
+document.addEventListener("DOMContentLoaded", function () {
+    runStaticLayoutFix();
+    setupLayoutUi();
+});
 
-document.addEventListener('click', (e) => {
-    const summary = e.target.closest('summary');
+document.addEventListener("pb-page-ready", runStaticLayoutFix);
+customElements.whenDefined("pb-page").then(() => {
+    requestAnimationFrame(runStaticLayoutFix);
+});
+
+document.addEventListener("click", (e) => {
+    const summary = e.target.closest("summary");
     if (summary) {
-        // If clicking on a summary, close other details but keep current one open
-        const currentDetails = e.target.closest('details');
-        const allDetails = document.querySelectorAll('details.dropdown, details.dropdown-button');
-        allDetails.forEach(details => {
+        const currentDetails = e.target.closest("details");
+        const allDetails = document.querySelectorAll("details.dropdown, details.dropdown-button");
+        allDetails.forEach((details) => {
             if (details !== currentDetails) {
-                details.removeAttribute('open');
+                details.removeAttribute("open");
             }
         });
-    } else if (!e.target.closest('details')) {
-        // If clicking outside any details element, close all details
-        const allDetails = document.querySelectorAll('details[open].dropdown, details[open].dropdown-button');
-        allDetails.forEach(details => {
-            details.removeAttribute('open');
+    } else if (!e.target.closest("details")) {
+        const allDetails = document.querySelectorAll(
+            "details[open].dropdown, details[open].dropdown-button",
+        );
+        allDetails.forEach((details) => {
+            details.removeAttribute("open");
         });
     }
 });
