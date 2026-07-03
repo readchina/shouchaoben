@@ -1,38 +1,3 @@
-function fixStaticPbPageLayout() {
-    const page = document.body.querySelector("pb-page");
-    if (!page || !document.body.classList.contains("static")) {
-        return;
-    }
-    const before = page.querySelector(":scope > .before");
-    const main = page.querySelector(":scope > main");
-    if (before && main && before.contains(main)) {
-        const anchor =
-            page.querySelector(":scope > .after-top") ||
-            page.querySelector(":scope > .after");
-        const contentTop = before.querySelector("header.content-top");
-        if (contentTop && anchor) {
-            page.insertBefore(contentTop, anchor);
-        }
-        if (anchor) {
-            page.insertBefore(main, anchor);
-        }
-    }
-    const after = page.querySelector(":scope > .after");
-    if (after?.querySelector(".tab-panel") && !after.classList.contains("after-tabs")) {
-        after.classList.add("after-tabs");
-    }
-    if (before && !before.classList.contains("hidden")) {
-        const hasContent = [...before.children].some(
-            (el) =>
-                !el.classList.contains("resize-handler") &&
-                (el.textContent || "").trim(),
-        );
-        if (!hasContent) {
-            before.classList.add("hidden");
-        }
-    }
-}
-
 function addResizeHandler(resizeContainer, layoutContainer, widthProperty, direction) {
     if (!resizeContainer) {
         return;
@@ -69,7 +34,6 @@ function addResizeHandler(resizeContainer, layoutContainer, widthProperty, direc
         resizeData.tracking = true;
         resizeData.handler = handler;
         handler.classList.add("active");
-        console.log("resize started");
     });
 
     window.addEventListener("mousemove", (event) => {
@@ -108,11 +72,62 @@ function setUpResizeContainers() {
     addResizeHandler(after, container, "--jinks-layout-after-width", "right");
 }
 
+function markStaticSidebarLayout() {
+    const page = document.body.querySelector("pb-page");
+    if (!page || !document.body.classList.contains("static")) {
+        return;
+    }
+    const after = page.querySelector(":scope > .after");
+    if (after?.querySelector(".tab-panel") && !after.classList.contains("after-tabs")) {
+        after.classList.add("after-tabs");
+    }
+    const before = page.querySelector(":scope > .before");
+    if (before && !before.classList.contains("hidden")) {
+        const hasContent = [...before.children].some(
+            (el) =>
+                !el.classList.contains("resize-handler") &&
+                (el.textContent || "").trim(),
+        );
+        if (!hasContent) {
+            before.classList.add("hidden");
+        }
+    }
+}
+
+function resetAfterTabs() {
+    const container = document.querySelector(".after.after-tabs");
+    if (!container) {
+        return;
+    }
+    container.querySelector(".after-tab-nav")?.remove();
+    container.querySelectorAll(":scope > .tab-panel").forEach((panel) => {
+        panel.hidden = false;
+        panel.removeAttribute("hidden");
+        const titleEl = panel.querySelector(":scope > .tab-title");
+        if (titleEl) {
+            titleEl.hidden = false;
+            titleEl.removeAttribute("hidden");
+        }
+    });
+}
+
 function initAfterTabs() {
     const container = document.querySelector(".after.after-tabs");
-    if (!container || container.querySelector(".after-tab-nav")) return;
+    if (!container) {
+        return;
+    }
     const panels = [...container.querySelectorAll(":scope > .tab-panel")];
-    if (panels.length === 0) return;
+    if (panels.length === 0) {
+        return;
+    }
+
+    const existingNav = container.querySelector(".after-tab-nav");
+    if (existingNav && existingNav.querySelectorAll(".after-tab-btn").length === panels.length) {
+        return;
+    }
+    if (existingNav) {
+        resetAfterTabs();
+    }
 
     const nav = document.createElement("nav");
     nav.className = "after-tab-nav";
@@ -159,7 +174,10 @@ function initAfterTabs() {
 }
 
 function runStaticLayoutFix() {
-    fixStaticPbPageLayout();
+    if (!document.body.classList.contains("static")) {
+        return;
+    }
+    markStaticSidebarLayout();
     initAfterTabs();
 }
 
