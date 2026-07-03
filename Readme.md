@@ -46,41 +46,23 @@ Either:
 - download the `output` collection from eXist, or
 - extract `output/` from a full app backup xar.
 
-### 3. Fix up the export in a staging directory
+### 3. Decode `%XX` directory names in a staging copy
 
-The generator writes paths for the live app (`/exist/apps/scb_sjnjc/output` or `http://localhost:8080/...`). Do **all** rewrites in the *exported staging copy* first, then sync into the repo (step 4). Never run these transforms against the repo root — a stray `--delete` there would wipe `.git`, `.github`, `LICENSE`, `Readme.md`, etc.
+Most fixups are now done **at generation** by the app (`modules/static-generator.xql`), driven by `context.json` → `static.base-path`:
+
+- **Base-path rewrite** — pages are written with `/shouchaoben` instead of `/exist/apps/scb_sjnjc/output` (`sg:rebase`, folded into the HTML5 pass).
+- **`index.jsonl` links** — witness links are stripped of the `TTJ/wit/<x>/xml/` source prefix and percent-decoded (`sg:fix-search-index`).
+- **Explicit `</script>`** — the HTML5 serialization pass (`sg:htmlify`) already emits well-formed tags.
+
+The only transform left is renaming the `%XX`-encoded collection directories to real Unicode (eXist stores collection names percent-encoded; GitHub Pages decodes URLs once). Do it in the *exported staging copy* — never against the repo root, so a stray `--delete` can't wipe `.git`, `.github`, `LICENSE`, `Readme.md`, etc.
 
 ```bash
 export STAGING=/path/to/exported/output   # the exported output/ collection
 
-# Rewrite live-app paths to the Pages base path /shouchaoben, decode %XX
-# collection names to Unicode, and fix index.jsonl links — all in one pass.
 python3 - <<'PY'
-import os, re, urllib.parse, json
+import os, re, urllib.parse
 from pathlib import Path
 root = Path(os.environ["STAGING"])
-
-# --- path rewrite (html/css/js/json/jsonl) ---
-exts = {".html", ".css", ".js", ".json", ".jsonl"}
-subs = [
-    ("http://localhost:8080/exist/apps/scb_sjnjc/output", "/shouchaoben"),
-    ("/exist/apps/scb_sjnjc/output", "/shouchaoben"),
-]
-for dp, _, fns in os.walk(root):
-    for fn in fns:
-        p = Path(dp) / fn
-        if p.suffix.lower() not in exts:
-            continue
-        try:
-            t = o = p.read_text(encoding="utf-8")
-        except UnicodeDecodeError:
-            continue
-        for a, b in subs:
-            t = t.replace(a, b)
-        if t != o:
-            p.write_text(t, encoding="utf-8")
-
-# --- decode %XX dir/file names to real Unicode (GitHub Pages decodes URLs once) ---
 pct = re.compile(r'%[0-9A-Fa-f]{2}')
 for dirpath, dirnames, filenames in os.walk(root, topdown=False):
     p = Path(dirpath)
@@ -88,45 +70,13 @@ for dirpath, dirnames, filenames in os.walk(root, topdown=False):
         new = urllib.parse.unquote(name) if pct.search(name) else name
         if new != name:
             (p / name).rename(p / new)
-
-# --- index.jsonl link fixup (client-side search) ---
-jsonl = root / "index.jsonl"
-if jsonl.exists():
-    out = []
-    for line in jsonl.read_text(encoding="utf-8").splitlines():
-        if not line.strip():
-            continue
-        obj = json.loads(line)
-        link = obj.get("link", "")
-        if link.startswith("witnesses/TTJ/"):
-            link = re.sub(r"^witnesses/TTJ/wit/[acf]/xml/", "witnesses/", link)
-            obj["link"] = urllib.parse.unquote(link)
-        out.append(json.dumps(obj, ensure_ascii=False))
-    jsonl.write_text("\n".join(out) + "\n", encoding="utf-8")
-PY
-
-# Safety net for self-closing <script/> (now handled at generation via HTML5
-# serialization, so this is normally a no-op — kept in case of stale exports).
-export STAGING
-python3 - <<'PY'
-import os, re
-from pathlib import Path
-rx = re.compile(r"<script([^>]*)/>")
-for dp, _, fns in os.walk(os.environ["STAGING"]):
-    for fn in fns:
-        if not fn.endswith(".html"):
-            continue
-        p = Path(dp) / fn
-        t = p.read_text(encoding="utf-8")
-        n = rx.sub(r"<script\1></script>", t)
-        if n != t:
-            p.write_text(n, encoding="utf-8")
 PY
 ```
 
-> Pure-Python transforms are used instead of `find … -exec sed/perl … {} +` because the
-> `{} +` form probes `sysconf(_SC_ARG_MAX)`, which fails under some sandboxes; Python also
-> avoids the macOS/Linux `sed -i ''` vs `sed -i` split.
+> If a stale export still contains `/exist/...` paths or self-closing `<script/>` tags, the
+> app-side fixes were not deployed before generating — re-upload `context.json` and
+> `modules/static-generator.xql`, clear the query cache, and regenerate rather than
+> reintroducing the old client-side `sed`/`perl` passes.
 
 ### 4. Sync into the repo — non-destructively
 
