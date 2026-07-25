@@ -111,6 +111,27 @@ footer .footer-logo img {
     min-width: 0;
 }
 
+/* Collection browser: do not italicise CJK (or other) TEI titles */
+.documents .tei-title,
+.browse-card-meta .tei-title {
+    font-style: normal;
+}
+
+.beta-disclaimer {
+    margin: 0.5rem 1rem 0.75rem;
+    max-width: 60rem;
+    margin-inline: auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* Landing floats the menubar; keep the banner readable under it */
+.landing-layout .page-header .beta-disclaimer {
+    margin-top: 0.75rem;
+    background: rgba(255, 255, 255, 0.92);
+    color: var(--jinks-colors-dark, #222);
+}
+
 @media (max-width: 600px) {
     .browse-card-header {
         flex-direction: column;
